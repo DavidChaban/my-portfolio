@@ -1,7 +1,5 @@
 import React from 'react'
 import '../styles/home1.css';
-import { ReactDOM } from 'react';
-import { useParams } from 'react-router-dom';
 
 
 const Home1 = () => {
