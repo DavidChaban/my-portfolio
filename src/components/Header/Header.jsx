@@ -1,6 +1,6 @@
 import React from 'react'
 
-import "../Home1"
+import "../Home/Home1"
 import "../Header/Header.css"
 
 import { Link, Link as LinkRouter } from "react-router-dom";
@@ -19,6 +19,7 @@ const Header = () => {
     
     <div className='header-container'>
     <div className='header1'>
+ 
    
     <LinkRouter to="/">  <button className="btnheader1">{btn1}</button></LinkRouter>
     <Link to="#Aboutme"><button className="btnheader2">{btn2}</button></Link>
