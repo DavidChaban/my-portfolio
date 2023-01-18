@@ -1,5 +1,5 @@
 import React from 'react'
-import Home1 from '../components/Home1'
+import Home1 from '../components/Home/Home1'
 
 
 const Home = () => {
