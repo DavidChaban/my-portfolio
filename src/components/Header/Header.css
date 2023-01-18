@@ -12,61 +12,429 @@
     justify-content: center;
     width: 100%;
     height: 10vh;
-    background-color: rgb(0, 0, 0);
    
+    position: absolute;
+   z-index: 1;
 
 }
 
 
 .header1 {
     display: flex;
-    border: 1px solid rgba(0, 0, 0, 0.924);
     gap: 80px;
 
 }
 
 .btnheader1 {
-    border: 1px solid black;
     padding: 8px 8px;
-    border-radius: 8px;
     font-weight: bold;
-    background-color: rgb(32, 63, 241);
+    border: none;
+    background-color:transparent;
     color: azure;
+    font-size: 20px;
+
 }
 
 .btnheader2 {
-    border: 1px solid black;
-    padding: 8px 8px;
-    border-radius: 8px;
-    font-weight: bold;
-    background-color: rgb(32, 63, 241);
-    color: azure;
+  padding: 8px 8px;
+  font-weight: bold;
+  border: none;
+  background-color:transparent;
+  color: azure;
+  font-size: 20px;
 }
 
 .btnheader3 {
-    border: 1px solid black;
-    padding: 8px 8px;
-    border-radius: 8px;
-    font-weight: bold;
-    background-color: rgb(32, 63, 241);
-    color: azure;
+   padding: 8px 8px;
+   font-weight: bold;
+   border: none;
+   background-color:transparent;
+   color: azure;
+   font-size: 20px;
 }
 
 .btnheader4 {
-    border: 1px solid black;
-    padding: 8px 8px;
-    border-radius: 8px;
-    font-weight: bold;
-    /* background-color: rgb(132, 22, 236); */
-    background-color: rgb(32, 63, 241);
-    color: azure;
+   padding: 8px 8px;
+   font-weight: bold;
+   border: none;
+   background-color:transparent;
+   color: azure;
+   font-size: 20px;
 }
 
 .btnheader5 {
-    border: 1px solid black;
-    padding: 8px 8px;
-    border-radius: 8px;
-    font-weight: bold;
-    background-color: rgb(32, 63, 241);
-    color: azure;
+ padding: 8px 8px;
+ font-weight: bold;
+ border: none;
+ background-color:transparent;
+ color: azure;
+ font-size: 20px;
+}
+
+.btnheader1:hover{
+  border-radius: 8px;
+  color: black; 
+  transition: border 0.3s ease-in-out 0s, box-shadow 0.3s ease-in-out 0s;
+  box-shadow: rgb(16, 219, 246) 100px 0px 0px 0px inset;
+  cursor: pointer;
+}
+.btnheader2:hover{
+ border-radius: 8px;
+color: black; 
+transition: border 0.3s ease-in-out 0s, box-shadow 0.3s ease-in-out 0s;
+box-shadow: rgb(16 219 246) 200px 0px 0px 0px inset;
+cursor: pointer;
+}
+.btnheader3:hover{
+ border-radius: 8px;
+color: black; 
+transition: border 0.3s ease-in-out 0s, box-shadow 0.3s ease-in-out 0s;
+box-shadow: rgb(16 219 246) 200px 0px 0px 0px inset;
+cursor: pointer;
+}
+.btnheader4:hover{
+ border-radius: 8px;
+color: black; 
+transition: border 0.3s ease-in-out 0s, box-shadow 0.3s ease-in-out 0s;
+box-shadow: rgb(16 219 246) 200px 0px 0px 0px inset;
+cursor: pointer;
+}
+.btnheader5:hover{
+ border-radius: 8px;
+color: black; 
+transition: border 0.3s ease-in-out 0s, box-shadow 0.3s ease-in-out 0s;
+box-shadow: rgb(16 219 246) 200px 0px 0px 0px inset;
+cursor: pointer;
+}
+
+
+
+@media (max-width: 2560px){
+    .header1{
+        gap: 25px;
+    }
+    .home2{
+        width: 20%;
+    
+    }
+    .btnheader1{
+        font-size: 18px;
+    }
+    .btnheader2{
+        font-size: 18px;
+    }
+    .btnheader3{
+        font-size: 18px;
+    }
+    .btnheader4{
+        font-size: 18px;
+    }
+    .btnheader5{
+        font-size: 18px;
+    }
+    .img-container{
+    
+        width: 250px;
+        background-size: 230px;
+        height: 30vh;
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 1440px){
+    .header1{
+        gap: 55px;
+    }
+    .home2{
+        display: flex;
+        width: 25%;
+    
+    }
+    .btnheader1{
+        font-size: 25px;
+    }
+    .btnheader2{
+        font-size: 25px;
+    }
+    .btnheader3{
+        font-size: 25px;
+    }
+    .btnheader4{
+        font-size: 25px;
+    }
+    .btnheader5{
+        font-size: 25px;
+    }
+    .img-container{
+    
+        width: 250px;
+        background-size: 230px;
+        height: 30vh;
+        margin-bottom: 60px;
+    }
+
+
+
+
+}
+@media (max-width: 1309px){
+    .header1{
+        gap: 35px;
+    }
+    .home2{
+        width: 28%;
+    
+    }
+    .btnheader1{
+        font-size: 15px;
+    }
+    .btnheader2{
+        font-size: 15px;
+    }
+    .btnheader3{
+        font-size: 15px;
+    }
+    .btnheader4{
+        font-size: 15px;
+    }
+    .btnheader5{
+        font-size: 15px;
+    }
+    .img-container{
+    
+        width: 250px;
+        background-size: 230px;
+        height: 30vh;
+        margin-bottom: 60px;
+    }
+
+
+
+
+}
+@media (max-width: 1024px){
+    .header1{
+        gap: 38px;
+    }
+    .home2{
+        width: 41%;
+    
+    }
+    .btnheader1{
+        font-size: 15px;
+    }
+    .btnheader2{
+        font-size: 15px;
+    }
+    .btnheader3{
+        font-size: 15px;
+    }
+    .btnheader4{
+        font-size: 15px;
+    }
+    .btnheader5{
+        font-size: 15px;
+    }
+    .img-container{
+    
+        width: 250px;
+        background-size: 230px;
+        height: 30vh;
+        margin-bottom: 60px;
+    }
+
+
+
+
+}
+
+
+@media (max-width: 768px){
+.header1{
+    gap: 38px;
+}
+.home2{
+    width: 50%;
+
+}
+.btnheader1{
+    font-size: 15px;
+}
+.btnheader2{
+    font-size: 15px;
+}
+.btnheader3{
+    font-size: 15px;
+}
+.btnheader4{
+    font-size: 15px;
+}
+.btnheader5{
+    font-size: 15px;
+}
+.img-container{
+
+    width: 250px;
+    background-size: 230px;
+    height: 30vh;
+    margin-bottom: 60px;
+}
+}
+
+@media (max-width: 673px){
+    .header1{
+        gap: 20px;
+    }
+    .home2{
+        width: 50%;
+
+    }
+    .btnheader1{
+        font-size: 15px;
+    }
+    .btnheader2{
+        font-size: 15px;
+    }
+    .btnheader3{
+        font-size: 15px;
+    }
+    .btnheader4{
+        font-size: 15px;
+    }
+    .btnheader5{
+        font-size: 15px;
+    }
+    .img-container{
+
+        width: 250px;
+        background-size: 230px;
+        height: 30vh;
+        margin-bottom: 60px;
+    }
+
+    }
+
+
+
+@media (max-width: 550px){
+    .header1{
+       
+      display: block;
+  
+    }
+    .home2{
+        width: 65%;
+        height: 70vh;
+
+    }
+    .btnheader1{
+        font-size: 15px;
+    }
+    .btnheader2{
+        font-size: 15px;
+    }
+    .btnheader3{
+        font-size: 15px;
+    }
+    .btnheader4{
+        font-size: 15px;
+    }
+    .btnheader5{
+        font-size: 15px;
+    }
+    .img-container{
+
+        width: 213px;
+        background-size: 183px;
+        height: 25vh;
+        margin-bottom: 60px;
+    }
+
+}
+
+
+
+
+@media (max-width: 475px){
+    .header1{
+       
+      display: block;
+  
+    }
+    .home2{
+        width: 73%;
+       
+
+    }
+    .btnheader1{
+        font-size: 12px;
+    }
+    .btnheader2{
+        font-size: 12px;
+    }
+    .btnheader3{
+        font-size: 12px;
+    }
+    .btnheader4{
+        font-size: 12px;
+    }
+    .btnheader5{
+        font-size: 12px;
+    }
+
+    .img-container{
+
+        width: 213px;
+        background-size: 183px;
+        height: 25vh;
+      margin-bottom: 60px;
+
+    }
+
+
+
+
+
+
+
+}
+
+@media (max-width: 425px){
+    .header1{
+       
+      display: block;
+  
+    }
+    .home2{
+        width: 85%;
+
+    }
+    .btnheader1{
+        font-size: 10px;
+    }
+    .btnheader2{
+        font-size: 10px;
+    }
+    .btnheader3{
+        font-size: 10px;
+    }
+    .btnheader4{
+        font-size: 10px;
+    }
+    .btnheader5{
+        font-size: 10px;
+    }
+
+    .img-container{
+
+        width: 213px;
+        background-size: 193px;
+        height: 25vh;
+        margin-bottom: 60px;
+    }
+
+
+
+
+
 }
