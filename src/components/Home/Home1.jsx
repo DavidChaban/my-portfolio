@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Home/home1.css';
 import 'typeface-quicksand';
-// import Aboutme from "../Aboutme/Aboutme"
+import Aboutme from "../Aboutme/Aboutme"
 const Home1 = () => {
     const tittle = "DAVID CHABAN";
     const slogan = "Frontend Developer"
@@ -26,13 +26,15 @@ const Home1 = () => {
        
    </div>
     </div>
+    <Aboutme/>
 
 
     </div>
    
     <div>
 
-    {/* <Aboutme/> */}
+
+    
    
     </div>
 
