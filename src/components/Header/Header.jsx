@@ -1,35 +1,82 @@
-import React from 'react'
+import React, { useEffect, useState } from "react";
+import "../Header/Header.css";
+import { Link as LinkRouter } from "react-router-dom";
 
-import "../Home/Home1"
-import "../Header/Header.css"
-
-import { Link, Link as LinkRouter } from "react-router-dom";
-
-const Header = () => {
-  const btn1 = "HOME";
-  const btn2 = "ABOUT ME";
-  const btn3 = "SKILLS";
-  const btn4 = "PROYECTS";
-  const btn5 = "CONTACT";
-  
-
+export default function Burguer() {
+  const btn1 = "ABOUT ME";
+  const btn2 = "SKILLS";
+  const btn3 = "PROYECTS";
+  const btn4 = "CONTACT";
+  const btn5 = "David Chaban";
+  let [viewHide, setViewHide] = useState(false);
+  let hide = () => {
+    setViewHide(!viewHide); //viewHide = mostrarOcultar
+  };
 
   return (
+    <div className="nav-container1">
+      <div className="nav-container">
+        <div>
+          <LinkRouter to="/">
+            <button className="nav-5">{btn5}</button>
+          </LinkRouter>
+        </div>
+        
+        <div className="nav-0">
+          <LinkRouter to="/">
+            <button className="nav-1">{btn1}</button>
+          </LinkRouter>
+          <LinkRouter to="/Cities">
+            <button className="nav-2"> {btn2}</button>
+          </LinkRouter>
+          <LinkRouter to="/hotels">
+            <button className="nav-2"> {btn3}</button>
+          </LinkRouter>
+          <LinkRouter to="/mycities">
+            <button className="nav-2"> {btn4}</button>
+          </LinkRouter>
+        </div>
 
-    
-    <div className='header-container'>
-    <div className='header1'>
- 
-   
-    <LinkRouter to="/">  <button className="btnheader1">{btn1}</button></LinkRouter>
-    <Link to="#Aboutme"><button className="btnheader2">{btn2}</button></Link>
-    <Link to="#Skill"><button className="btnheader3">{btn3}</button></Link>
-    <Link to="#Projects"><button className="btnheader4">{btn4}</button></Link>
-    <Link to="#Contact"><button className="btnheader5">{btn5}</button></Link>
-</div>
-   
+        <>
+          {viewHide ? (
+            <>
+              <div className="burguer-container">
+                <img
+                  className="burguer-img"
+                  src="https://cdn-icons-png.flaticon.com/512/7134/7134106.png"
+                  alt="burguer foto"
+                  onClick={hide}
+                />
+                <LinkRouter to="#aboutme">
+                  {btn1}
+                  <button className="btn-burguer"> </button>
+                </LinkRouter>
+                <LinkRouter to="#skills">
+                  {btn2}
+                  <button className="btn-burguer"> </button>
+                </LinkRouter>
+                <LinkRouter to="#proyects">
+                  {btn3}
+                  <button className="btn-burguer"> </button>
+                </LinkRouter>
+                <LinkRouter to="/#contact">
+                  {btn4}
+                  <button className="btn-burguer"> </button>
+                </LinkRouter>
+              </div>
+            </>
+          ) : (
+            <>
+              <img
+                className="burguer-img "
+                src="https://cdn-icons-png.flaticon.com/512/7134/7134106.png"
+                alt="burguerIcon"
+                onClick={hide}
+              />
+            </>
+          )}
+        </>
+      </div>
     </div>
-  )
+  );
 }
-
-export default Header
