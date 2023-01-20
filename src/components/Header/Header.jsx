@@ -36,7 +36,7 @@ export default function Burguer() {
             <button className="nav-2"> {btn4}</button>
           </LinkRouter>
         </div>
-
+      
         <>
           {viewHide ? (
             <>
@@ -47,19 +47,19 @@ export default function Burguer() {
                   alt="burguer foto"
                   onClick={hide}
                 />
-                <LinkRouter to="#aboutme">
+                <LinkRouter to="#aboutme" className="a1">
                   {btn1}
                   <button className="btn-burguer"> </button>
                 </LinkRouter>
-                <LinkRouter to="#skills">
+                <LinkRouter to="#skills" className="a1">
                   {btn2}
                   <button className="btn-burguer"> </button>
                 </LinkRouter>
-                <LinkRouter to="#proyects">
+                <LinkRouter to="#proyects" className="a1">
                   {btn3}
                   <button className="btn-burguer"> </button>
                 </LinkRouter>
-                <LinkRouter to="/#contact">
+                <LinkRouter to="/#contact" className="a1">
                   {btn4}
                   <button className="btn-burguer"> </button>
                 </LinkRouter>
