@@ -7,9 +7,8 @@ const Home1 = () => {
     const slogan = "Frontend Developer"
   return (
     <>
-
-    
-    <div className='home-container'>
+  
+     <div className='home-container'>
       <div className='home1'>
     <div className='home2'>
     <div className='img-container'>

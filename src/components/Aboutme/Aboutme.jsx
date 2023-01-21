@@ -7,59 +7,99 @@ import "../Aboutme/Aboutme.css"
 const Section = () => {
 
 
-
+  
 
 
   return (
 
-    <section>
-    <div className='section-container'>
+    <section id="aboutme" className="sobremi">
+        <div className="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy David Chaban.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam unde soluta minima necessitatibus, voluptas consectetur vero officiis quas, explicabo deleniti repellendus aliquid debitis maiores numquam voluptate reprehenderit in delectus dolores.</p>
 
-    <h2 className='tittle-h2'>  Sobre Mi</h2>
-    <br></br>
-    <p className='p-section'> Hola, soy David Chaban.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo provident perferendis omnis cumque, alias amet ipsa ducimus ut molestias sunt? Laudantium, recusandae quod! Dolorum saepe cupiditate voluptatum dicta maxime sunt? </p>
-
-    </div>
-
-    <div>
-    <br></br>
-    <h3 className='tittle-h3'>Datos Personales</h3>
-    <br></br>
-    <br></br>
-      <div className='interesting container'>
-      <p>Stack: <span>MERN</span> </p> 
-      <p>Ubicación: <span>Buenos Aires, Argentina </span></p>
-      <p>Linkedin: <span>www.linkedin.com/in/daviidc </span></p>
-      <p>Github: <span>https://github.com/davidchaban </span></p>
-      <p>Email: <span>davidchaban01@gmail.com </span></p>
-      <p>Twitter: <span>https://twitter.com/tdcdev </span></p>
-      </div>
-    
-    </div>
-    <br></br>
-    <br></br>
-    <br></br>
-    <div>
+            <div className="fila">
+             
 
 
-    <h3 className='myinteresting'>Mis Intereses</h3>
+                <div className="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Stack</strong>
+                            Mern
+                        </li>
+                        <li>
+                            <strong>Ubicacion</strong>
+                            Buenos Aires, Argentina
+                        </li>
+                        <li>
+                            <strong>Linkedin</strong>
+                            www.linkedin.com/in/daviidc
+                        </li>
+                        <li>
+                            <strong>Github</strong>
+                            https://github.com/davidchaban 
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            davidchaban01@gmail.com
+                        </li>
+                        <li>
+                            <strong>Twitter</strong>
+                            <span>https://twitter.com/tdcdev</span>
+                        </li>
+                    </ul>
+                </div>
 
-    <div className='items-interesting container'>
-    <div> <p>Juegos</p></div>
-    <div> <p>Musica</p></div>
-    <div> <p>Viajar</p></div>
-    <div> <p>Deporte</p></div>
-    <div> <p>Autos</p></div>
-    <div> <p>Fotos</p></div>
-    </div>
-
-
-    </div>
-    
-    <div className='CV-download'>Descargar CV </div>
-    
-    
-     </section>
+                   
+          
+          
+          
+                          <div className="col">
+                    <h3>Intereses</h3>
+                    <div className="contenedor-intereses">
+                        <div className="interes">
+                            <i className="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div className="interes">
+                            <i className="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div className="interes">
+                            <i className="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div className="interes">
+                            <i className="fa-brands fa-apple"></i>
+                            <span>Películas</span>
+                        </div>
+                        <div className="interes">
+                            <i className="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div className="interes">
+                            <i className="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div className="interes">
+                            <i className="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div className="interes">
+                            <i className="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i className="fa-solid fa-download"></i>
+                <span className="overlay"></span>
+            </button>
+        </div>
+    </section>
   )
 }
 

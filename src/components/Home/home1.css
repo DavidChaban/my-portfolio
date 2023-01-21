@@ -3,7 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
-
+    
 }
 
 
@@ -23,15 +23,18 @@
 
 }
 body{
-    background-image: url("/public/h1.jpg");
-    /* background-image: url("/public/space.png"); */
     
+    background-image: url(/public/s1.jpg);
+    /* background-image: url("/public/space.png"); */
+    object-fit: cover;
+    background-repeat: no-repeat;
 
 }
 
+
 .home1 {
     width: 93%;
-    height: 86vh;
+    height: 106vh;
     object-fit: cover;
     background-position: center;
     background-size: cover;
