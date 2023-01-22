@@ -2,18 +2,21 @@ import React from 'react'
 import '../Home/home1.css';
 import 'typeface-quicksand';
 import Aboutme from "../Aboutme/Aboutme"
+import ParticlesBackground from '../config/ParticlesBackground';
+import Particles from 'react-particles';
 const Home1 = () => {
     const tittle = "DAVID CHABAN";
     const slogan = "Frontend Developer"
   return (
     <>
-  
+
      <div className='home-container'>
       <div className='home1'>
     <div className='home2'>
     <div className='img-container'>
     </div>
 
+            <ParticlesBackground/>
     <h1 className='tittle-home'><span className='my-style'> {tittle}  </span>   </h1>
     <p className='slogan-home'> {slogan}</p>
     <div class="redes">

@@ -2,7 +2,9 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;   
+    z-index: 1
 }
+
 
 .nav-container{
     width: 100%;
@@ -13,7 +15,6 @@
     height: 15vh;
     align-content: flex-start;
     font-family: 'Merienda', cursive;
-
 }
 
 .burguer-img{
@@ -25,6 +26,7 @@
     width: 52px;
     cursor: pointer;
     display: none;
+
 }
 
 .burguer-container{
@@ -68,6 +70,7 @@
     display: flex;
     gap: 50px;
     margin-right:2rem;
+    z-index: 2;
     
 }
 .nav-1{
@@ -80,7 +83,7 @@
     cursor: pointer;
     font-family: 'Ubuntu';
     gap: 30px;
-
+    
     
 }
 .nav-2{
@@ -92,6 +95,9 @@
     font-size: 15px;
     cursor: pointer;
     font-family: 'Ubuntu';
+    
+    
+
 }
 .nav-5{
     padding: 8px 8px;
@@ -102,6 +108,9 @@
     font-size: 20px;
     cursor: pointer;
     font-family: 'Ubuntu';
+    
+    
+
 }
 .nav-1:hover{
     border-radius: 8px;

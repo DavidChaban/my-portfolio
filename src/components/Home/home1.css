@@ -3,9 +3,13 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
-    
+  
 }
-
+/* body{
+    background-image: url("/public/uniSpace.jpg");
+    background-repeat: no-repeat;
+    object-fit: cover;
+} */
 
   
 
@@ -22,14 +26,6 @@
    
 
 }
-body{
-    
-    background-image: url(/public/s1.jpg);
-    /* background-image: url("/public/space.png"); */
-    object-fit: cover;
-    background-repeat: no-repeat;
-
-}
 
 
 .home1 {
@@ -43,8 +39,8 @@ body{
     align-items: center;
     flex-direction: column;
     gap: 30px;
-    /* background-image: url("/public/q1.png");
-    background-repeat: no-repeat; */
+    
+    
 
 
     
@@ -67,8 +63,8 @@ body{
     margin: auto;
     text-align: center;
     border-radius: 40px;
-    /* position: fixed; */
-
+    /* position: absolute; */
+    
     
 
     
@@ -80,7 +76,7 @@ body{
     align-items: center;
     background-image: url("/public/d1.jpg");
 
-    z-index: 1;
+    z-index: 2;
     /* position: absolute; */
     width: 80%;
     height: 30vh;
@@ -92,6 +88,7 @@ body{
     border: 14px solid #1CB698;
     object-fit: cover;
     margin-top: 70px;
+    z-index: 2;
 }
 .fa-brands{
     color: #fff;
