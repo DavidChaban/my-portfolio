@@ -127,15 +127,14 @@
     align-items: center;
     background-image: url("/public/d1.jpg");
 
-    /* z-index: 2; */
-    /* position: absolute; */
+ 
     width: 80%;
     height: 30vh;
     background-repeat: no-repeat;
     background-size: 254px;
     margin: 20px;
     border-radius: 220px;
-    /* margin: 7px; */
+ 
     border: 14px solid #1CB698;
     object-fit: cover;
     margin-top: 70px;
@@ -198,10 +197,21 @@
 }
 .linkpdf{
     text-decoration: none;
-    color: rgb(5, 252, 252);
+    color: rgb(14, 254, 202);
+    padding: 10px;
+    border-radius: 20px;
+    text-shadow:8px 8px 30px rgb(17, 252, 252),
+    -2px 2px 20px rgb(7, 249, 152);
 }
 .linkpdf:hover{
-    
+    background-color: black;
+    color: greenyellow;
+    font-size: 25px;
+    border: 2px solid  rgb(1, 17, 14);
+    text-shadow:8px 8px 30px rgb(17, 252, 252),
+    -2px 2px 20px rgb(7, 249, 152);
+    /* text-shadow:8px 8px 30px rgb(165, 36, 36),
+    -2px 2px 20px rgb(165, 36, 36); */
 
 }
 

@@ -8,7 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 const Home1 = () => {
     const tittle = "David Chaban ";
-    const slogan = "Full Stack Mern Developer"
+    const slogan = "I´m Full Stack Mern Developer"
     const secondCard = "Welcome "
     const secondCard2 = "to my Portfolio "
 

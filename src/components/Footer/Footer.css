@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+#f1{
+    display: flex;
+    height: 20vh;
+    color: azure;
+    background-color: rgb(249, 5, 5);
+    font-weight: bolder;
+    background-image: url("/public/h1.jpg");
+
+}
+.icon-github{
+
+}
+.icon-instagram{
+
+}
+.icon-linkedin{
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
