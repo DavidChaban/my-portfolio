@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "../Header/Header.css";
 import { Link as LinkRouter } from "react-router-dom";
 
