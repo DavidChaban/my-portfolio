@@ -2,21 +2,12 @@ import React from 'react'
 import '../Home/home1.css';
 import 'typeface-quicksand';
 import "react-toastify/dist/ReactToastify.css";
-
- 
- 
-
+import Aboutme from '../Aboutme/Aboutme'
 const Home1 = () => {
     const tittle = "David Chaban ";
     const slogan = "I´m Full Stack Mern Developer"
     const secondCard = "Welcome "
     const secondCard2 = "to my Portfolio "
-
-
-
-
-
-
   return (
     <>
      <div className='home-container'>
@@ -38,32 +29,16 @@ const Home1 = () => {
                  <a target="_blank"  rel= "noopener noreferrer"  href="https://www.instagram.com/tendodc/" download type='button'><i className="fa-brands fa-instagram"></i>
                   </a>
                   <a target={"_blank rel=noopener"} href="https://www.linkedin.com/in/daviidc"><i className="fa-brands fa-linkedin-in"></i></a>
-
-
-
                     <br></br>
-                 
-                    
-                    <a href="./DavidChaban-2023-tel.pdf " target="_blank" className='linkpdf' rel= "noopener noreferrer" >Download Cv</a>
-                 
               </div>
+              
         </div> 
     </div>
 </div>
-
-
-
     </div>
-
-
-{/*     
-    <Aboutme/> */}
     </div>
-   
-
-
+    <Aboutme/>
     </>
   )
   }
-
 export default Home1

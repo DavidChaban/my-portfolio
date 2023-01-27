@@ -43,6 +43,7 @@
     transform-style: preserve-3d;
     border: 5px solid black;
     border-radius: 23px;
+    top: 8rem;
   }
   
   .flip-card:hover .flip-card-inner {
@@ -80,14 +81,15 @@
 .home-container {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     width: 100%;
     height: 100vh;
     /* background-image: url(/public/Moody\ Sunset.jpeg);
      */
     background-color: #134ef0;
-   
+    /* background-image: url("https://zos.alipayobjects.com/rmsportal/gGlUMYGEIvjDOOw.jpg");
+    background-position: center; */
 
 }
 
@@ -214,6 +216,8 @@
     -2px 2px 20px rgb(165, 36, 36); */
 
 }
+
+
 
 
 /* 

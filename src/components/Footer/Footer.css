@@ -3,9 +3,10 @@
     margin: 0px;
     padding: 0px;
 }
+
 #f1{
     display: flex;
-    height: 20vh;
+    min-height: 20vh;
     color: azure;
     background-color: rgb(249, 5, 5);
     font-weight: bolder;
@@ -13,14 +14,14 @@
 
 }
 .icon-github{
-
+background-image: url("/public/github\ \(1\).png");
 }
 .icon-instagram{
-
+background-image: url(/public/linkedin.png);
 }
 .icon-linkedin{
+background-image: url("/public/instagram\ \(1\).svg") ;
 
-    
 }
 
 

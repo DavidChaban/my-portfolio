@@ -1,106 +1,72 @@
 import React from 'react'
 import "../Home/Home1"
 import "../Aboutme/Aboutme.css"
-
-
-
 const Section = () => {
-
-
-  
-
-
   return (
-
     <section id="aboutme" className="sobremi">
         <div className="contenido-seccion">
-            <h2>Sobre Mí</h2>
-            <p><span>Hola, soy David Chaban.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam unde soluta minima necessitatibus, voluptas consectetur vero officiis quas, explicabo deleniti repellendus aliquid debitis maiores numquam voluptate reprehenderit in delectus dolores.</p>
-
+            <h2 className='about-title'>About Me</h2>
+            <p><span>Hola, soy David Chaban.</span>  Full Stack Mern developer, oriented in Front End. I know other Backend areas like (Node.js and Python) and Mobile (React Native).
+I am passionate about creating beautiful and functional web applications. I have strong skills to identify and solve problems. I consider myself a proactive person and I am in constant training.
+Besides programming, I love to travel and discover new places and different cultures.</p>
             <div className="fila">
-             
-
-
                 <div className="col">
-                    <h3>Datos Personales</h3>
-                    <ul>
-                        <li>
-                            <strong>Stack</strong>
-                            Mern
-                        </li>
-                        <li>
-                            <strong>Ubicacion</strong>
-                            Buenos Aires, Argentina
-                        </li>
-                        <li>
-                            <strong>Linkedin</strong>
-                            www.linkedin.com/in/daviidc
-                        </li>
-                        <li>
-                            <strong>Github</strong>
-                            https://github.com/davidchaban 
-                        </li>
-                        <li>
-                            <strong>Email</strong>
-                            davidchaban01@gmail.com
-                        </li>
-                        <li>
-                            <strong>Twitter</strong>
-                            <span>https://twitter.com/tdcdev</span>
-                        </li>
-                    </ul>
-                </div>
+                    <div className='ilustracion'>
 
-                   
-          
-          
-          
+                    </div>
+
+
+
+
+
+
+
+                </div>
                           <div className="col">
-                    <h3>Intereses</h3>
-                    <div className="contenedor-intereses">
+                    <h3>Skills</h3>
+                    <div className="contenedor-intereses" data-bs-toggle="tooltip" data-bs-html="true">
                         <div className="interes">
-                            <i className="fa-solid fa-gamepad"></i>
-                            <span>JUEGOS</span>
+
+                        <image src="https://as2.ftcdn.net/v2/jpg/04/18/60/19/1000_F_418601991_Jvt0aZrBDxgbd5EJR1UyKXHvO9Q1mSBw.jpg" ></image>
+                            <span data-bs-toggle="tooltip" data-bs-html="true">HTML5</span>
                         </div>
                         <div className="interes">
-                            <i className="fa-solid fa-headphones"></i>
-                            <span>MUSICA</span>
+                        <image ></image>
+                            <span>CSS3</span>
                         </div>
                         <div className="interes">
-                            <i className="fa-solid fa-plane"></i>
-                            <span>VIAJAR</span>
+                        <image></image>
+                            <span>Javascript</span>
                         </div>
                         <div className="interes">
-                            <i className="fa-brands fa-apple"></i>
-                            <span>Películas</span>
+                        <image></image>
+                            <span>Node JS</span>
                         </div>
                         <div className="interes">
-                            <i className="fa-solid fa-person-hiking"></i>
-                            <span>DEPORTE</span>
+                            <image></image>
+                            <span>Mongo DB</span>
                         </div>
                         <div className="interes">
-                            <i className="fa-solid fa-book"></i>
-                            <span>LIBROS</span>
+                        <image></image>
+                            <span>React</span>
                         </div>
                         <div className="interes">
-                            <i className="fa-solid fa-car"></i>
-                            <span>AUTOS</span>
+                            <image></image>
+                            <span>Redux Toolkit</span>
                         </div>
                         <div className="interes">
-                            <i className="fa-solid fa-camera"></i>
-                            <span>FOTOS</span>
+                            <image></image>
+                            <span>Postman</span>
                         </div>
-                        
                     </div>
                 </div>
             </div>
-            <button>
+           <a  href="./DavidChaban-2023-tel.pdf " target="_blank" rel= "noopener noreferrer" className='a-button'> <button className='a-button'>
                 Descargar CV <i className="fa-solid fa-download"></i>
                 <span className="overlay"></span>
-            </button>
+            </button></a>
         </div>
     </section>
   )
 }
-
 export default Section

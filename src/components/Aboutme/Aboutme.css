@@ -1,20 +1,46 @@
-/* *{
+*{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
    
 
 
-} */
-
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   height: 100vh;
+   width: 100%;
+   background-color:#090205;
+   /* background-image: url("https://zos.alipayobjects.com/rmsportal/gGlUMYGEIvjDOOw.jpg");
+   background-position: center; */
+   color: white;
+/* 
+   #2d33e1
+#f02d58
+#751a43 */
+}
 .section-container{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   
 
 
+
+}
+.ilustracion{
+    background-image: url("/public/Frame_1.png");
+    position: absolute;
+    background-size: 25rem;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.about-title{
+    font-family:monospace ;
 }
 .tittle-h2{
     color: azure;
@@ -65,36 +91,30 @@ flex-wrap: wrap;
 
 }
 
-.CV-download{
-    display: flex;
-    justify-content: center;
-    color: azure;
-    font-size: 40px;
-    font-weight: bold;
-}
+ 
 
 
 /*  5sd545s45s454sd  */
-
-
-
 
 
 .sobremi{
     /* background-color: #1e2326; */
     color: #fff;
     padding: 50px 20px;
+   
+
 }
 .sobremi .contenido-seccion{
     max-width: 1100px;
     margin: auto;
 }
 .sobremi h2{
-    font-size: 48px;
-    font-family: 'Righteous';
+    font-size: 52px;
+    font-family: 'Ubuntu';
     text-align: center;
     padding: 20px 0;
     margin-top: 5rem;
+    font-weight: bolder;
 
 }
 .sobremi .contenido-seccion p{
@@ -183,7 +203,18 @@ flex-wrap: wrap;
 .sobremi button:hover .overlay{
     width: 100%;
 }
+.a-button {
+    text-decoration: none;
+}
+.interes{
+color: red;
 
+}
+
+.interes:hover{
+background-color: aqua;
+
+}
 
 
 
