@@ -66,6 +66,9 @@
   .flip-card-front {
     background-image: url(/public/q1.jpg);
     color: azure;
+    background-size: 32rem;
+    object-fit: cover;
+    background-position:unset;
   }
   
   .flip-card-back {
@@ -87,7 +90,11 @@
     height: 100vh;
     /* background-image: url(/public/Moody\ Sunset.jpeg);
      */
-    background-color: #134ef0;
+    /* background-color: #134ef0; */
+    background-image: url(/public/v1.jpg);
+    background-position: center;
+    object-fit: cover;
+    background-size: 117rem;
     /* background-image: url("https://zos.alipayobjects.com/rmsportal/gGlUMYGEIvjDOOw.jpg");
     background-position: center; */
 
@@ -485,3 +492,10 @@
         margin-left: 18%;
     }
     }
+/* @media (max-width: 320){
+    .flip-card-inner{
+        margin-top: 11.5rem;
+    }
+
+ 
+} */
