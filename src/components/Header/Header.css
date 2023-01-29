@@ -202,7 +202,13 @@
 }
 
 @media (max-width: 2560px){
- 
+    .burguer-awesome{
+        display: none;
+
+    }
+    .home-container{
+        background-size: 159rem;
+    }
 
     .flip-card {
         background-color: transparent;
@@ -229,9 +235,17 @@
         align-items: center;
         margin-left: 19%;
     }
+    .flip-card-front {
+        background-position:unset;
+        background-size: 44rem;
+       
+      }
         }
         @media (max-width: 2000px){
- 
+            .burguer-awesome{
+                display: none;
+        
+            }
 
             .flip-card {
                 background-color: transparent;
@@ -258,14 +272,24 @@
                 align-items: center;
                 margin-left: 17.6%;
             }
+            .flip-card-front {
+                background-position:unset;
+                background-size: 32rem;
+               
+              }
                 }
+               
+                
 @media (max-width: 1440px){
- 
+    .burguer-awesome{
+        display: none;
+
+    }
 
     .flip-card {
         background-color: transparent;
-        height: 700px;
-        width: 30%;
+        height: 630px;
+        width: 28%;
         padding: 20px;
         text-align: center;
         border-radius: 40px;
@@ -285,20 +309,68 @@
         align-content: center;
         justify-content: center;
         align-items: center;
-        margin-left: 23.5%;
+        margin-left: 21%;
     }
+    .flip-card-front {
+        background-position:unset;
+        background-size: 30rem;
+       
+      }
         }
+        @media (max-width: 1270px){
+            .burguer-awesome{
+                display: none;
+        
+            }
+        
+            .flip-card {
+                background-color: transparent;
+                height: 70%;
+                width: 30%;
+                padding: 20px;
+                text-align: center;
+                border-radius: 40px;
+                text-align: center;
+                margin-top: 2rem;
+                perspective: 1000px;
+                font-family: sans-serif;
+                font-size: 20px;
+            }
+            .img-container {
+                width: 68%;
+                background-size: 110%;
+                height: 21vh;
+                margin-bottom: 60px;
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                justify-content: center;
+                align-items: center;
+                margin-left: 16%;
+            }
+            .flip-card-front {
+                background-position:unset;
+                background-size: 30rem;
+               
+              }
 
+
+
+                }
+        
 
 
 
 @media (max-width: 1024px){
  
+    .burguer-awesome{
+        display: none;
 
+    }
     .flip-card {
         background-color: transparent;
-        height: 700px;
-        width: 45%;
+        height: 600px;
+        width: 38%;
         padding: 20px;
         text-align: center;
         border-radius: 40px;
@@ -318,17 +390,65 @@
         align-content: center;
         justify-content: center;
         align-items: center;
-        margin-left: 26.5%;
+        margin-left: 20%;
     }
+    .flip-card-front {
+        background-position:unset;
+        background-size: 30rem;
+       
+      }
         }
 
+        @media (max-width: 911px){
+            .flip-card {
+                background-color: transparent;
+                height: 600px;
+                width: 40%;
+                padding: 20px;
+                text-align: center;
+                border-radius: 40px;
+                text-align: center;
+                margin-top: 2rem;
+                perspective: 1000px;
+                font-family: sans-serif;
+                font-size: 20px;
+            }
+            .img-container {
+                width: 69%;
+                background-size: 105%;
+                height: 25vh;
+                margin-bottom: 60px;
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                justify-content: center;
+                align-items: center;
+                margin-left: 16%;
+            }
+            .flip-card-front {
+                background-position:unset;
+                background-size: 24rem;
+               
+              }
+
+
+
+
+        }
+
+
+
+
 @media (max-width: 768px){
- 
+    .burguer-awesome{
+        display: none;
+
+    }
 
 .flip-card {
     background-color: transparent;
-    height: 700px;
-    width: 55%;
+    height: 604px;
+    width: 49%;
     padding: 20px;
     text-align: center;
     border-radius: 40px;
@@ -339,7 +459,7 @@
     font-size: 20px;
 }
 .img-container {
-    width: 190px;
+    width: 63%;
     background-size: 163px;
     height: 22vh;
     margin-bottom: 60px;
@@ -348,27 +468,339 @@
     align-content: center;
     justify-content: center;
     align-items: center;
-    margin-left: 23.5%;
+    margin-left: 19%;
 }
+.flip-card-front {
+    background-position:unset;
+    background-size: 30rem;
+   
+  }
+
     }
-    @media (max-width: 715px){
-        .img-container {
-            width: 200px;
-            background-size: 180px;
-            height: 23vh;
-            margin-bottom: 60px;
+    @media (max-width: 750px){
+        .btn-burguer{
+            display: none;
+            
+         }
+         nav{
+             width: 100%;
+          }
+         .nav-1{
+             display: none;
+             text-decoration: none;
+         }
+         .nav-2{
+             display: none;
+             text-decoration: none;
+         }
+         .nav-3{
+             display: none;
+         }
+         .hide{
+             display: flex;
+         
+         }
+         .burguer-img{
+             display: flex;
+             margin-top: 2px;
+             
+         }
+         .burguer-container {
+             left: 46.3%;
+             gap: 3.7rem;
+          
+           
+         }
+         .burguer-awesome{
+             display: flex;
+             justify-content: center;
+             cursor: pointer;
+             margin-right: 22.4%;
+         }
+       
+     
+         a:hover {
+             color: white;
+             text-decoration: none;
+         }
+         .title{
+             font-size: 1.5em;
+         }
+         .nav-5{
+             font-size: 16px ;
+             position: absolute;
+             margin-top: -20px;
+     
+         }
+         .nav-0{
+             display: flex;
+             gap: 50px;
+             /* margin-right: 2rem; */
+           
+             flex-direction: column;
+             align-content: center;
+             justify-content: center;
+             align-items: center;
+         }
+         .nav-container{
+             width: 100%;
+             color: azure;
+             display: flex;
+             justify-content: space-between;
+             align-items: center;
+             height: 15vh;
+             font-family: 'Merienda', cursive;
+             background-color: #081e5c81;
+             /* padding: 30px; */
+         }
+         .img-container {
+            width: 64%;
+            background-size: 103%;
+            height: 22vh;
+            margin-bottom: 15px;
             display: flex;
             flex-direction: column;
             align-content: center;
             justify-content: center;
             align-items: center;
-            margin-left: 23%;
+            margin-left: 18%;
+         }
+         .flip-card {
+             height: 72%;
+             width: 50%;
+             display: flex;
+             flex-direction: column;
+             align-content: center;
+             justify-content: center;
+             align-items: center;
+         }
+         .flip-card-front {
+            background-position:unset;
+            background-size: 33rem;
+           
+          }
+         
+        
         }
+
+    
+    @media (max-width: 715px){
+        .btn-burguer{
+            display: none;
+            
+         }
+         nav{
+             width: 100%;
+          }
+         .nav-1{
+             display: none;
+             text-decoration: none;
+         }
+         .nav-2{
+             display: none;
+             text-decoration: none;
+         }
+         .nav-3{
+             display: none;
+         }
+         .hide{
+             display: flex;
+         
+         }
+         .burguer-img{
+             display: flex;
+             margin-top: 2px;
+             
+         }
+         .burguer-container {
+             left: 46.3%;
+             gap: 3.7rem;
+          
+           
+         }
+         .burguer-awesome{
+             display: flex;
+             justify-content: center;
+             cursor: pointer;
+             margin-right: 22.4%;
+         }
+      
+        
+     
+         a:hover {
+             color: white;
+             text-decoration: none;
+         }
+         .title{
+             font-size: 1.5em;
+         }
+         .nav-5{
+             font-size: 16px ;
+             position: absolute;
+             margin-top: -20px;
+     
+         }
+         .nav-0{
+             display: flex;
+             gap: 50px;
+             /* margin-right: 2rem; */
+           
+             flex-direction: column;
+             align-content: center;
+             justify-content: center;
+             align-items: center;
+         }
+         .nav-container{
+             width: 100%;
+             color: azure;
+             display: flex;
+             justify-content: space-between;
+             align-items: center;
+             height: 15vh;
+             font-family: 'Merienda', cursive;
+             background-color: #081e5c81;
+             /* padding: 30px; */
+         }
+         .img-container {
+            width: 65%;
+            background-size: 103%;
+            height: 22vh;
+            margin-bottom: 15px;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            margin-left: 18%;
+         }
+         .flip-card {
+             height: 530px;
+             width: 50%;
+             display: flex;
+             flex-direction: column;
+             align-content: center;
+             justify-content: center;
+             align-items: center;
+         }
+         .flip-card-front {
+            background-position:unset;
+            background-size: 33rem;
+           
+          }
+         
         
         }
 
 
-
+        @media (max-width: 650px) {
+ 
+    
+            .btn-burguer{
+               display: none;
+               
+            }
+            nav{
+                width: 100%;
+             }
+            .nav-1{
+                display: none;
+                text-decoration: none;
+            }
+            .nav-2{
+                display: none;
+                text-decoration: none;
+            }
+            .nav-3{
+                display: none;
+            }
+            .hide{
+                display: flex;
+            
+            }
+            .burguer-img{
+                display: flex;
+                margin-top: 2px;
+                
+            }
+            .burguer-container {
+                left: 46.3%;
+                gap: 3.7rem;
+             
+              
+            }
+            .burguer-awesome{
+                display: flex;
+                justify-content: center;
+                cursor: pointer;
+                margin-right: 22.4%;
+            }
+         
+            .flip-card{
+                width: 100%;
+            }
+        
+            a:hover {
+                color: white;
+                text-decoration: none;
+            }
+            .title{
+                font-size: 1.5em;
+            }
+            .nav-5{
+                font-size: 16px ;
+                position: absolute;
+                margin-top: -20px;
+        
+            }
+            .nav-0{
+                display: flex;
+                gap: 50px;
+                /* margin-right: 2rem; */
+              
+                flex-direction: column;
+                align-content: center;
+                justify-content: center;
+                align-items: center;
+            }
+            .nav-container{
+                width: 100%;
+                color: azure;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: 15vh;
+                font-family: 'Merienda', cursive;
+                background-color: #081e5c81;
+                /* padding: 30px; */
+            }
+            .img-container {
+                width: 64%;
+                background-size: 103%;
+                height: 22vh;
+                margin-bottom: 15px;
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                justify-content: center;
+                align-items: center;
+                margin-left: 18%;
+             }
+            .flip-card {
+                height: 530px;
+                width: 60%;
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                justify-content: center;
+                align-items: center;
+            }
+            .flip-card-front {
+                background-position:unset;
+                background-size: 33rem;
+               
+              }
+            
+        }
 
 @media (max-width: 600px) {
  
@@ -401,11 +833,18 @@
         
     }
     .burguer-container {
-        /* left: 43%; */
+        left: 46.3%;
         gap: 3.7rem;
      
       
     }
+    .burguer-awesome{
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        margin-right: 22.4%;
+    }
+ 
     .flip-card{
         width: 100%;
     }
@@ -441,78 +880,146 @@
         align-items: center;
         height: 15vh;
         font-family: 'Merienda', cursive;
-        background-color: black;
+        background-color: #081e5c81;
         /* padding: 30px; */
     }
     .img-container {
         width: 181px;
-        background-size: 163px;
+        background-size: 154px;
         height: 22vh;
-        margin-bottom: 60px;
+        margin-bottom: 15px;
         display: flex;
         flex-direction: column;
         align-content: center;
         justify-content: center;
         align-items: center;
-        margin-left: 32%;
+        margin-left: 18%;
     }
-    
-}
-@media (max-width: 500px){
-    .img-container {
-        width: 181px;
-        background-size: 163px;
-        height: 22vh;
-        margin-bottom: 60px;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-        margin-left: 29%;
-    }
-    }
-
-@media (max-width: 425px){
     .flip-card {
         height: 530px;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .flip-card-front {
+        background-position:unset;
+        background-size: 28rem;
+       
+      }
+    
+}
+@media (max-width: 578px) {
+ 
+    
+    .btn-burguer{
+       display: none;
+       
+    }
+    nav{
         width: 100%;
+     }
+    .nav-1{
+        display: none;
+        text-decoration: none;
     }
-    .slogan-home{
-        font-size: 17px;
+    .nav-2{
+        display: none;
+        text-decoration: none;
     }
-    .nav-container{
-        background-color: #081e5c81;
+    .nav-3{
+        display: none;
     }
-    .burguer-container{
-        right: 6rem;
+    .hide{
+        display: flex;
+    
+    }
+    .burguer-img{
+        display: flex;
+        margin-top: 2px;
+        
+    }
+    .burguer-container {
+        left: 46.3%;
+        gap: 3.7rem;
+     
+      
     }
     .burguer-awesome{
         display: flex;
         justify-content: center;
         cursor: pointer;
-        margin-right: 4rem;
-    }
-    .flip-card-inner {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        text-align: center;
-        transition: transform 0.8s;
-        transform-style: preserve-3d;
-        border: 5px solid black;
-        border-radius: 23px;
-        top: 8rem;
-    }
-    .flip-card-front {
-      background-position:unset;
-     
+        margin-right: 22.4%;
     }
  
+  
 
+    a:hover {
+        color: white;
+        text-decoration: none;
+    }
+    .title{
+        font-size: 1.5em;
+    }
+    .nav-5{
+        font-size: 16px ;
+        position: absolute;
+        margin-top: -20px;
+
+    }
+    .nav-0{
+        display: flex;
+        gap: 50px;
+        /* margin-right: 2rem; */
+      
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-container{
+        width: 100%;
+        color: azure;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 15vh;
+        font-family: 'Merienda', cursive;
+        background-color: #081e5c81;
+        /* padding: 30px; */
+    }
+    .img-container {
+        width: 64%;
+        background-size: 103%;
+        height: 20vh;
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: 18%;
+     }
+    .flip-card {
+        height: 530px;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .flip-card-front {
+        background-position:unset;
+        background-size: 25rem;
+       
+      }
+    
 }
-@media (max-width: 375px){
-    /* .img-container {
+@media (max-width: 500px){
+    .img-container {
         width: 191px;
         background-size: 170px;
         height: 62vh;
@@ -522,8 +1029,20 @@
         align-items: center;
         justify-content: center;
         align-items: center;
-        margin-left: 17%;
-    } */
+        margin-left: 13.8%;
+    }
+    .flip-card {
+        height: 530px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .slogan-home{
+        font-size: 17px;
+    }
     .nav-container{
         background-color: #081e5c81;
     }
@@ -531,25 +1050,170 @@
         display: flex;
         justify-content: center;
         cursor: pointer;
-        margin-right: 4.9rem;
+        margin-right: 22.4%;
     }
  
     .x-awesome{
         /* margin-bottom: 62px; */
         margin: 0px;
+        /* margin-left: 4.7rem; */
     }
-    /* .flip-card-inner {
+    .flip-card-inner {
         position: relative;
-        width: 96%;
-        height: 77%;
+        width: 80%;
+        height: 100%;
         text-align: center;
         transition: transform 0.8s;
         transform-style: preserve-3d;
         border: 5px solid black;
         border-radius: 23px;
         top: 8rem;
-        left: 0.5rem;
-    } */
+        margin-left: 0.9;
+    }
+    .flip-card-front {
+        background-position:unset;
+        background-size: 24rem;
+       
+      }
+    .burguer-container {
+        left: 45%;
+        gap: 3.7rem;
+     
+    }
+    footer{
+        flex-direction: column;
+    }
+    }
+
+@media (max-width: 425px){
+    .img-container {
+        width: 191px;
+        background-size: 170px;
+        height: 62vh;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: 14.8%;
+    }
+    .flip-card {
+        height: 530px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .slogan-home{
+        font-size: 17px;
+    }
+    .nav-container{
+        background-color: #081e5c81;
+    }
+    .burguer-awesome{
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        margin-right: 21.1%;
+    }
+ 
+    .x-awesome{
+        /* margin-bottom: 62px; */
+        margin: 0px;
+        /* margin-left: 4.7rem; */
+    }
+    .flip-card-inner {
+        position: relative;
+        width: 80%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+        border: 5px solid black;
+        border-radius: 23px;
+        top: 8rem;
+        margin-left: 0.9;
+    }
+    .flip-card-front {
+        background-position:unset;
+        background-size: 27rem;
+       
+      }
+    .burguer-container {
+        left: 45%;
+        gap: 3.7rem;
+    }
+    footer{
+        flex-direction: column;
+    }
+    
+
+ 
+
+}
+@media (max-width: 375px){
+   .img-container {
+        width: 191px;
+        background-size: 170px;
+        height: 62vh;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: 15%;
+    }
+    .flip-card {
+        height: 530px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .slogan-home{
+        font-size: 17px;
+    }
+    .nav-container{
+        background-color: #081e5c81;
+    }
+    .burguer-awesome{
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        margin-right: 16.3%;
+    }
+ 
+    .x-awesome{
+        /* margin-bottom: 62px; */
+        margin: 0px;
+    }
+    .flip-card-inner {
+        position: relative;
+        width: 90%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+        border: 5px solid black;
+        border-radius: 23px;
+        top: 8rem;
+        margin-left: 0.9;
+    }
+    .flip-card-front {
+        background-position:unset;
+        background-size: 26rem;
+       
+      }
+    .burguer-container {
+        left: 47.6%;
+        gap: 3.7rem;
+    }
    
 
     }
@@ -581,9 +1245,9 @@
     }
     .burguer-awesome{
         display: flex;
-        justify-content: center;
-        cursor: pointer;
-        margin-right: 2.3rem;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 11%;
     }
     .flip-card-inner {
         position: relative;
@@ -598,9 +1262,13 @@
     }
     .flip-card-front {
       background-position:unset;
+      background-size: 24rem;
      
     }
-  
+    .burguer-container {
+        left: 49.9%;
+        gap: 3.7rem;
+    }
 
     }
 
