@@ -7,7 +7,8 @@ const Section = () => {
       <div className="contenido-seccion">
         <h2 className="about-title">About Me</h2>
         <p>
-          <span>Hola, soy David Chaban.</span> Full Stack Mern developer,
+    
+          <span>Hi, i´m David Chaban.</span> Full Stack Mern developer,
           oriented in Front End. I know other Backend areas like (Node.js and
           Python) and Mobile (React Native). I am passionate about creating
           beautiful and functional web applications. I have strong skills to
@@ -26,15 +27,18 @@ const Section = () => {
               
             >
               <div className="interes">
+              <div container-logotext>
                 <img
                   className="img1"
                   src="/icons8-html-5-50.png"
                   alt="html-img"
                    
                 />
+
                 <span className="s1">
                   HTML5
                 </span>
+                </div>
               </div>
               <div className="interes">
                 <img
@@ -45,6 +49,13 @@ const Section = () => {
                 />
                 <span className="s1">CSS3</span>
               </div>
+
+               
+
+
+
+
+
               <div className="interes">
                 <img
                  className="img3"
@@ -58,7 +69,7 @@ const Section = () => {
               <div className="interes">
                 <img
                  className="img4"
-                  src="/icons8-node-js-48.png"
+                  src="/nodejsnew.png"
                   alt="html-img"
                    
                 />
@@ -68,7 +79,7 @@ const Section = () => {
               <div className="interes">
                 <img
                  className="img5"
-                  src="/md.png"
+                  src="/mongodb1.png"
                   alt="html-img"
                   
                 />
@@ -90,7 +101,7 @@ const Section = () => {
                   alt="html-img"
                   
                 />
-                <span className="s1">Redux Toolkit</span>
+                <span className="s1">Redux</span>
               </div>
               <div className="interes">
                 <img

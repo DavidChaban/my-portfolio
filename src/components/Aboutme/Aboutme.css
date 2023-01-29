@@ -105,7 +105,7 @@ section {
 .sobremi {
     /* background-color: #1e2326; */
     color: #fff;
-    padding: 50px 20px;
+    padding: 0px 20px;
 
 
 }
@@ -132,7 +132,7 @@ section {
 }
 
 .sobremi .contenido-seccion p span {
-    color: #1CB698;
+    color: aqua;
     font-weight: bold;
 }
 
@@ -160,7 +160,7 @@ section {
 
 .sobremi .fila .col ul li strong {
     display: inline-block;
-    color: #1CB698;
+    color:aqua;
     width: 130px;
 }
 
@@ -188,9 +188,15 @@ section {
     justify-content: center;
     transition: .3s;
 }
+.container-logotext{
+    display: flex;
+    flex-direction: column;
+
+}
 
 .sobremi .fila .col .contenedor-intereses .interes:hover {
-    background-color: #1CB698;
+    background-color:aqua;
+
 }
 
 .sobremi .fila .col .contenedor-intereses .interes i {
@@ -202,14 +208,18 @@ section {
     cursor: pointer;
     background-color: transparent;
     border: 2px solid #fff;
+    width: -moz-fit-content;
     width: fit-content;
-    display: block;
+    /* display: block; */
     margin: 20px auto;
     padding: 10px 22px;
     font-size: 16px;
     color: #fff;
     position: relative;
     z-index: 10;
+    /* margin-left: 23rem; */
+    left: 27rem;
+    top: 0.5rem;
 }
 
 .sobremi button .overlay {
@@ -218,9 +228,10 @@ section {
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color: aqua;
     z-index: -1;
     transition: 1s;
+    
 }
 
 .sobremi button:hover .overlay {
@@ -232,95 +243,114 @@ section {
 }
 
 .interes {
-    color: rgb(170, 255, 0);
+    display: flex;
+    flex-direction: column;
+    color: azure;
+    font-weight: bolder;
     
 
 }
 
 .interes:hover {
     background-color: aqua !important;
+    color: black;
+    font-weight: bolder;
+
 
 }
 
 .img1 {
     /* background-color: #1CB698; */
-    position: absolute;
+    /* position: absolute; */
+    /* background-color: red; */
+    display: flex;
+
+   
 }
 .img2 {
-    background-color: #1CB698;
-    position: absolute;
+    /* background-color: #1CB698; */
+    /* position: absolute; */
+
 }
 .img3 {
-    background-color: #1CB698;
-    position: absolute;
+    /* background-color: #1CB698; */
+    /* position: absolute; */
 }
 .img4 {
-    background-color: #1CB698;
-    position: absolute;
+    /* background-color: #1CB698; */
+    /* position: absolute; */
 }
 .img5 {
-    background-color: #1CB698;
-    position: absolute;
+    /* background-color: #1CB698; */
+    /* position: absolute; */
 }
 .img6 {
-    background-color: #1CB698;
-    position: absolute;
+    /* background-color: #1CB698; */
+    /* position: absolute; */
 }
 .img7 {
-    background-color: #1CB698;
-    position: absolute;
+    /* background-color: #1CB698; */
+    /* position: absolute; */
 }
 .img8 {
-    background-color: #1CB698;
-    position: absolute;
+    /* background-color: #1CB698; */
+    /* position: absolute; */
 }
 
 .img1:hover {
     /* background-color: orangered; */
     width: 4rem;
-    position: absolute;
-    color: orangered;
+    /* position: absolute; */
+    /* color: orangered; */
+   
 }
 .img2:hover {
-    background-color: blue;
+    /* background-color: blue; */
     width: 4rem;
-    position: absolute;
+    /* position: absolute; */
 }
 .img3:hover {
-    background-color: yellow;
+    /* background-color: yellow; */
     width: 4rem;
-    position: absolute;
+    /* position: absolute; */
 }
 .img4:hover {
-    background-color: rgb(5, 134, 28);
+    /* background-color: rgb(5, 134, 28); */
     width: 4rem;
-    position: absolute;
+    /* position: absolute; */
 }
 .img5:hover {
-    background-color: green;
+    /* background-color: green; */
     width: 4rem;
-    position: absolute;
+    /* position: absolute; */
 }
 .img6:hover {
-    background-color: rgb(65, 167, 251);
+    /* background-color: rgb(65, 167, 251); */
     width: 4rem;
-    position: absolute;
+    /* position: absolute; */
 }
 .img7:hover {
-    background-color: rgb(38, 105, 177);
+    /* background-color: rgb(38, 105, 177); */
     width: 4rem;
-    position: absolute;
+    /* position: absolute; */
 }
 .img8:hover {
-    background-color: rgba(115, 58, 239, 0.944);
+    /* background-color: rgba(115, 58, 239, 0.944); */
     width: 4rem;
-    position: absolute;
+    /* position: absolute; */
 }
 span1{
     position: absolute;
     display: flex;
   
 }
+
+  
+
+
+
+
+
 /* *******************************************************************************************  */
 /* *******************************************************************************************  */
 /* *******************************************************************************************  */
@@ -330,7 +360,95 @@ span1{
 /* *******************************************************************************************  */
 /* *******************************************************************************************  */
 
-
+@media (max-width: 425px){
+    #contenedor-skills{
+        margin-top: 25rem;
+      }
+      .contenedor-intereses{
+        margin-left: -6.5rem;
+      }
+    .sobremi .fila .col .contenedor-intereses {
+        display: flex;
+        margin-top: 28rem;
+        flex-wrap: wrap;
+    }
+    .skills-title {
+        position: absolute;
+        font-size: 36px!important;
+        font-weight: bolder;
+        font-family: ubuntu!important;
+      
+        left: 9rem;
+        margin-top: 22rem;
+    }
+    .sobremi .contenido-seccion {
+        max-width: 1100px;
+        margin: auto;
+    }
+    .ilustracion{
+        background-size: 20rem;
+        background-repeat: no-repeat;
+        width: 328x;
+        height: 35vh;
+        right: 1.7rem;
+      }
+      .sobremi button {
+        left: 4.3rem;
+        top: 0.5rem;
+    }
+    .sobremi .contenido-seccion p {
+        font: 18px;
+        line-height: 33px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+}
+@media (max-width: 375px){
+    #contenedor-skills{
+        margin-top: 25rem;
+      }
+      .contenedor-intereses{
+        margin-left: -6.5rem;
+      }
+    .sobremi .fila .col .contenedor-intereses {
+        display: flex;
+        margin-top: 28rem;
+        flex-wrap: wrap;
+    }
+    .skills-title {
+        position: absolute;
+        font-size: 36px!important;
+        font-weight: bolder;
+        font-family: ubuntu!important;
+      
+        left: 9rem;
+        margin-top: 22rem;
+    }
+    .sobremi .contenido-seccion {
+        max-width: 1100px;
+        margin: auto;
+    }
+    .ilustracion{
+        background-size: 20rem;
+        background-repeat: no-repeat;
+        width: 328x;
+        height: 35vh;
+        right: 1.7rem;
+      }
+      .sobremi button {
+        left: 4.3rem;
+        top: 0.5rem;
+    }
+    .sobremi .contenido-seccion p {
+        font: 18px;
+        line-height: 33px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    .sobremi h2{
+        font-size: 32px;
+    }
+}
 @media (max-width: 320px){
   #contenedor-skills{
     margin-top: 25rem;
@@ -338,15 +456,13 @@ span1{
   }
   .contenedor-intereses{
     margin-left: -6.5rem;
-
-
   }
   .ilustracion{
-    background-size: 18rem;
+    background-size: 18.5rem;
     background-repeat: no-repeat;
     width: 300px;
     height: 35vh;
-
+    left: 0.6rem;
   }
   .sobremi .fila .col .contenedor-intereses {
     display: flex;
@@ -360,7 +476,7 @@ span1{
     font-weight: bolder;
     font-family: ubuntu!important;
     /* display: flex; */
-    left: 7rem;
+    left: 8rem;
     margin-top: 19.5rem;
 }
 .sobremi .contenido-seccion p {
@@ -368,15 +484,22 @@ span1{
     line-height: 33px;
     margin-bottom: 20px;
     font-size: 16px;
+    /* line-height: 33px;
+    letter-spacing: 2px; */
 }
-
 .sobremi h2{
     font-size: 32px;
 }
-
-
-
+.sobremi button{
+        left: 2.6rem;
+        top: 0.5rem;
+    }
+   
 }
+
+
+
+
 
 
 

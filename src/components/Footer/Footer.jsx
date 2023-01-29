@@ -17,30 +17,32 @@ const Footer = () => {
       
       <div className='icon-github'>
       <a className='i0' rel= "noopener noreferrer" target="_blank" href="https://github.com/davidchaban/" >
-      <img src='/github.png' className=" icon-github1" ></img>
-      Github
+      <i className="fa-brands fa-square-github i001"></i>
+       
+      </a>
+      </div>
+
+      <div className='icon-tweeter'>
+      <a  className='i3' rel= "noopener noreferrer"  target="_blank" href="https://www.linkedin.com/in/daviidc">
+     <i className="fa-brands fa-square-twitter i004"></i> 
       </a>
       </div>
 
 
       <div className='icon-instagram'>
       <a  className='i1' rel= "noopener noreferrer" target="_blank" href="https://www.instagram.com/tendodc">  
-      <img src='/instagram.png' className=" icon-instagram1"></img>Instagram
+      <i className="fa-brands fa-instagram i002"></i>
       </a>
       </div>
 
 
       <div className='icon-linkedin'>
       <a className='i2' rel= "noopener noreferrer"  target="_blank" href="https://www.linkedin.com/in/daviidc"> 
-      <img src='/linkedin.png' className=" icon-linkedin1" ></img>Linkedin
+      <i class="fa-brands fa-linkedin i003"></i>
       </a>
       </div>
     
-      <div className='icon-tweeter'>
-      <a  className='i3' rel= "noopener noreferrer"  target="_blank" href="https://www.linkedin.com/in/daviidc">
-      <img src='/twitter (1).png' className=" icon-tweeter1" ></img>Twiteer
-      </a>
-      </div>
+      
     
     
     
@@ -52,7 +54,7 @@ const Footer = () => {
 
 
     <div>
-      <h2 className='footer-all'> <small> All rights reserved - &copy; David Chaban - 2022</small> </h2>
+      <h2 className='footer-all'> <small> All rights reserved - &copy; David Chaban - 2023</small> </h2>
     </div>
   </footer>
 

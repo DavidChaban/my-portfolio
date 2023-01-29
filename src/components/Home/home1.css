@@ -66,14 +66,15 @@
   .flip-card-front {
     background-image: url(/public/q1.jpg);
     color: azure;
-    background-size: 32rem;
-    object-fit: cover;
+    background-size: 33rem;
+   object-fit: cover;
     background-position:unset;
   }
   
   .flip-card-back {
-   background: linear-gradient(90deg, rgba(45,51,225,1) 0%, rgba(240,45,88,1) 50%, rgba(117,26,67,1) 100%);
-    transform: rotateY(180deg);
+   /* background: linear-gradient(90deg, rgba(45,51,225,1) 0%, rgba(240,45,88,1) 50%, rgba(117,26,67,1) 100%); */
+   background: linear-gradient(45deg, #6A53A1ff, #009AC4ff, #A61D68ff, #1A0132ff, #002362ff);;
+   transform: rotateY(180deg);
     color: azure;
     object-fit: cover;
   }
@@ -274,7 +275,7 @@
 /* ================================================================ */
 
 
-
+/* 
 @media (max-width: 2560px){
    
     .img-container{
@@ -413,7 +414,7 @@
             height: 25vh;
             margin-bottom: 60px;
     }
-    }
+    } */
 /* @media (max-width: 768px){
 
 .img-container{
@@ -423,7 +424,7 @@
         margin-bottom: 60px;
 }
 } */
-@media (max-width: 673px){
+/* @media (max-width: 673px){
     .home2{
         width: 55%;
         height: 70vh;
@@ -457,8 +458,8 @@
         height: 22vh;
         margin-bottom: 60px;
     }
-}
-@media (max-width: 425px){
+} */
+/* @media (max-width: 425px){
     .home2{
         width: 85%;
     }
@@ -477,8 +478,8 @@
     nav{
         font-size: 10px;
     }
-}
-@media (max-width: 375px){
+} */
+/* @media (max-width: 375px){
     .img-container {
         width: 181px;
         background-size: 163px;
@@ -491,7 +492,7 @@
         align-items: center;
         margin-left: 18%;
     }
-    }
+    } */
 /* @media (max-width: 320){
     .flip-card-inner{
         margin-top: 11.5rem;

@@ -48,38 +48,33 @@ export default function Burguer() {
           {viewHide ? (
             <>
               <div className="burguer-container">
-                <img
-                  className="burguer-img"
-                  src="https://cdn-icons-png.flaticon.com/512/7134/7134106.png"
-                  alt="burguer foto"
-                  onClick={hide}
-                />
+                <i class="fa-sharp fa-solid fa-xmark x-awesome" onClick={hide}></i>
+               <div className="links-header">
                 <LinkRouter to="#home" className="a1">
                   {btn1}
                   <button className="btn-burguer"> </button>
                 </LinkRouter>
+
                 <LinkRouter to="#aboutme" className="a1">
                   {btn2}
                   <button className="btn-burguer"> </button>
                 </LinkRouter>
+
                 <LinkRouter to="#proyects" className="a1">
                   {btn3}
                   <button className="btn-burguer"> </button>
                 </LinkRouter>
+
                 <LinkRouter to="/#contact" className="a1">
                   {btn4}
                   <button className="btn-burguer"> </button>
                 </LinkRouter>
+                </div>
               </div>
             </>
           ) : (
             <>
-              <img
-                className="burguer-img "
-                src="https://cdn-icons-png.flaticon.com/512/7134/7134106.png"
-                alt="burguerIcon"
-                onClick={hide}
-              />
+              <i class="fa-solid fa-bars burguer-awesome"   onClick={hide}></i>
             </>
           )}
         </>
