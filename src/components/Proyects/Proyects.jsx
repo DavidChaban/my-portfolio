@@ -8,19 +8,17 @@ const Proyects = () => {
     
     <div className='pr-container'>
 
-    <h1>
-    Proyects
-
-    </h1>
+    <div className='box-container'>
+   
     
+    <div className='proyect1'> Mighty Dugs </div>
+    <div className='proyect2'>Pet shop</div>
+    <div className='proyect3'>Amazing Events</div>
+    <div className='proyect4'>My Tinerary</div>
+    <div className='proyect5'>Clothes Football retro</div>
+    <div className='proyect6'>Todo List</div>
     
-    <div> Mighty Dugs </div>
-    <div>Pet shop</div>
-    <div>Amazing Events</div>
-    <div>My Tinerary</div>
-    <div>Clothes Football retro</div>
-    <div>Todo List</div>
-    
+    </div>
     
     
     

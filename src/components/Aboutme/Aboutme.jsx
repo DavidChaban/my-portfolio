@@ -123,7 +123,7 @@ const Section = () => {
         >
           {" "}
           <button className="a-button">
-            Descargar CV <i className="fa-solid fa-download"></i>
+            Descargar CV 
             <span className="overlay"></span>
           </button>
         </a>

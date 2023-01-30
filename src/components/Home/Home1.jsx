@@ -3,6 +3,7 @@ import '../Home/home1.css';
 import 'typeface-quicksand';
 import "react-toastify/dist/ReactToastify.css";
 import Aboutme from '../Aboutme/Aboutme'
+import Proyects from '../Proyects/Proyects'
 const Home1 = () => {
     const tittle = "David Chaban ";
     const slogan = "I´m Full Stack Mern Developer"
@@ -38,6 +39,7 @@ const Home1 = () => {
     </div>
     </div>
     <Aboutme/>
+    <Proyects/>
     </>
   )
   }

@@ -156,7 +156,7 @@
     border-radius: 8px;
     color: black; 
     transition: border 0.3s ease-in-out 0s, box-shadow 0.3s ease-in-out 0s;
-    box-shadow: rgb(225, 45, 99) 200px 0px 0px 0px inset;
+    box-shadow: rgb(7, 216, 248) 200px 0px 0px 0px inset;
     cursor: pointer;
 
   }
@@ -164,13 +164,13 @@
     border-radius: 8px;
     color: black; 
     transition: border 0.3s ease-in-out 0s, box-shadow 0.3s ease-in-out 0s;
-    box-shadow: rgb(225, 45, 99) 200px 0px 0px 0px inset;
+    box-shadow: rgb(7, 216, 248) 200px 0px 0px 0px inset;
   }
   .nav-5:hover{
     border-radius: 8px;
     color: azure;
     transition: border 0.3s ease-in-out 0s, box-shadow 0.3s ease-in-out 0s;
-   box-shadow: rgb(225, 45, 99) 200px 0px 0px 0px inset;
+    box-shadow: rgb(7, 216, 248) 200px 0px 0px 0px inset;
     cursor: pointer;
    
   }
@@ -193,7 +193,7 @@
 }
 
 .a1:hover{
-    color: rgb(54, 6, 245);
+    color: rgb(58, 223, 252);
     box-shadow: rgb(16, 219, 246) 200px 0px 0px 0px inset;
     padding: 5px;
     border-radius: 6px;

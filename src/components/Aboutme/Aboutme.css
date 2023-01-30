@@ -14,6 +14,7 @@ section {
     justify-content: center;
     /* height: 100vh; */
     width: 100%;
+    height: 100vh;
     background-color: #090205;
     /* background-image: url("https://zos.alipayobjects.com/rmsportal/gGlUMYGEIvjDOOw.jpg");
    background-position: center; */
@@ -120,7 +121,7 @@ section {
     font-family: 'Ubuntu';
     text-align: center;
     padding: 20px 0;
-    margin-top: 5rem;
+   
     font-weight: bolder;
 
 }
@@ -207,19 +208,23 @@ section {
 .sobremi button {
     cursor: pointer;
     background-color: transparent;
-    border: 2px solid #fff;
+    border: 1px solid rgb(61, 106, 255);
     width: -moz-fit-content;
     width: fit-content;
-    /* display: block; */
     margin: 20px auto;
     padding: 10px 22px;
     font-size: 16px;
     color: #fff;
     position: relative;
     z-index: 10;
-    /* margin-left: 23rem; */
     left: 27rem;
     top: 0.5rem;
+    letter-spacing: 2px;
+    overflow: hidden;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 .sobremi button .overlay {
@@ -228,18 +233,27 @@ section {
     left: 0;
     width: 0;
     height: 100%;
-    background-color: aqua;
+    background: rgb(61, 106, 255);
+    box-shadow: 0 0 30px 5px rgba(0, 197, 236, 0.815);
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
     z-index: -1;
     transition: 1s;
-    
+ 
 }
 
 .sobremi button:hover .overlay {
     width: 100%;
+    box-shadow: rgb(7, 216, 248) 200px 0px 0px 0px inset;
 }
 
-.a-button {
+/* .a-button {
     text-decoration: none;
+    
+} */
+.sobremi button:hover{
+    box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
 }
 
 .interes {
@@ -253,7 +267,7 @@ section {
 
 .interes:hover {
     background-color: aqua !important;
-    color: black;
+   
     font-weight: bolder;
 
 
@@ -362,14 +376,14 @@ span1{
 @media (max-width: 1024px){
 
     .sobremi button {
-        left: 29%;
+        left: 39%;
         top: 0.5rem;
     }
 }
 @media (max-width: 768px){
 
     .sobremi button {
-        left: 29%;
+        left: 38%;
         top: 0.5rem;
     }
 }
@@ -406,7 +420,7 @@ span1{
     width: 80%;
       }
       .sobremi button {
-        left: 29%;
+        left: 38%;
         top: 0.5rem;
     }
     .sobremi .contenido-seccion p {
@@ -449,7 +463,7 @@ span1{
     width: 80%;
       }
       .sobremi button {
-        left: 29%;
+        left: 35%;
         top: 0.5rem;
     }
     .sobremi .contenido-seccion p {
@@ -491,7 +505,7 @@ span1{
         right: 8%;
       }
       .sobremi button {
-        left: 5.9rem;
+        left: 7.9rem;
         top: 0.5rem;
     }
     .sobremi .contenido-seccion p {
@@ -540,7 +554,7 @@ span1{
         
       }
       .sobremi button {
-        left: 4.3rem;
+        left: 6.3rem;
         top: 0.5rem;
     }
     .sobremi .contenido-seccion p {
@@ -595,7 +609,7 @@ span1{
     font-size: 32px;
 }
 .sobremi button{
-        left: 2.6rem;
+        left: 4.6rem;
         top: 0.5rem;
     }
    
