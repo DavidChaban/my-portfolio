@@ -444,6 +444,10 @@
         display: none;
 
     }
+    .nav-5{
+        font-size: 14px;
+        margin-top: -18px;
+    }
 
 .flip-card {
     background-color: transparent;
@@ -475,6 +479,7 @@
     background-size: 30rem;
    
   }
+ 
 
     }
     @media (max-width: 750px){
