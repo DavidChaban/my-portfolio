@@ -583,14 +583,14 @@ span1{
 
   }
   .contenedor-intereses{
-    margin-left: -6.5rem;
+ width: 100%;
   }
   .ilustracion{
     background-size: 16rem;
     background-repeat: no-repeat;
     width: 80%;
     height: 35vh;
-    left: 1.8rem;
+    /* left: 1.8rem; */
   }
   .sobremi .fila .col .contenedor-intereses {
     display: flex;
@@ -603,7 +603,7 @@ span1{
     font-size: 32px!important;
     font-weight: bolder;
     font-family: ubuntu!important;
-    /* display: flex; */
+ 
     left: 8rem;
     margin-top: 19.5rem;
 }
@@ -614,6 +614,7 @@ span1{
     font-size: 16px;
     line-height: 23px;
     letter-spacing: 3px;
+    width: 290px;
 }
 .sobremi h2{
     font-size: 32px;
@@ -622,7 +623,10 @@ span1{
         left: 4.6rem;
         top: 0.5rem;
     }
-   
+   .sobremi{
+    height: 255vh;
+   }
+
 }
 
 
