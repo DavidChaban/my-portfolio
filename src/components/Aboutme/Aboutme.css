@@ -2,39 +2,23 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-
-
-
 }
-
 section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* height: 100vh; */
     width: 100%;
     height: 100vh;
     background-color: #090205;
-    /* background-image: url("https://zos.alipayobjects.com/rmsportal/gGlUMYGEIvjDOOw.jpg");
-   background-position: center; */
     color: white;
-    /* 
-   #2d33e1
-#f02d58
-#751a43 */
 }
-
 .section-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-
-
 }
-
 .ilustracion {
     background-image: url("/public/Frame_1.png");
     position: absolute;
@@ -43,27 +27,20 @@ section {
     width: 320px;
     height: 35vh;
 }
-
 .about-title {
     font-family: monospace;
 }
-
 .tittle-h2 {
     color: azure;
     font-size: 40px;
     font-weight: bold;
-
-
-
 }
-
 .p-section {
     color: white;
     font-size: 23px;
     font-family: work, cursive;
     /* width: 750px; */
 }
-
 .tittle-h3 {
     display: flex;
     flex-wrap: wrap;
@@ -71,14 +48,12 @@ section {
     font-size: 40px;
     font-weight: bold;
 }
-
 .interesting {
     display: flex;
     flex-wrap: wrap;
     color: white;
     font-size: 18px;
 }
-
 .myinteresting {
     display: flex;
     justify-content: center;
@@ -86,46 +61,28 @@ section {
     font-size: 40px;
     font-weight: bold;
 }
-
 .items-interesting {
 
     display: flex;
     flex-wrap: wrap;
     color: white;
     font-size: 18px;
-
-
 }
-
-
-
-
-/*  5sd545s45s454sd  */
-
-
 .sobremi {
-    /* background-color: #1e2326; */
     color: #fff;
     padding: 0px 20px;
-    /* height: 255vh; */
 }
-
 .sobremi .contenido-seccion {
     max-width: 1100px;
     margin: auto;
-
 }
-
 .sobremi h2 {
     font-size: 52px;
     font-family: 'Ubuntu';
     text-align: center;
     padding: 20px 0;
-   
     font-weight: bolder;
-
 }
-
 .sobremi .contenido-seccion p {
     font: 18px;
     line-height: 22px;
@@ -133,54 +90,44 @@ section {
     letter-spacing: 3px;
     font-size: 20px;
     margin: 81px;
-   
 }
-
 .sobremi .contenido-seccion p span {
     color: aqua;
     font-weight: bold;
 }
-
 .sobremi .fila {
     display: flex;
 }
-
 .sobremi .fila .col {
     width: 50%;
 }
-
 .sobremi .fila .col h3 {
-    font-size: 28px;
-    font-family: 'Righteous';
+    font-size: 39px;
+    font-family: 'Ubuntu';
     margin-bottom: 25px;
+    font-weight: bolder;
 }
-
 .sobremi .fila .col ul {
     list-style: none;
 }
-
 .sobremi .fila .col ul li {
     margin: 12px 0;
 }
-
 .sobremi .fila .col ul li strong {
     display: inline-block;
     color:aqua;
     width: 130px;
 }
-
 .sobremi .fila .col ul li span {
     /* background-color: #1CB698; */
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
 }
-
 .sobremi .fila .col .contenedor-intereses {
     display: flex;
     flex-wrap: wrap;
 }
-
 .sobremi .fila .col .contenedor-intereses .interes {
     width: 100px;
     height: 100px;
@@ -196,19 +143,14 @@ section {
 .container-logotext{
     display: flex;
     flex-direction: column;
-
 }
-
 .sobremi .fila .col .contenedor-intereses .interes:hover {
     background-color:aqua;
-
 }
-
 .sobremi .fila .col .contenedor-intereses .interes i {
     font-size: 30px;
     margin-bottom: 10px;
 }
-
 .sobremi button {
     cursor: pointer;
     background-color: transparent;
@@ -222,7 +164,7 @@ section {
     position: relative;
     z-index: 10;
     left: 27rem;
-    top: 0.5rem;
+    top: 3.5rem;
     letter-spacing: 2px;
     overflow: hidden;
   box-shadow: 0 0 0 0 transparent;
@@ -230,7 +172,6 @@ section {
   -moz-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
-
 .sobremi button .overlay {
     position: absolute;
     top: 0;
@@ -244,131 +185,56 @@ section {
     transition: all 0.2s ease-out;
     z-index: -1;
     transition: 1s;
- 
 }
-
 .sobremi button:hover .overlay {
     width: 100%;
     box-shadow: rgb(7, 216, 248) 200px 0px 0px 0px inset;
 }
-
-/* .a-button {
-    text-decoration: none;
-    
-} */
 .sobremi button:hover{
     box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
 }
-
 .interes {
     display: flex;
     flex-direction: column;
     color: azure;
     font-weight: bolder;
-    
-
 }
-
 .interes:hover {
     background-color: aqua !important;
-   
     font-weight: bolder;
-
-
 }
-
 .img1 {
-    /* background-color: #1CB698; */
-    /* position: absolute; */
-    /* background-color: red; */
     display: flex;
-
-   
-}
-.img2 {
-    /* background-color: #1CB698; */
-    /* position: absolute; */
-
-}
-.img3 {
-    /* background-color: #1CB698; */
-    /* position: absolute; */
-}
-.img4 {
-    /* background-color: #1CB698; */
-    /* position: absolute; */
-}
-.img5 {
-    /* background-color: #1CB698; */
-    /* position: absolute; */
-}
-.img6 {
-    /* background-color: #1CB698; */
-    /* position: absolute; */
-}
-.img7 {
-    /* background-color: #1CB698; */
-    /* position: absolute; */
-}
-.img8 {
-    /* background-color: #1CB698; */
-    /* position: absolute; */
 }
 
 .img1:hover {
-    /* background-color: orangered; */
     width: 4rem;
-    /* position: absolute; */
-    /* color: orangered; */
-   
 }
 .img2:hover {
-    /* background-color: blue; */
     width: 4rem;
-    /* position: absolute; */
 }
 .img3:hover {
-    /* background-color: yellow; */
     width: 4rem;
-    /* position: absolute; */
 }
 .img4:hover {
-    /* background-color: rgb(5, 134, 28); */
     width: 4rem;
-    /* position: absolute; */
 }
 .img5:hover {
-    /* background-color: green; */
     width: 4rem;
-    /* position: absolute; */
 }
 .img6:hover {
-    /* background-color: rgb(65, 167, 251); */
     width: 4rem;
-    /* position: absolute; */
 }
 .img7:hover {
-    /* background-color: rgb(38, 105, 177); */
     width: 4rem;
-    /* position: absolute; */
 }
 .img8:hover {
-    /* background-color: rgba(115, 58, 239, 0.944); */
     width: 4rem;
-    /* position: absolute; */
 }
 span1{
     position: absolute;
     display: flex;
-  
 }
-
-  
-
-
-
-
-
 /* *******************************************************************************************  */
 /* *******************************************************************************************  */
 /* *******************************************************************************************  */
@@ -377,6 +243,14 @@ span1{
 /* *******************************************************************************************  */
 /* *******************************************************************************************  */
 /* *******************************************************************************************  */
+@media (max-width: 1440px){
+
+    .sobremi button {
+        left: 39%;
+        top: 0.5rem;
+    }
+}
+
 @media (max-width: 1024px){
 
     .sobremi button {
@@ -390,6 +264,40 @@ span1{
         left: 38%;
         top: 0.5rem;
     }
+    .sobremi h2{
+        font-size: 38px;
+        position: absolute;
+        right: 20rem;
+        bottom: -200px;
+    }
+    .sobremi{
+        height: 203vh;
+       }
+       .ilustracion{
+        background-size: 35rem;
+        background-repeat: no-repeat;
+        height: 68vh;
+        right: 6%;
+        width: 80%;
+      }
+      .skills-title {
+        position: absolute;
+        font-size: 43px!important;
+        font-weight: bolder;
+        font-family: ubuntu!important;
+        left: 44%;
+        margin-top: 39rem;
+    }
+      .sobremi .contenido-seccion p {
+        font: 18px;
+        line-height: 33px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    .contenedor-intereses{
+        margin-top: 46rem;
+        margin-left: -13.1rem;
+      }
 }
 @media (max-width: 600px){
     #contenedor-skills{
@@ -402,7 +310,7 @@ span1{
         display: flex;
         margin-top: 28rem;
         flex-wrap: wrap;
-        
+        margin-right: 3rem;
     }
     .skills-title {
         position: absolute;
@@ -414,7 +322,6 @@ span1{
     }
     .sobremi .contenido-seccion {
         max-width: 1100px;
-        /* margin: auto; */
     }
     .ilustracion{
         background-size: 73%;
@@ -433,7 +340,15 @@ span1{
         margin-bottom: 20px;
         font-size: 16px;
     }
-
+    .sobremi h2{
+        font-size: 32px;
+        position: absolute;
+        right: 16rem;
+        bottom: -228px;
+    }
+    .sobremi{
+        height: 218vh;
+       }
 }
 @media (max-width: 500px){
     #contenedor-skills{
@@ -444,7 +359,7 @@ span1{
       }
     .sobremi .fila .col .contenedor-intereses {
         display: flex;
-        margin-top: 28rem;
+        margin-top: 31rem;
         flex-wrap: wrap;
     }
     .skills-title {
@@ -453,11 +368,10 @@ span1{
         font-weight: bolder;
         font-family: ubuntu!important;
         left: 39%;
-        margin-top: 23rem;
+        margin-top: 25rem;
     }
     .sobremi .contenido-seccion {
         max-width: 1100px;
-        /* margin: auto; */
     }
     .ilustracion{
         background-size: 22rem;
@@ -467,8 +381,8 @@ span1{
     width: 80%;
       }
       .sobremi button {
-        left: 35%;
-        top: 0.5rem;
+        left: 32%;
+        top: 4.5rem;
     }
     .sobremi .contenido-seccion p {
         font: 18px;
@@ -476,7 +390,15 @@ span1{
         margin-bottom: 20px;
         font-size: 16px;
     }
-
+    .sobremi h2{
+        font-size: 32px;
+        position: absolute;
+        right: 12rem;
+        bottom: -285px;
+    }
+    .sobremi{
+        height: 245vh;
+       }
 }
 @media (max-width: 425px){
     #contenedor-skills{
@@ -515,13 +437,25 @@ span1{
     .sobremi .contenido-seccion p {
         font: 18px;
         line-height: 33px;
+        width: 71%;
         margin-bottom: 20px;
         font-size: 16px;
+        margin-left: 3.9rem;
     }
+    .sobremi h2{
+        font-size: 32px;
+        position: absolute;
+        right: 9rem;
+        bottom: -177px;
+    }
+    .sobremi{
+        height: 235vh;
+       }
 }
 @media (max-width: 375px){
-
-
+    .sobremi{
+        height: 194vh;
+       }
     #contenedor-skills{
         margin-top: 25rem;
       }
@@ -532,6 +466,7 @@ span1{
         display: flex;
         margin-top: 28rem;
         flex-wrap: wrap;
+        margin-right: 3%;
     }
     .skills-title {
         position: absolute;
@@ -540,11 +475,10 @@ span1{
         font-family: ubuntu!important;
       
         left: 9rem;
-        margin-top: 22rem;
+        margin-top: 23rem;
     }
     .sobremi .contenido-seccion {
         max-width: 1100px;
-        /* margin: auto; */
     }
     .ilustracion{
         display: flex;
@@ -557,32 +491,32 @@ span1{
         align-content: center;
         flex-direction: column;
         left: 2.5rem;
-        
       }
       .sobremi button {
-        left: 6.3rem;
+        left: 5.1rem;
         top: 0.5rem;
     }
     .sobremi .contenido-seccion p {
         font: 18px;
         line-height: 33px;
-        margin-bottom: 20px;
-        font-size: 16px;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 3px;
+        width: 88%;
+        margin-left: 1.6rem;
     }
     .sobremi h2{
         font-size: 32px;
+        position: absolute;
+        right: 8rem;
+        bottom: -123px;
     }
 }
 @media (max-width: 320px){
-/* .contenido-seccion{
-    height: 100vh;
-} */
-
   #contenedor-skills{
     margin-top: 25rem;
-
   }
-  .contenedor-intereses{
+  .contenedor-intereses{    
  width: 100%;
   }
   .ilustracion{
@@ -590,43 +524,44 @@ span1{
     background-repeat: no-repeat;
     width: 80%;
     height: 35vh;
-    /* left: 1.8rem; */
+    left: 2rem;
+    margin-top: 1.8rem;
   }
   .sobremi .fila .col .contenedor-intereses {
     display: flex;
-    margin-top: 24rem;
     flex-wrap: wrap;
+    width: 165%;
 }
 .skills-title{
     position: absolute;
-    
-    font-size: 32px!important;
+    font-size: 36px!important;
     font-weight: bolder;
     font-family: ubuntu!important;
- 
-    left: 8rem;
-    margin-top: 19.5rem;
+    left: 7rem;
+    margin-top: 23rem;
 }
 .sobremi .contenido-seccion p {
     font: 18px;
     line-height: 33px;
-    margin-bottom: 20px;
     font-size: 16px;
     line-height: 23px;
-    letter-spacing: 3px;
-    width: 290px;
+    letter-spacing: 2px;
+    width: 88%;
+    margin-left: 1.6rem;
 }
 .sobremi h2{
     font-size: 32px;
+    position: absolute;
+    right: 6rem;
+    bottom: -123px;
 }
 .sobremi button{
-        left: 4.6rem;
+        left: 4rem;
         top: 0.5rem;
     }
    .sobremi{
-    height: 255vh;
+    height: 194vh;
    }
-
 }
 
 
