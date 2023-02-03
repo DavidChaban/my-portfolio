@@ -582,13 +582,8 @@
          .flip-card-front {
             background-position:unset;
             background-size: 33rem;
-           
           }
-         
-        
         }
-
-    
     @media (max-width: 715px){
         .btn-burguer{
             display: none;
@@ -610,18 +605,14 @@
          }
          .hide{
              display: flex;
-         
          }
          .burguer-img{
              display: flex;
              margin-top: 2px;
-             
          }
          .burguer-container {
              left: 46.3%;
              gap: 3.7rem;
-          
-           
          }
          .burguer-awesome{
              display: flex;
@@ -629,9 +620,6 @@
              cursor: pointer;
              margin-right: 22.4%;
          }
-      
-        
-     
          a:hover {
              color: white;
              text-decoration: none;
@@ -690,16 +678,9 @@
          .flip-card-front {
             background-position:unset;
             background-size: 33rem;
-           
           }
-         
-        
         }
-
-
         @media (max-width: 650px) {
- 
-    
             .btn-burguer{
                display: none;
                
@@ -720,18 +701,14 @@
             }
             .hide{
                 display: flex;
-            
             }
             .burguer-img{
                 display: flex;
                 margin-top: 2px;
-                
             }
             .burguer-container {
                 left: 46.3%;
                 gap: 3.7rem;
-             
-              
             }
             .burguer-awesome{
                 display: flex;
@@ -739,11 +716,9 @@
                 cursor: pointer;
                 margin-right: 22.4%;
             }
-         
             .flip-card{
                 width: 100%;
             }
-        
             a:hover {
                 color: white;
                 text-decoration: none;
@@ -755,13 +730,11 @@
                 font-size: 16px ;
                 position: absolute;
                 margin-top: -20px;
-        
             }
             .nav-0{
                 display: flex;
                 gap: 50px;
                 /* margin-right: 2rem; */
-              
                 flex-direction: column;
                 align-content: center;
                 justify-content: center;
