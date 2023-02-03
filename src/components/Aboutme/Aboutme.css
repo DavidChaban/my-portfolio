@@ -243,11 +243,49 @@ span1{
 /* *******************************************************************************************  */
 /* *******************************************************************************************  */
 /* *******************************************************************************************  */
+
+@media (max-width: 2561px){
+
+    .sobremi button {
+        left: 39%;
+        top: 2.5rem;
+        z-index: 0;
+    }
+    .sobremi{
+       width: 100%;
+       }
+       .pr-container {
+        background-position: bottom;
+        background-size: 166rem;
+        background-repeat: repeat;
+        object-fit: contain;
+        height: 100vh;
+
+
+}
+
+}
+
+@media (max-width: 2000px){
+    .sobremi button {
+       
+        z-index: 0;
+    }
+    .sobremi{
+        height: 140vh;
+
+       }
+
+}
+
+
+
 @media (max-width: 1440px){
 
     .sobremi button {
         left: 39%;
         top: 0.5rem;
+        z-index: 0;
     }
 }
 
@@ -256,13 +294,18 @@ span1{
     .sobremi button {
         left: 39%;
         top: 0.5rem;
+        z-index: 0;
     }
+    .sobremi{
+        height: 140vh;
+       }
 }
 @media (max-width: 768px){
 
     .sobremi button {
         left: 38%;
         top: 0.5rem;
+        z-index: 0;
     }
     .sobremi h2{
         font-size: 38px;
