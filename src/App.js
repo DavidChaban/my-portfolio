@@ -1,6 +1,6 @@
 import "./App.css";
 import React from "react";
-import { Routes, Route } from 'react-router-dom'
+import { BrowserRoute ,Routes, Route } from 'react-router-dom'
 import Home from "./pages/Home";
 import Layout from "./layouts/Layout";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -10,19 +10,15 @@ import Contact from "./components/Contact/Contact";
 function App() {
   return (
     <Layout>
+    <BrowserRoute>
         <Routes>
           <Route path='/home' element={<Home />}></Route>
           <Route path='/app' element={<Layout />}></Route>
           <Route path='/aboutme' element={<Aboutme />}></Route>    
           <Route path='/proyects' element={<Proyects />}></Route>   
           <Route path='/contact' element={<Contact/>}></Route>
-          {/* <Route path='/aboutme' element={<Aboutme />}></Route>     */}
-
-
-
-
-
           </Routes>
+          </BrowserRoute>
     </Layout>
   );
 }
