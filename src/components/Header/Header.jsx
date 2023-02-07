@@ -17,7 +17,7 @@ export default function Burguer() {
     <div className="nav-container1"> 
       <div className="nav-container">
         <div>
-          <Link to="/home">
+          <Link to="/">
             <button className="nav-5">{btn5}</button>
           </Link>
         </div>
@@ -25,7 +25,7 @@ export default function Burguer() {
         <div className="nav-0">
 
 
-          <Link to="/home">
+          <Link to="/">
             <button className="nav-1">{btn1}</button>
           </Link>
 

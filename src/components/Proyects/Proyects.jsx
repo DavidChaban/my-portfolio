@@ -11,14 +11,12 @@ const Proyects = () => {
     <div className='box-container'>
 
     
+    <div className='card-container1'>
     <div className='proyect1'> 
-    
       <a href='https://challenger-one-david-chaban.vercel.app/' target="_blank" rel="noopener noreferrer"><button  className='demo-button'>Demo</button> </a>
         <a href='https://github.com/DavidChaban/ChallengerOne-DavidChaban'target="_blank" rel="noopener noreferrer"><button className='code-button'>Code</button></a>
-
-
  </div>
-
+ </div>
 
 
 

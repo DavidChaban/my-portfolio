@@ -41,7 +41,7 @@ const Home1 = () => {
     </div>
     <Aboutme/>
     <Proyects/>
-    <Contact/>
+    {/* <Contact/> */}
     </>
   )
   }
