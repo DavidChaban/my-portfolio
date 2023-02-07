@@ -26,6 +26,18 @@ section {
     background-repeat: no-repeat;
     width: 320px;
     height: 35vh;
+    animation-name: girarb;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyFrames girarb{
+    from{
+        transform: rotate(0deg);
+
+    }to{
+        transform: rotate(360deg);
+    }
 }
 .about-title {
     font-family: monospace;
