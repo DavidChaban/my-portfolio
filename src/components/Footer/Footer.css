@@ -8,7 +8,6 @@ footer{
     justify-content: space-around;
     min-height: 20vh;
     color:aqua;
-    /* background-image: url("/public/h1.jpg"); */
     font-weight: bolder;
     align-items: center;
     background: linear-gradient(45deg, #6A53A1ff, #009AC4ff, #A61D68ff, #1A0132ff, #002362ff);;
@@ -16,36 +15,22 @@ footer{
 .redes-footer{
     display: flex;
     gap: 30px;
-    
 }
-
 .icon-github1{
-/* background-image: url(/public/code_development_github_open_source_programming_source_icon_123274\ \(1\).png); */
 display: flex;
 height: 4.5vh;
-
-
-
 }
 .icon-github1:hover{
    width: 3rem;
-
 }
-
 .icon-instagram1{
-/* background-image: url(/public/instagram.svg); */
 display: flex;
 justify-content: center;
 height: 4.5vh;
 backdrop-filter: blur(10px);
-
-
 }
-.icon-instagram1:hover{
-   
-}
+ 
 .icon-linkedin1{
-/* background-image: url(/public/linkedin.png); */
 display: flex;
 height: 4.5vh;
 }
@@ -53,18 +38,10 @@ height: 4.5vh;
     display: flex;
 height: 4.5vh;
 color: red;
-
 }
-/* .icon-tweeter1:hover{
-    background-color: red;
- 
-} */
-
 .footer-all{
     font-size: 16px;
-
 }
-
 .i0{
     text-decoration: none;
     display: flex;
@@ -73,7 +50,6 @@ color: red;
     align-content: center;
     flex-direction: column;
     color:azure;
-
 }
 .i001{
     display: flex;
@@ -114,28 +90,9 @@ color: red;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* align-content: center; */
     flex-direction: column;
+}
  
-}
-
-.i0:hover{
-color:rgb(3, 252, 82);
-/* font-size: 10px; */
-
-}
-.i1:hover{
-    color:rgb(3, 252, 82);
-    /* font-size: 20px; */
-}
-.i2:hover{
-    color:rgb(3, 252, 82);
-    /* font-size: 20px; */
-}
-.i3:hover{
-    color:rgb(3, 252, 82);
-    /* font-size: 20px; */
-}
 /* 11///////////////////////////////////////////////////////////////////////////////////////////////////////// 22*/
 /*  */
 @media (max-width: 600px){

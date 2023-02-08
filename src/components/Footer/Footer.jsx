@@ -23,7 +23,7 @@ const Footer = () => {
       </div>
 
       <div className='icon-tweeter'>
-      <a  className='i3' rel= "noopener noreferrer"  target="_blank" href="https://www.linkedin.com/in/daviidc">
+      <a  className='i3' rel= "noopener noreferrer"  target="_blank" href="https://twitter.com/tdcdev">
      <i className="fa-brands fa-square-twitter i004"></i> 
       </a>
       </div>
