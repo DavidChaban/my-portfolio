@@ -15,11 +15,19 @@
 	align-items: flex-start;
 	justify-content: center;
 }
+.container-AllContact{
+	background-image: url(https://img.freepik.com/vector-gratis/vista-galaxia-espacial-abstracta-nube-rosa-azul_107791-16611.jpg?w=1380&t=st=1675994931~exp=1675995531~hmac=b084dabf7a0850683c85c17df578e49b63b318c29b6dad02f9a6ba889359bfc5);
+	 background-repeat: no-repeat;
+	 /* background-size: contain; */
+	 background-size: 100%;
+	 height: 100vh;
+
+}
 
 .formulario {
 	/* min-width: 100%;
 	margin-top: 50px; */
-	background: #fff;
+	background: transparent;
 	border-radius: 5px;
 	padding: 20px;
 	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;

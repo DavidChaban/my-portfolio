@@ -19,6 +19,7 @@ const Contact = () => {
 
   return (
     <>
+	<div className='container-AllContact'>
     <div>Contac Me!</div>
   <Formik
 				initialValues={{
@@ -82,6 +83,7 @@ const Contact = () => {
 					</Form>
 				)}
 			</Formik>
+			</div>
     </>
   );
 };
