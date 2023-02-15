@@ -12,9 +12,9 @@
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;
-    background-color: rgb(9, 9, 147);
+    background-color: #8b2707;
    background-position:bottom;
-   background-size: 119rem;
+   background-size: 219rem;
     background-repeat: no-repeat;
     object-fit: contain;
     height: 100vh;
@@ -47,10 +47,10 @@
     border: 2px solid rgb(2, 253, 132);
 }
 .proyect1{
-    width: 469px;
-    height: 230px;
+    width: 100%;
+    height: 58%;
     background-image: url(/public/encriptador.jpg);
-    background-size: 136%;
+    background-size: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -68,31 +68,36 @@
     border: 1px solid rgb(18, 6, 6);
 }
 .proyect-text{
-text-align: center;
-/* width: 100%; */
-height: 100%;
-color:transparent;
-font-size:30px;
-font-family: ubuntu;
-align-items: center;
-justify-content: center;
-display: flex;
-cursor: pointer;
-/* margin-top: 1.1rem; */
-}
-.proyect-text:hover{
-color: white;
+    text-align: center;
+    width: 100%;
+    /* height: 100%; */
+    /* color:transparent; */
+    font-size:30px;
+    background-color: rgba(0, 0, 0, 0.713);
+    color:white;
+    font-family: ubuntu;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    margin-top: 6.5rem;
+    padding:4px;
+    border-radius:20px;
+    }
+    .proyect-text:hover{
+        color: bisque;
         transition: 1s;
-        background-color: rgba(0, 0, 0, 0.713);
-        z-index: 1px;
-         /* height: 100%; */
-        width: 104.5%;
-        margin-top: 2rem; 
-        font-size: 20px;
-}
+        border-radius:20px;
+        padding:8px;
+       
+            
+          }  
+
+
+ 
 .proyect1:hover{
     transition: 1s;
-   background-size: 464px;
+   background-size: 80%;
    color:  white;
    font-size: 20px;
    cursor: pointer;
@@ -107,7 +112,7 @@ color: white;
     justify-content: center;
     text-align: center;
     font-size: 20px; 
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 .githubpr{
     width: 21px;
@@ -129,7 +134,7 @@ color: white;
     position: relative;
     z-index: 10;
     /* right: 11rem; */
-    top: 7rem;
+    top: 7.5rem;
     letter-spacing: 2px;
     overflow: hidden;
     box-shadow: 0 0 30px 5px rgba(0, 197, 236, 0.815);
@@ -165,9 +170,9 @@ color: white;
 /* °°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°° */
 .proyect2{
     background-image: url(/public/Mindy.jpg);
-    width: 473px;
-    height: 230px;
-    background-size: 147%;
+    width: 100%;
+    height: 58%;
+    background-size: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -223,34 +228,35 @@ color: white;
     justify-content: center;
     text-align: center;
     font-size: 20px; 
-    margin-top: 1rem;
+    margin-top: 2rem;
 
 }
 
-  .proyect-text2{
+.proyect-text2{
     text-align: center;
     width: 100%;
     /* height: 100%; */
-    color:transparent;
+    /* color:transparent; */
     font-size:30px;
+    background-color: rgba(0, 0, 0, 0.713);
+    color:white;
     font-family: ubuntu;
     align-items: center;
     justify-content: center;
     display: flex;
     cursor: pointer;
     margin-top: 6.5rem;
+    padding:4px;
+    border-radius:20px;
     }
     .proyect-text2:hover{
-        color: white;
+        color: bisque;
         transition: 1s;
-        background-color: rgba(0, 0, 0, 0.713);
-        z-index: 1px;
-         /* height: 100%; */
-        width: 104.5%;
-        /* margin-top: 8.5rem; */
+        border-radius:20px;
+        padding:8px;
        
-       
-        }  
+            
+          }  
         .a-pr1{
             text-decoration: none!important;
         }
@@ -270,7 +276,7 @@ color: white;
             position: relative;
             z-index: 10;
             /* right: 8rem; */
-            top: 4.3rem;
+            top: 7.3rem;
             letter-spacing: 2px;
             overflow: hidden;
             box-shadow: 0 0 30px 5px rgba(0, 197, 236, 0.815);
@@ -391,9 +397,9 @@ color: white;
 
 .proyect5{
     background-image: url(/public/rfc-proyect.jpg);
-    width: 467px;
-    height: 230px;
-    background-size: 136%;
+    width: 100%;
+    height: 58%;
+    background-size: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -428,34 +434,35 @@ color: white;
     justify-content: center;
     text-align: center;
     font-size: 20px; 
-    margin-top: 1rem;
+    margin-top: 2rem;
 
 }
 
-  .proyect-text5{
+.proyect-text5{
     text-align: center;
     width: 100%;
     /* height: 100%; */
-    color:transparent;
+    /* color:transparent; */
     font-size:30px;
+    background-color: rgba(0, 0, 0, 0.713);
+    color:white;
     font-family: ubuntu;
     align-items: center;
     justify-content: center;
     display: flex;
     cursor: pointer;
-    margin-top: 6.65rem;
+    margin-top: 6.5rem;
+    padding:4px;
+    border-radius:20px;
     }
     .proyect-text5:hover{
-        color: white;
+        color: bisque;
         transition: 1s;
-        background-color: rgba(0, 0, 0, 0.713);
-        z-index: 1px;
-         /* height: 100%; */
-        width: 104.5%;
-        /* margin-top: 8.5rem; */
+        border-radius:20px;
+        padding:8px;
        
-       
-        } 
+            
+          }  
 
 .code-button5{
     display: flex;
@@ -473,7 +480,7 @@ color: white;
     position: relative;
     z-index: 10;
     /* right: 8rem; */
-    top: 4.2rem;
+    top: 7.3rem;
     letter-spacing: 2px;
     overflow: hidden;
     box-shadow: 0 0 30px 5px rgba(0, 197, 236, 0.815);
@@ -525,815 +532,69 @@ color: white;
     /* border: 12px solid rgb(33,248,246); */
    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* T/////////////////////////////////////////////////////////////////////////////////////////////////////////T  */
-/* T/////////////////////////////////////////////////////////////////////////////////////////////////////////T  */
-/* T/////////////////////////////////////////////////////////////////////////////////////////////////////////T  */
-/* T/////////////////////////////////////////////////////////////////////////////////////////////////////////T  */
-/* T/////////////////////////////////////////////////////////////////////////////////////////////////////////T  */
-/* T/////////////////////////////////////////////////////////////////////////////////////////////////////////T  */
-/* T/////////////////////////////////////////////////////////////////////////////////////////////////////////T  */
-/* T/////////////////////////////////////////////////////////////////////////////////////////////////////////T  */
-/* T/////////////////////////////////////////////////////////////////////////////////////////////////////////T  */
-/* T/////////////////////////////////////////////////////////////////////////////////////////////////////////T  */
-/* T/////////////////////////////////////////////////////////////////////////////////////////////////////////T  */
-/* T/////////////////////////////////////////////////////////////////////////////////////////////////////////T  */
-/* T/////////////////////////////////////////////////////////////////////////////////////////////////////////T  */
-@media (max-width: 1920px){
-
-    .pr-container{
-       
-    
-       background-size: 120rem;
-        background-repeat: no-repeat;
-        object-fit: contain;
-   
-}
-
-}
-
-@media (max-width: 1440px){
-
-    .pr-container{
-        display: flex;
-        justify-content: space-around;
-        flex-direction:column;
-       background-position:bottom;
-       background-size: 119rem;
-        background-repeat: no-repeat;
-        object-fit: contain;
-        height: 140vh;
-       
-}
-.proyect1{
-  
-   
-    filter: none;
-    border: 2px solid rgb(61, 106, 255);
-}
-.proyect2{
-  
-    filter: none;
-}
-.proyect3{
-    
-    filter: none;
-}
-.proyect4{
  
-    filter: none;
-}
-.proyect5{
- 
-    filter: none;
-}
-.proyect6{
- 
- 
-    filter: none;
-}
-
-
-}
-
-@media (max-width: 1024px){
-
-    .pr-container{
-        display: flex;
-        justify-content: space-around;
-        flex-direction:column;
-       background-position:bottom;
-       background-size: 119rem;
-        background-repeat: no-repeat;
-        object-fit: contain;
-        height: 140vh;
-}
-.proyect1{
-  
-   
-    filter: none;
-}
-.proyect2{
-  
-    filter: none;
-}
-.proyect3{
-    
-    filter: none;
-}
-.proyect4{
- 
-    filter: none;
-}
-.proyect5{
- 
-    filter: none;
-}
-.proyect6{
- 
- 
-    filter: none;
-}
-
-
-}
-
-
-@media (max-width: 768px){
-
-    .pr-container{
-        display: flex;
-        justify-content: space-around;
-        flex-direction:column;
-       background-position:bottom;
-       background-size: 119rem;
-        background-repeat: no-repeat;
-        object-fit: contain;
-        height: 140vh;
-}
-.card-container1{
-    width: 94.86%;
-    border: 2px solid rgb(33,248,246);
-}
-.proyect1{
-
-height: 215px;
-background-size: 146%;
-margin-left: 0%;
-border: none;
-}
-.proyect-text{
-color:white;
-background-color: rgba(0, 0, 0, 0.713);
-font-family: ubuntu;
-cursor: pointer;
-font-size: 30px;
-margin-top: 5rem; 
-height: 40%;
-width: 100%;
-background-size: 100%;
-
-
-}
-.proyect-text:hover {
-background-size: 100%;
-z-index: 1px;
-
-margin-top: 5rem;
-font-size: 30px;
-
-height: 6vh;
-font-family: ubuntu;
-}
-.container-text{
-justify-content: center;
-display: flex;
-width: 350px;
-
-}
-.code-button{
-top: 5rem;
-left: 0rem;
-}
-
-.a-pr1{
-   margin: 0px;
-   padding: 0px;
-   height: 14vh;
-}
 
 .a-pr11{
-   text-decoration: none;
-   
-}
-
-
-/*         -                   -                  -                     -              -               -              -       */
-.proyect2{
-  
-    filter: none;
-}
-.proyect3{
+    text-decoration: none;
     
-    filter: none;
-}
-.proyect4{
- 
-    filter: none;
-}
-.proyect5{
- 
-    filter: none;
-}
-.proyect6{
- 
- 
-    filter: none;
 }
 
 
-}
 
-@media (max-width: 700px){
 
+
+
+
+
+
+
+
+
+/* T/////////////////////////////////////////////////////////////////////////////////////////////////////////T  */
+/* T/////////////////////////////////////////////////////////////////////////////////////////////////////////T  */
+/* T/////////////////////////////////////////////////////////////////////////////////////////////////////////T  */
+/* T/////////////////////////////////////////////////////////////////////////////////////////////////////////T  */
+/* T/////////////////////////////////////////////////////////////////////////////////////////////////////////T  */
+/* T/////////////////////////////////////////////////////////////////////////////////////////////////////////T  */
+/* T/////////////////////////////////////////////////////////////////////////////////////////////////////////T  */
+/* T/////////////////////////////////////////////////////////////////////////////////////////////////////////T  */
+/* T/////////////////////////////////////////////////////////////////////////////////////////////////////////T  */
+/* T/////////////////////////////////////////////////////////////////////////////////////////////////////////T  */
+/* T/////////////////////////////////////////////////////////////////////////////////////////////////////////T  */
+/* T/////////////////////////////////////////////////////////////////////////////////////////////////////////T  */
+
+@media (max-width: 1440px){
     .pr-container{
-            display: flex;
-            justify-content: space-around;
-            flex-direction:column;
-           background-position:bottom;
-           background-size: 119rem;
-            background-repeat: no-repeat;
-            object-fit: contain;
-            height: 140vh;
-    }
-    .box-container{
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+        background-color: #8b2707;
+       background-position:bottom;
+       background-size:100%;
+        background-repeat: no-repeat;
+        object-fit: contain;
+        height: 200vh;
         align-items: center;
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .demo-button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        left: 85%;
-        top: 7.3rem;
-        text-decoration: none;
-    }
-    .code-button{
-        right: 90%;
-        text-decoration: none;
-    }
-    .proyect1{
-        width: 100%;
-        height: 350px;
-        background-size: 234%;
-        background-repeat: no-repeat;
-        object-fit: cover;
-        background-position: center;
-        margin-left: 2%;
-        filter: none;
-    }
-    .proyect2{
-        width: 100%;
-        height: 350px;
-        background-size: 234%;
-        background-repeat: no-repeat;
-        object-fit: cover;
-        background-position: center;
-        margin-left: 2%;
-        filter: none;
-    }
-    .proyect3{
-        width: 100%;
-        height: 350px;
-        background-size: 234%;
-        background-repeat: no-repeat;
-        object-fit: cover;
-        background-position: center;
-        margin-left: 2%;
-        filter: none;
-    }
-    .proyect4{
-        width: 100%;
-        height: 350px;
-        background-size: 234%;
-        background-repeat: no-repeat;
-        object-fit: cover;
-        background-position: center;
-        margin-left: 2%;
-        filter: none;
-    }
-    .proyect5{
-        width: 100%;
-        height: 347px;
-        background-size: 234%;
-        background-repeat: no-repeat;
-        object-fit: cover;
-        background-position: center;
-        margin-left: 2%;
-        filter: none;
-    }
-    .proyect6{
-        width: 100%;
-        height: 300px;
-        background-size: 234%;
-        background-repeat: no-repeat;
-        object-fit: cover;
-        background-position: center;
-        margin-left: 2%;
-        filter: none;
-    }
-    }
-@media (max-width: 600px){
-
+    }  
     .card-container1{
-        width: 94.86%;
+        width: 40%;
         border: 2px solid rgb(33,248,246);
-    }
- .proyect1{
- 
-    height: 215px;
-    background-size: 146%;
-    margin-left: 0%;
-    border: none;
-}
-.proyect-text{
-    color:white;
-    background-color: rgba(0, 0, 0, 0.713);
-    font-family: ubuntu;
-    cursor: pointer;
-    font-size: 30px;
-    margin-top: 5rem; 
-    height: 40%;
-    width: 100%;
-    background-size: 100%;
- 
- 
-    }
- .proyect-text:hover {
-    background-size: 100%;
-    z-index: 1px;
- 
-    margin-top: 5rem;
-    font-size: 30px;
-  
-    height: 6vh;
-    font-family: ubuntu;
-}
-.container-text{
-    justify-content: center;
-    display: flex;
-    width: 350px;
-
-}
-   .code-button{
-    top: 5rem;
-    left: 0rem;
-   }
- 
-   .a-pr1{
-       margin: 0px;
-       padding: 0px;
-       height: 14vh;
-   }
-   .a-pr11{
-       text-decoration: none;
-   }
-       /* ======================================= Responsive (425) ======================================================  */
-       .card-container2{
-        width: 95.2%;
-        border: 2px solid rgb(33,248,246);
-    }
-    .proyect2{
-        width: 100%;
-        height: 215px;
-        background-size: 150%;
-        background-repeat: no-repeat;
-        object-fit: cover;
-        background-position: center;
-        margin-left: 0%;
-        filter: none;
-    }
-    .proyect-text2{
-        text-align: center;
-        /* width: 104.5%; */
-        color:white;
-        background-color: rgba(0, 0, 0, 0.713);
-        font-size:30px;
-        font-family: ubuntu;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        cursor: pointer;
-          width: 105.5%;
-        }
-        .code-button2{
-            top: 3.8rem;
-            left: 0rem;
-           }
-    .container-text2{
-        justify-content: center;
-        display: flex;
-        width: 350px;
-    }
-           /* ======================================= Responsive (425) ======================================================  */
-    .proyect3{
-        width: 100%;
-        height: 350px;
-        background-size: 234%;
-        background-repeat: no-repeat;
-        object-fit: cover;
-        background-position: center;
-        margin-left: 2%;
-        filter: none;
-    }
-           /* ======================================= Responsive (425) ======================================================  */
-    .proyect4{
-        width: 100%;
-        height: 350px;
-        background-size: 234%;
-        background-repeat: no-repeat;
-        object-fit: cover;
-        background-position: center;
-        margin-left: 2%;
-        filter: none;
-    }
-           /* ======================================= Responsive (425) ======================================================  */
-           .card-container5{
-            width: 95.2%;
-            border: 2px solid rgb(33,248,246);
-        }
-        .proyect5{
-            width: 100%;
-            height: 215px;
-            background-size: 150%;
-            background-repeat: no-repeat;
-            object-fit: cover;
-            background-position: center;
-            margin-left: 0%;
-            filter: none;
-        }
-        .proyect-text5{
-            text-align: center;
-            color:white;
-            background-color: rgba(0, 0, 0, 0.713);
-            font-size:30px;
-            font-family: ubuntu;
-            align-items: center;
-            justify-content: center;
-            display: flex;
-            cursor: pointer;
-              width: 105.5%;
-            }
-        .container-text5{
-            justify-content: center;
-            display: flex;
-            width: 350px;
-        }
-           .code-button5{
-            top: 3.5rem;
-            left: 0rem;
-           }
-     
-    }
-
-@media (max-width: 500px){
-
-    .card-container1{
-        width: 94.86%;
-        border: 2px solid rgb(33,248,246);
-    }
- .proyect1{
- 
-    height: 215px;
-    background-size: 146%;
-    margin-left: 0%;
-    border: none;
-}
-.proyect-text{
-    color:white;
-    background-color: rgba(0, 0, 0, 0.713);
-    font-family: ubuntu;
-    cursor: pointer;
-    font-size: 30px;
-    margin-top: 5rem; 
-    height: 40%;
-    width: 100%;
-    background-size: 100%;
- 
- 
-    }
- .proyect-text:hover {
-    background-size: 100%;
-    z-index: 1px;
- 
-    margin-top: 5rem;
-    font-size: 30px;
-  
-    height: 6vh;
-    font-family: ubuntu;
-}
-.container-text{
-    justify-content: center;
-    display: flex;
-    width: 350px;
-
-}
-   .code-button{
-    top: 5rem;
-    left: 0rem;
-   }
- 
-   .a-pr1{
-       margin: 0px;
-       padding: 0px;
-       height: 14vh;
-   }
-   .a-pr11{
-       text-decoration: none;
-   }
-       /* ======================================= Responsive (425) ======================================================  */
-       .card-container2{
-        width: 95.2%;
-        border: 2px solid rgb(33,248,246);
-    }
-    .proyect2{
-        width: 100%;
-        height: 215px;
-        background-size: 150%;
-        background-repeat: no-repeat;
-        object-fit: cover;
-        background-position: center;
-        margin-left: 0%;
-        filter: none;
-    }
-    .proyect-text2{
-        text-align: center;
-        /* width: 104.5%; */
-        color:white;
-        background-color: rgba(0, 0, 0, 0.713);
-        font-size:30px;
-        font-family: ubuntu;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        cursor: pointer;
-          width: 105.5%;
-        }
-        .code-button2{
-            top: 3.8rem;
-            left: 0rem;
-           }
-    .container-text2{
-        justify-content: center;
-        display: flex;
-        width: 350px;
-    }
-           /* ======================================= Responsive (425) ======================================================  */
-    .proyect3{
-        width: 100%;
-        height: 350px;
-        background-size: 234%;
-        background-repeat: no-repeat;
-        object-fit: cover;
-        background-position: center;
-        margin-left: 2%;
-        filter: none;
-    }
-           /* ======================================= Responsive (425) ======================================================  */
-    .proyect4{
-        width: 100%;
-        height: 350px;
-        background-size: 234%;
-        background-repeat: no-repeat;
-        object-fit: cover;
-        background-position: center;
-        margin-left: 2%;
-        filter: none;
-    }
-           /* ======================================= Responsive (425) ======================================================  */
-           .card-container5{
-            width: 95.2%;
-            border: 2px solid rgb(33,248,246);
-        }
-        .proyect5{
-            width: 100%;
-            height: 215px;
-            background-size: 150%;
-            background-repeat: no-repeat;
-            object-fit: cover;
-            background-position: center;
-            margin-left: 0%;
-            filter: none;
-        }
-        .proyect-text5{
-            text-align: center;
-            color:white;
-            background-color: rgba(0, 0, 0, 0.713);
-            font-size:30px;
-            font-family: ubuntu;
-            align-items: center;
-            justify-content: center;
-            display: flex;
-            cursor: pointer;
-              width: 105.5%;
-            }
-        .container-text5{
-            justify-content: center;
-            display: flex;
-            width: 350px;
-        }
-           .code-button5{
-            top: 3.5rem;
-            left: 0rem;
-           }
-           /* ======================================= Responsive (425) ======================================================  */
-    .proyect6{
-        width: 100%;
-        height: 300px;
-        background-size: 234%;
-        background-repeat: no-repeat;
-        object-fit: cover;
-        background-position: center;
-        margin-left: 2%;
-        filter: none;
-    }
-        /* ======================================= Responsive (425) ======================================================  */
-    }
-@media (max-width: 375px){
-
-    .card-container1{
-        width: 94.86%;
-        border: 2px solid rgb(33,248,246);
-    }
- .proyect1{
- 
-    height: 215px;
-    background-size: 146%;
-    margin-left: 0%;
-    border: none;
-}
-.proyect-text{
-    color:white;
-    background-color: rgba(0, 0, 0, 0.713);
-    font-family: ubuntu;
-    cursor: pointer;
-    font-size: 30px;
-    margin-top: 5rem; 
-    height: 40%;
-    width: 100%;
-    background-size: 100%;
- 
- 
-    }
- .proyect-text:hover {
-    background-size: 100%;
-    z-index: 1px;
- 
-    margin-top: 5rem;
-    font-size: 30px;
-  
-    height: 6vh;
-    font-family: ubuntu;
-}
-.container-text{
-    justify-content: center;
-    display: flex;
-    width: 350px;
-
-}
-   .code-button{
-    top: 5rem;
-    left: 0rem;
-   }
- 
-   .a-pr1{
-       margin: 0px;
-       padding: 0px;
-       height: 14vh;
-   }
- 
-   .a-pr11{
-       text-decoration: none;
        
-   }
-    /* ======================================= Responsive (1) ======================================================  */
-    .card-container2{
-        width: 95.2%;
-        border: 2px solid rgb(33,248,246);
     }
-    .proyect2{
-        width: 100%;
-        height: 215px;
-        background-size: 150%;
-        background-repeat: no-repeat;
-        object-fit: cover;
-        background-position: center;
-        margin-left: 0%;
-        filter: none;
-    }
-    .proyect-text2{
-        text-align: center;
-        /* width: 104.5%; */
-        color:white;
-        background-color: rgba(0, 0, 0, 0.713);
-        font-size:30px;
-        font-family: ubuntu;
+    .box-container {
+        display: flex;
+        height: 130vh;
+        align-content: center;
+        justify-content: center;
         align-items: center;
-        justify-content: center;
-        display: flex;
-        cursor: pointer;
-          width: 105.5%;
-        }
-        .code-button2{
-            top: 3.8rem;
-            left: 0rem;
-           }
-    .container-text2{
-        justify-content: center;
-        display: flex;
-        width: 350px;
-    }
-     /* ======================================= Responsive (2) ======================================================  */
-    .proyect3{
+        flex-wrap: wrap;
         width: 100%;
-        height: 350px;
-        background-size: 234%;
-        background-repeat: no-repeat;
-        object-fit: cover;
-        background-position: center;
-        margin-left: 2%;
-        filter: none;
-  
-    }
-     /* ======================================= Responsive (3) ======================================================  */
-    .proyect4{
-        width: 100%;
-        height: 350px;
-        background-size: 234%;
-        background-repeat: no-repeat;
-        object-fit: cover;
-        background-position: center;
-        margin-left: 2%;
-        filter: none;
-    
-    }
-     /* ======================================= Responsive (4) ======================================================  */
-     .card-container5{
-        width: 95.2%;
-        border: 2px solid rgb(33,248,246);
-    }
-    .proyect5{
-        width: 100%;
-        height: 215px;
-        background-size: 150%;
-        background-repeat: no-repeat;
-        object-fit: cover;
-        background-position: center;
-        margin-left: 0%;
-        filter: none;
-    }
-    .proyect-text5{
-        text-align: center;
-        color:white;
-        background-color: rgba(0, 0, 0, 0.713);
-        font-size:30px;
-        font-family: ubuntu;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        cursor: pointer;
-          width: 105.5%;
-        }
-    .container-text5{
-        justify-content: center;
-        display: flex;
-        width: 350px;
-    }
-       .code-button5{
-        top: 3.5rem;
-        left: 0rem;
-       }
-     /* ======================================= Responsive (5) ======================================================  */
-    .proyect6{
-        width: 100%;
-        height: 300px;
-        background-size: 234%;
-        background-repeat: no-repeat;
-        object-fit: cover;
-        background-position: center;
-        margin-left: 2%;
-        filter: none;
-    
-    }
-    }
- /* ======================================= Responsive (6) ======================================================  */
-
-@media (max-width: 320px){
-
-    .card-container1{
-        width: 94.86%;
-        border: 2px solid rgb(33,248,246);
+        gap: 20px;
+        margin: 20px;
     }
  .proyect1{
  
-    height: 215px;
+    height: 59%;
     background-size: 146%;
     margin-left: 0%;
     border: none;
@@ -1351,7 +612,7 @@ left: 0rem;
  
  
     }
- .proyect-text:hover {
+ /* .proyect-text:hover {
     background-size: 100%;
     z-index: 1px;
  
@@ -1360,7 +621,7 @@ left: 0rem;
   
     height: 6vh;
     font-family: ubuntu;
-}
+} */
 .container-text{
     justify-content: center;
     display: flex;
@@ -1368,7 +629,222 @@ left: 0rem;
 
 }
    .code-button{
-    top: 5rem;
+    top: 410%;
+    left: 0rem;
+   }
+ 
+   .a-pr1{
+       margin: 0px;
+       padding: 0px;
+       height: 14vh;
+   }
+ 
+   .a-pr11{
+       text-decoration: none;
+       
+   }
+
+/* ======================================= Responsive ======================================================  */
+.card-container2{
+    width: 40%;
+    border: 2px solid rgb(33,248,246);
+   
+}
+.proyect2{
+    width: 100%;
+    height: 215px;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    margin-left: 0%;
+    filter: none;
+}
+.proyect-text2{
+    text-align: center;
+    /* width: 104.5%; */
+    color:white;
+    background-color: rgba(0, 0, 0, 0.713);
+    font-size:30px;
+    font-family: ubuntu;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+      width: 105.5%;
+    }
+    .code-button2{
+        top: 6.8rem;
+        left: 0rem;
+       }
+.container-text2{
+    justify-content: center;
+    display: flex;
+    width: 300px;
+}
+/* ======================================= Responsive ======================================================  */
+.proyect3{
+    width: 100%;
+    height: 350px;
+    background-size: 234%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    margin-left: 2%;
+    filter: none;
+    border: 2px solid rgb(33,248,246);
+}
+/* ======================================= Responsive ======================================================  */
+.proyect4{
+    width: 100%;
+    height: 350px;
+    background-size: 234%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    margin-left: 2%;
+    filter: none;
+    border: 9px solid rgb(33,248,246);
+}
+/* ======================================= Responsive ======================================================  */
+.card-container5{
+    width: 40%;
+    border: 2px solid rgb(33,248,246);
+   
+}
+.proyect5{
+    width: 100%;
+    height: 215px;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    margin-left: 0%;
+    filter: none;
+    
+   
+}
+.proyect5:hover{
+    
+}
+.proyect-text5{
+    text-align: center;
+    /* width: 104.5%; */
+    color:white;
+    background-color: rgba(0, 0, 0, 0.713);
+    font-size:30px;
+    font-family: ubuntu;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+      width: 105.5%;
+    }
+.container-text5{
+    justify-content: center;
+    display: flex;
+    width: 300px;
+
+}
+   .code-button5{
+    top: 6.5rem;
+    left: 0rem;
+   }
+/* ======================================= Responsive ======================================================  */
+.proyect6{
+    width: 100%;
+    height: 300px;
+    background-size: 234%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    margin-left: 2%;
+    filter: none;
+    border: 9px solid rgb(33,248,246);
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+/* T/////////////////////////////////////////////////////////////////////////////////////////////////////////T  */
+
+
+@media (max-width: 768px){
+    .pr-container{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+        background-color: #8b2707;
+       background-position:bottom;
+       background-size: 219rem;
+        background-repeat: no-repeat;
+        object-fit: contain;
+        height: 200vh;
+        align-items: center;
+    }  
+    .card-container1{
+        width: 94.86%;
+        border: 2px solid rgb(33,248,246);
+    }
+    .box-container {
+        display: flex;
+        height: 120vh;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 20px;
+        margin: 20px;
+    }
+ .proyect1{
+ 
+    height: 59%;
+    background-size: 146%;
+    margin-left: 0%;
+    border: none;
+}
+.proyect-text{
+    color:white;
+    background-color: rgba(0, 0, 0, 0.713);
+    font-family: ubuntu;
+    cursor: pointer;
+    font-size: 30px;
+    margin-top: 5rem; 
+    height: 40%;
+    width: 100%;
+    background-size: 100%;
+ 
+ 
+    }
+ /* .proyect-text:hover {
+    background-size: 100%;
+    z-index: 1px;
+ 
+    margin-top: 5rem;
+    font-size: 30px;
+  
+    height: 6vh;
+    font-family: ubuntu;
+} */
+.container-text{
+    justify-content: center;
+    display: flex;
+    width: 300px;
+
+}
+   .code-button{
+    top: 410%;
     left: 0rem;
    }
  
@@ -1412,7 +888,7 @@ left: 0rem;
       width: 105.5%;
     }
     .code-button2{
-        top: 3.8rem;
+        top: 6.8rem;
         left: 0rem;
        }
 .container-text2{
@@ -1484,7 +960,7 @@ left: 0rem;
 
 }
    .code-button5{
-    top: 3.5rem;
+    top: 6.5rem;
     left: 0rem;
    }
 /* ======================================= Responsive ======================================================  */
@@ -1500,16 +976,7 @@ left: 0rem;
     border: 9px solid rgb(33,248,246);
 }
 }
-/* ======================================= Responsive ======================================================  */
-/* ======================================= Responsive ======================================================  */
-/* ======================================= Responsive ======================================================  */
-/* ======================================= Responsive ======================================================  */
-/* ======================================= Responsive ======================================================  */
-/* ======================================= Responsive ======================================================  */
-/* ======================================= Responsive ======================================================  */
-/* ======================================= Responsive ======================================================  */
-/* ======================================= Responsive ======================================================  */
-/* ======================================= Responsive ======================================================  */
+ 
 
 
 
@@ -1524,8 +991,8 @@ left: 0rem;
 
 
 
-
-
+/* @media (max-width: 768px){
+@media (max-width: 768px){ */
 
 
 

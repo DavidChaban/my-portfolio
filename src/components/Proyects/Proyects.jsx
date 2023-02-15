@@ -4,13 +4,13 @@ import "../Proyects/Proyects.css";
 
 const Proyects = () => {
   return (
-    <div className="pr01container">
-      <div className="pr-container">
+    <div className="pr01container ">
+      <div className="pr-container ">
         {/*  CARD 1  */}
-        <div className="box-container">
-          <div className="card-container1">
+        <div className="box-container ">
+          <div className="card-container1 ">
             <h2 className="project-h2">Encrypter</h2>
-            <div className="proyect1">
+            <div className="proyect1 ">
               <a
                 className="a-pr1"
                 href="https://challenger-one-david-chaban.vercel.app/"
