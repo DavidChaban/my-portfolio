@@ -20,7 +20,7 @@ const Contact = () => {
   return (
     <>
 	<div className='container-AllContact'>
-    <div>Contac Me!</div>
+    <div className='contactme'>Contac Me!</div>
   <Formik
 				initialValues={{
 					nombre: '',
