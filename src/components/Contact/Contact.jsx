@@ -1,7 +1,8 @@
 import React, {useState, useRef} from 'react';
-import { Formik, Form, Field, ErrorMessage } from 'formik';
+// import { Formik, Form, Field, ErrorMessage } from 'formik';
 import "../Contact/Contact.css";
-import emailjs from 'emailjs-com'
+import emailjs from '@emailjs/browser';
+ 
 const Contact = () => {
   const form = useRef();
   const [formularioEnviado, cambiarFormularioEnviado] = useState(false);
@@ -9,84 +10,30 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_fbrjyic','template_3l8k2qd',e.target,'user_Jz0s4jRmxXuNIKG0os').then(res => {
-        alert('Se ha enviado correctamente');
-          console.log(res.text);
- 
-       
-      });
-  };
-
+    emailjs.sendForm('service_fbrjyic','template_f4r7lgg',e.target,'Jz0s4jRmxXuNIKG0o')
+	.then(res =>console.log(res))
+		.catch(error => console.log(error))
+            };
   return (
-    <>
-	<div className='container-AllContact'>
-    <div className='contactme'>Contac Me!</div>
-  <Formik
-				initialValues={{
-					nombre: '',
-					correo: ''
-				}}
-				validate={(valores) => {
-					let errores = {};
+<div className='div-form'>
+      <h1 className='title-form'>Contact Us</h1>
+      <form className='form-mail' onSubmit={sendEmail}>
+        <label>Name</label>
+        <input type="text" name='user_name' />
+        <hr />
 
-					// Validacion nombre
-					if(!valores.nombre){
-						errores.nombre = 'Por favor ingresa un nombre'
-					} else if(!/^[a-zA-ZÀ-ÿ\s]{1,40}$/.test(valores.nombre)){
-						errores.nombre = 'El nombre solo puede contener letras y espacios'
-					}
+        <label>Email</label>
+        <input type="email" name='user_email' />
+        <hr />
 
-					// Validacion correo
-					if(!valores.correo){
-						errores.correo = 'Por favor ingresa un correo electronico'
-					} else if(!/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(valores.correo)){
-						errores.correo = 'El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.'
-					}
-
-					return errores;
-				}}
-				onSubmit={(valores, {resetForm}) => {
-					resetForm();
-					console.log('Formulario enviado');
-					cambiarFormularioEnviado(true);
-					setTimeout(() => cambiarFormularioEnviado(false), 5000);
-				}}
->
-				{( {errors} ) => (
-					<Form className="formulario" ref={form} onSubmit={sendEmail}>
-						<div>
-							<label htmlFor="name">Name</label>
-							<Field
-								type="text" 
-								id="name" 
-								name="name" 
-								placeholder="Join your Name"
-							/>
-							<ErrorMessage name="nombre" component={() => (<div className="error">{errors.nombre}</div>)} />
-						</div>
-						<div>
-							<label htmlFor="email">Email</label>
-							<Field
-								type="text" 
-								id="email" 
-								name="email" 
-								placeholder="email@email.com" 
-							/>
-							<ErrorMessage name="correo" component={() => (<div className="error">{errors.correo}</div>)} />
-						</div>
-						<div>
-							<Field name="mensaje" as="textarea" placeholder="Mensaje" />
-						</div>
-
-						<button type="submit" className='button-send'>Send</button>
-						{formularioEnviado && <p className="exito">Formulario enviado con exito!</p>}
-					</Form>
-				)}
-			</Formik>
-			</div>
-    </>
-  );
-};
+        <label>Message</label>
+        <textarea name="user_message" id="" cols="30" rows="10"></textarea>
+        <hr />
+        <button>Send</button>
+      </form>
+    </div>
+  )
+  }
 export default Contact;
 
 
