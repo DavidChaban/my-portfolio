@@ -123,7 +123,7 @@ const Section = () => {
         >
           {" "}
           <button className="a-button">
-            Descargar CV 
+            Download CV 
             <span className="overlay"></span>
           </button>
         </a>
