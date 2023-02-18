@@ -5,6 +5,7 @@ import "../Proyects/Proyects.css";
 const Proyects = () => {
   return (
     <div className="pr01container ">
+    <h2 className="title-myproyects">My Proyects </h2>
       <div className="pr-container ">
         {/*  CARD 1  */}
         <div className="box-container ">
@@ -30,7 +31,7 @@ const Proyects = () => {
               >
                 <button className="code-button">
                   Code
-                  <img src="/github (1).png" className="githubpr"></img>
+                  <img src="/github (1).png" className="githubpr" alt="imagendegithub"></img>
                 </button>
               </a>
             </div>
@@ -59,7 +60,7 @@ const Proyects = () => {
               >
                 <button className="code-button2">
                   Code
-                  <img src="/github (1).png" className="githubpr"></img>
+                  <img src="/github (1).png" className="githubpr" alt="imagendeGithub"></img>
                 </button>{" "}
               </a>
             </div>
@@ -89,7 +90,7 @@ const Proyects = () => {
               >
                 <button className="code-button5">
                   Code
-                  <img src="/github (1).png" className="githubpr"></img>
+                  <img src="/github (1).png" className="githubpr" alt="imagendegithub"></img>
                 </button>
               </a>
             </div>
@@ -100,12 +101,6 @@ const Proyects = () => {
   );
 };
 
-{
-  /* <div className='proyect6'>Todo List</div> */
-}
-{
-  /* <div className='proyect3'>Amazing Events</div>
 
-<div className='proyect4'>My Tinerary</div> */
-}
+
 export default Proyects;
