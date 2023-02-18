@@ -2,10 +2,7 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;   
-  
 }
-
-
 .nav-container{
     width: 100%;
     color: azure;
@@ -15,16 +12,12 @@
     height: 15vh;
     align-content: flex-start;
     font-family: 'Merienda', cursive;
-  /* background-color: #081e5c81; */
-  /* opacity: 2; */
   padding: 30px;
   position: fixed;
   z-index: 1;
   backdrop-filter: blur(10px);
 }
-
 .burguer-img{
-   
     margin-top: 4px;
     border-radius: 6px;
  background-color: rgba(240, 255, 255, 0.6);
@@ -32,12 +25,8 @@
     width: 52px;
     cursor: pointer;
     display: none;
-
- 
 }
 .burguer-img:hover{
-
-
 }
 .burguer-awesome{
     display: flex;
@@ -46,19 +35,15 @@
     margin-right: 2.3rem;
 }
 .x-awesome{
-    /* margin-bottom: 62px; */
     margin: 0px;
 }
-
 .links-header{
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 37px;
     position: relative;
-
 }
-
 .burguer-container{
     display: flex;
     flex-direction: column;
@@ -80,17 +65,10 @@
     padding: 5px 25px 27px;
     position: fixed;
     left: 9.5rem;
-
-
-   
 }
 .burguer-container:hover{
     color: aqua ;
-
-
-
 }
-
 .btn-burguer{
     padding: 5px;
     border-radius: 10px;
@@ -103,15 +81,12 @@
     border: none;
     border: 1px solid black;
     position: absolute;
-    
 }
-
 .nav-0{
     display: flex;
     gap: 50px;
     margin-right:2rem;
     z-index: 2;
-    
 }
 .nav-1{
     padding: 8px 8px;
@@ -123,8 +98,6 @@
     cursor: pointer;
     font-family: 'Ubuntu';
     gap: 30px;
-    
-    
 }
 .nav-2{
     padding: 8px 8px;
@@ -135,9 +108,6 @@
     font-size: 15px;
     cursor: pointer;
     font-family: 'Ubuntu';
-    
-    
-
 }
 .nav-5{
     padding: 8px 8px;
@@ -150,7 +120,6 @@
     font-family: 'Ubuntu';
     position: absolute;
     margin-top: -20px;    
-    
 }
 .nav-1:hover{
     border-radius: 8px;
@@ -158,7 +127,6 @@
     transition: border 0.3s ease-in-out 0s, box-shadow 0.3s ease-in-out 0s;
     box-shadow: rgb(7, 216, 248) 200px 0px 0px 0px inset;
     cursor: pointer;
-
   }
 .nav-2:hover{
     border-radius: 8px;
@@ -172,35 +140,19 @@
     transition: border 0.3s ease-in-out 0s, box-shadow 0.3s ease-in-out 0s;
     box-shadow: rgb(7, 216, 248) 200px 0px 0px 0px inset;
     cursor: pointer;
-   
   }
-
-  .nav-responsive{
-    /* background-color: #1CB698; */
-    /* color:#fff; */
-    /* padding: 5px 10px; */
-    /* border-radius: 5px; */
-    /* cursor: pointer;
-    display: none; */
-    
-
-}
 .a1{
     color: azure;
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
 }
-
 .a1:hover{
     color: rgb(58, 223, 252);
     box-shadow: rgb(16, 219, 246) 200px 0px 0px 0px inset;
     padding: 5px;
     border-radius: 6px;
-
-
 }
-
 @media (max-width: 2560px){
     .burguer-awesome{
         display: none;
@@ -209,15 +161,11 @@
         @media (max-width: 2000px){
             .burguer-awesome{
                 display: none;
-        
             }
                            }
-               
-                
 @media (max-width: 1440px){
     .burguer-awesome{
         display: none;
-
     }
             }
         @media (max-width: 1270px){
@@ -225,12 +173,7 @@
                 display: none;
                     }
                         }
-        
-
-
-
 @media (max-width: 1024px){
- 
     .burguer-awesome{
         display: none;
     }
@@ -238,7 +181,6 @@
 @media (max-width: 768px){
     .burguer-awesome{
         display: none;
-
     }
     .nav-5{
         font-size: 14px;
@@ -248,7 +190,6 @@
     @media (max-width: 750px){
         .btn-burguer{
             display: none;
-            
          }
          nav{
              width: 100%;
@@ -266,18 +207,14 @@
          }
          .hide{
              display: flex;
-         
          }
          .burguer-img{
              display: flex;
              margin-top: 2px;
-             
          }
          .burguer-container {
              left: 46.3%;
              gap: 3.7rem;
-          
-           
          }
          .burguer-awesome{
              display: flex;
@@ -285,8 +222,6 @@
              cursor: pointer;
              margin-right: 22.4%;
          }
-       
-     
          a:hover {
              color: white;
              text-decoration: none;
@@ -298,13 +233,10 @@
              font-size: 16px ;
              position: absolute;
              margin-top: -20px;
-     
          }
          .nav-0{
              display: flex;
              gap: 50px;
-             /* margin-right: 2rem; */
-           
              flex-direction: column;
              align-content: center;
              justify-content: center;
@@ -319,13 +251,11 @@
              height: 15vh;
              font-family: 'Merienda', cursive;
              background-color: #081e5c81;
-             /* padding: 30px; */
          }
                  }
     @media (max-width: 715px){
         .btn-burguer{
             display: none;
-            
          }
          nav{
              width: 100%;
@@ -374,8 +304,6 @@
          .nav-0{
              display: flex;
              gap: 50px;
-             /* margin-right: 2rem; */
-           
              flex-direction: column;
              align-content: center;
              justify-content: center;
@@ -390,13 +318,11 @@
              height: 15vh;
              font-family: 'Merienda', cursive;
              background-color: #081e5c81;
-             /* padding: 30px; */
          }
                  }
         @media (max-width: 650px) {
             .btn-burguer{
                display: none;
-               
             }
             nav{
                 width: 100%;
@@ -429,7 +355,6 @@
                 cursor: pointer;
                 margin-right: 22.4%;
             }
-            
             a:hover {
                 color: white;
                 text-decoration: none;
@@ -445,7 +370,6 @@
             .nav-0{
                 display: flex;
                 gap: 50px;
-                /* margin-right: 2rem; */
                 flex-direction: column;
                 align-content: center;
                 justify-content: center;
@@ -460,17 +384,12 @@
                 height: 15vh;
                 font-family: 'Merienda', cursive;
                 background-color: #081e5c81;
-                /* padding: 30px; */
             }
-                      
         }
 
 @media (max-width: 600px) {
- 
-    
     .btn-burguer{
        display: none;
-       
     }
     nav{
         width: 100%;
@@ -488,18 +407,14 @@
     }
     .hide{
         display: flex;
-    
     }
     .burguer-img{
         display: flex;
         margin-top: 2px;
-        
     }
     .burguer-container {
         left: 46.3%;
         gap: 3.7rem;
-     
-      
     }
     .burguer-awesome{
         display: flex;
@@ -518,13 +433,10 @@
         font-size: 16px ;
         position: absolute;
         margin-top: -20px;
-
     }
     .nav-0{
         display: flex;
         gap: 50px;
-        /* margin-right: 2rem; */
-      
         flex-direction: column;
         align-content: center;
         justify-content: center;
@@ -539,16 +451,11 @@
         height: 15vh;
         font-family: 'Merienda', cursive;
         background-color: #081e5c81;
-        /* padding: 30px; */
     }
-   
 }
 @media (max-width: 578px) {
- 
-    
     .btn-burguer{
        display: none;
-       
     }
     nav{
         width: 100%;
@@ -566,18 +473,14 @@
     }
     .hide{
         display: flex;
-    
     }
     .burguer-img{
         display: flex;
         margin-top: 2px;
-        
     }
     .burguer-container {
         left: 46.3%;
         gap: 3.7rem;
-     
-      
     }
     .burguer-awesome{
         display: flex;
@@ -585,9 +488,6 @@
         cursor: pointer;
         margin-right: 22.4%;
     }
- 
-  
-
     a:hover {
         color: white;
         text-decoration: none;
@@ -599,13 +499,10 @@
         font-size: 16px ;
         position: absolute;
         margin-top: -20px;
-
     }
     .nav-0{
         display: flex;
         gap: 50px;
-        /* margin-right: 2rem; */
-      
         flex-direction: column;
         align-content: center;
         justify-content: center;
@@ -620,11 +517,9 @@
         height: 15vh;
         font-family: 'Merienda', cursive;
         background-color: #081e5c81;
-        /* padding: 30px; */
     }
     }
 @media (max-width: 500px){
-   
     .nav-container{
         background-color: #081e5c81;
     }
@@ -634,25 +529,18 @@
         cursor: pointer;
         margin-right: 22.4%;
     }
- 
     .x-awesome{
-        /* margin-bottom: 62px; */
         margin: 0px;
-        /* margin-left: 4.7rem; */
     }
-   
     .burguer-container {
         left: 45%;
         gap: 3.7rem;
-     
     }
     footer{
         flex-direction: column;
     }
     }
-
 @media (max-width: 425px){
-    
     .nav-container{
         background-color: #081e5c81;
     }
@@ -662,13 +550,9 @@
         cursor: pointer;
         margin-right: 21.1%;
     }
- 
     .x-awesome{
-        /* margin-bottom: 62px; */
         margin: 0px;
-        /* margin-left: 4.7rem; */
     }
-    
     .burguer-container {
         left: 45%;
         gap: 3.7rem;
@@ -676,13 +560,8 @@
     footer{
         flex-direction: column;
     }
-    
-
- 
-
 }
 @media (max-width: 375px){
-   
     .nav-container{
         background-color: #081e5c81;
     }
@@ -692,26 +571,17 @@
         cursor: pointer;
         margin-right: 16.3%;
     }
- 
     .x-awesome{
-        /* margin-bottom: 62px; */
         margin: 0px;
     }
          .burguer-container {
         left: 47.6%;
         gap: 3.7rem;
     }
-   
-
     }
-
-
-
 @media (max-width: 320px){
-    
     .nav-container{
         background-color: #081e5c81;
- 
     }
     .burguer-awesome{
         display: flex;
@@ -719,13 +589,10 @@
     cursor: pointer;
     margin-right: 11%;
     }
-     
-    
     .burguer-container {
         left: 49.9%;
         gap: 3.7rem;
     }
-
     }
 
 
