@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 section {
     display: flex;
     flex-direction: column;
@@ -273,28 +274,17 @@ span1{
         background-repeat: repeat;
         object-fit: contain;
         height: 100vh;
-
-
 }
-
 }
-
 @media (max-width: 2000px){
     .sobremi button {
-       
         z-index: 0;
     }
     .sobremi{
         height: 140vh;
-
        }
-
 }
-
-
-
 @media (max-width: 1440px){
-
     .sobremi button {
         left: 43%;
         top: 0.5rem;
@@ -608,7 +598,6 @@ span1{
     width: 71%;
     height: 27vh;
     left: 3rem;
-    /* margin-top: 3.8rem; */
     top: 95rem;
   }
   .sobremi .fila .col .contenedor-intereses {
@@ -637,7 +626,7 @@ span1{
     font-size: 32px;
     position: absolute;
     right: 6rem;
-    /* bottom: -123px; */
+    
 }
 .sobremi button{
         left: 4rem;
@@ -650,6 +639,7 @@ span1{
     background-size: 360%;
     width: 100%;
 }
+
 }
 
 
