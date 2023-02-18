@@ -92,52 +92,38 @@ color: red;
     justify-content: center;
     flex-direction: column;
 }
- 
 /* 11///////////////////////////////////////////////////////////////////////////////////////////////////////// 22*/
 /*  */
 @media (max-width: 600px){
     footer{
         flex-direction: column;
-    
     }
-
 }
 @media (max-width: 375px){
-
     .redes-footer{
         flex:auto;
         gap: 30px;
         margin: 2rem;
-       
-    
     }
     .redes-footer:hover{
         background-size: 4px;
     }
     footer{
         flex-direction: column;
-    
     }
-
     }
-
 @media (max-width: 320px){
-
 .redes-footer{
     flex:auto;
     gap: 16px;
     margin: 2rem;
-   
-
 }
 .redes-footer:hover{
     background-size: 4px;
 }
 footer{
     flex-direction: column;
-
 }
- 
 }
 
 
