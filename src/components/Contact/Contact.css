@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
-
 * {
 	padding: 0px;
 	margin: 0;
@@ -8,10 +7,9 @@
 }
 .div-form{
 	background-image: url(/public/space.png)
-	 
 }
 .cp{
-	background-color: black;
+	background-color: #00000063;
     color: azure;
     width: 25%;
     display: flex;
@@ -23,10 +21,8 @@
     border-radius: 30px;
     padding: 37px 0px 68px;
 }
- 
 .btnf1  {
 	display: block;
-	/* background: #0085FF; */
 	font-weight: 600;
 	font-family: 'Open Sans', sans-serif;
 	border: none;
@@ -38,18 +34,18 @@
 	font-size: 16px;
 	transition: .3s ease all;
 	cursor: pointer;
-	background: rgb(61, 106, 255);
+	background: rgb(61 106 255 / 66%);
 	border: 1px solid rgb(61, 106, 255);
 }
  .btnf1:hover{
 	box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
-	
+	background: rgb(61, 106, 255);
+	border: 1px solid #00000063;
+	color: cyan ;
  }
- 
 .form-mail{
 	display: flex;
     flex-direction: column;
-    /* align-content: center; */
     justify-content: center;
     align-items: center;
 	height:100vh;
@@ -65,49 +61,46 @@
 	color:azure;
 	font-weight:bolder;
 	top:5rem;
-	 
+	font-family: ubuntu;
+}
+.title-form:hover{
+	color:blue;
 }
 #user_name{
-	background-color:bisque;
+	background-color:#ffe4c48f;
 	border-radius:10px;
 	border-radius: 5px;
     width: 65%;
     padding: 8px;
+	color:cyan;
 }
 #user_email{
-	background-color:bisque;
+	background-color:#ffe4c48f;
 	border-radius: 5px;
 	width: 65%;
     padding: 8px;
+	color:cyan;
 }
 #user_message{
-	background-color:bisque;
+	background-color:#ffe4c48f;
 	border-radius: 5px;
     padding: 8px;
 	height:20vh;
 	width: 65%;
-	
+	color:cyan;
 }
-
-
 @media (max-width: 1440px){
 	.cp{  width: 40%;
 	}
   }
-
-
-
 @media (max-width: 1000px){
 	.cp{  width: 54%;
 	}
   }
-
 @media (max-width: 768px){
 	.cp{  width: 54%;
 	}
   }
-
-
 @media (max-width: 425px){
   .cp{  width: 94%;
   }
