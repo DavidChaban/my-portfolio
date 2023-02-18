@@ -7,7 +7,6 @@ const Section = () => {
       <div className="contenido-seccion">
         <h2 className="about-title">About Me</h2>
         <p>
-    
           <span>Hi, i´m David Chaban.</span> Full Stack Mern developer,
           oriented in Front End. I know other Backend areas like (Node.js and
           Python) and Mobile (React Native). I am passionate about creating
@@ -24,7 +23,6 @@ const Section = () => {
             <h3 className="skills-title">Skills</h3>
             <div
               className="contenedor-intereses"
-              
             >
               <div className="interes">
               <div container-logotext>
@@ -32,9 +30,7 @@ const Section = () => {
                   className="img1"
                   src="/icons8-html-5-50.png"
                   alt="html-img"
-                   
                 />
-
                 <span className="s1">
                   HTML5
                 </span>
@@ -45,23 +41,14 @@ const Section = () => {
                      className="img2"
                   src="/icons8-css3-50.png"
                   alt="html-img"
-                  
                 />
                 <span className="s1">CSS3</span>
               </div>
-
-               
-
-
-
-
-
               <div className="interes">
                 <img
                  className="img3"
                   src="/icons8-logotipo-de-javascript-50.png"
                   alt="html-img"
-                  
                 />
                 <span className="s1">Javascript</span>
               </div>
