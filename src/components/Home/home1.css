@@ -3,37 +3,40 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
-  
 }
-
-
 .flip-card {
     background-color: transparent;
     height: 680px;
     width: 25.5%;
     padding: 20px;
-    /* max-width: 350px; */
     text-align: center;
     border-radius: 40px;
-    /* position: absolute; */
-    /* margin-top: 2rem; */
-    /* max-width: 350px; */
     text-align: center;
-    /* position: absolute; */
     margin-top: 2rem;
     perspective: 1000px;
-    font-family: sans-serif;
+    font-family: ubuntu;
     font-size: 20px;
-
   }
-  
   .title {
     font-size: 2.5em;
     font-weight: 900;
     text-align: center;
     margin: 0;
+    font-family: ubuntu;
   }
-  
+  .title2{
+    font-family: ubuntu;
+    font-weight:bolder;
+  }
+  .tittle-home{
+    font-weight:bolder;
+    font-family: ubuntu;
+  }
+  .slogan-home{
+    font-weight:bolder;
+    font-family: ubuntu;
+    color:azure;
+  }
   .flip-card-inner {
     position: relative;
     width: 100%;
@@ -61,27 +64,26 @@
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     border-radius: 1rem;
+    font-family: ubuntu;
   }
-  
   .flip-card-front {
     background-image: url(/public/q1.jpg);
     color: azure;
     background-size: 33rem;
    object-fit: cover;
     background-position:unset;
+    font-family: ubuntu;
+    
   }
   
   .flip-card-back {
-   /* background: linear-gradient(90deg, rgba(45,51,225,1) 0%, rgba(240,45,88,1) 50%, rgba(117,26,67,1) 100%); */
    background: linear-gradient(45deg, #6A53A1ff, #009AC4ff, #A61D68ff, #1A0132ff, #002362ff);;
    transform: rotateY(180deg);
     color: azure;
     object-fit: cover;
+    font-family: ubuntu;
+    
   }
- 
-  
-
-
 .home-container {
     display: flex;
     flex-direction: column;
@@ -89,19 +91,11 @@
     align-items: center;
     width: 100%;
     height: 100vh;
-    /* background-image: url(/public/Moody\ Sunset.jpeg);
-     */
-    /* background-color: #134ef0; */
     background-image: url(/public/v1.jpg);
     background-position: center;
     object-fit: cover;
     background-size: 117rem;
-    /* background-image: url("https://zos.alipayobjects.com/rmsportal/gGlUMYGEIvjDOOw.jpg");
-    background-position: center; */
-
 }
-
-
 .home1 {
     width: 93%;
     height: 106vh;
@@ -110,46 +104,22 @@
     background-size: cover;
     display: flex;
     justify-content: center;
-    /* align-items: center;
-    flex-direction: column; */
     gap: 30px;
-    
-    
-
-
-    
 }
-
-
-
-/* .home2:hover{
-    background-image: url(/public/wh1.png);
-
-
-} */
-
-
-
-
 .img-container {
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url("/public/d1.jpg");
-
- 
     width: 80%;
     height: 30vh;
     background-repeat: no-repeat;
     background-size: 254px;
     margin: 20px;
     border-radius: 220px;
- 
     border: 14px solid #1CB698;
     object-fit: cover;
     margin-top: 70px;
-  
-  
 }
 .fa-brands{
     color: #fff;
@@ -168,9 +138,6 @@
     box-shadow: rgb(16, 219, 246) 100px 0px 0px 0px inset;
     color: black;
     font-size: 35px;
-  
-
-    
 }
 .fa-solid{
     color: #fff;
@@ -189,11 +156,7 @@
     box-shadow: rgb(16, 219, 246) 100px 0px 0px 0px inset;
     color: black;
     font-size: 35px;
-  
-
-    
 }
-
 .nav-responsive{
     background-color: #1CB698;
     color:#fff;
@@ -201,9 +164,6 @@
     border-radius: 5px;
     cursor: pointer;
     display: none;
-
-
-
 }
 .linkpdf{
     text-decoration: none;
@@ -220,293 +180,8 @@
     border: 2px solid  rgb(1, 17, 14);
     text-shadow:8px 8px 30px rgb(17, 252, 252),
     -2px 2px 20px rgb(7, 249, 152);
-    /* text-shadow:8px 8px 30px rgb(165, 36, 36),
-    -2px 2px 20px rgb(165, 36, 36); */
-
 }
-
-
-
-
-/* 
-@media (max-width: 768px){
-  
-    .home2{
-        width: 50%;
-    
-    }
-    .img-container {
-        width: 255px;
-        background-size: 229px;
-    
-    }
-  
-    
-    }
-
-    @media (max-width: 475px){
-        .home2{
-            width: 99%;
-        
-        }
-        .img-container {
-            width: 255px;
-            background-size: 229px;
-        
-        }
-        .home2{
-            width: 73%;
-           
-    
-        }
-        
-        
-        } */
-
-
-
-
-
-/* ================================================================ */
-/* ================================================================ */
-/* ================================================================ */
-/* ================================================================ */
-/* ================================================================ */
-/* ================================================================ */
-
-
-/* 
 @media (max-width: 2560px){
-   
-    .img-container{
-        width: 250px;
-        background-size: 230px;
-        height: 40vh;
-        margin-bottom: 70px;
-    }
-}
-@media (max-width: 2400px){
-    
-    .img-container{
-        width: 250px;
-        background-size: 230px;
-        height: 30vh;
-        margin-bottom: 60px;
-    }
-
-}
-@media (max-width: 2200px){
-    .home2{
-        display: flex;
-        width: 24%;
-    }
-    .img-container{
-        width: 250px;
-        background-size: 230px;
-        height: 30vh;
-        margin-bottom: 60px;
-    }
-
-}
-@media (max-width: 2000px){
- 
-    .my-style{
-        color: linear-gradient(to right, rgb(236, 72, 153), rgb(239, 68, 68), rgb(234, 179, 8))
-
-    }
-    .slogan-home{
-        color: rgb(247, 220, 67);
-    }
-
-}
-
-@media (max-width: 1760px){
-    .home2{
-        display: flex;
-        width: 24%;
-    }
-    .img-container{
-        width: 250px;
-        background-size: 230px;
-        height: 30vh;
-        margin-bottom: 60px;
-    }
-
-}
-
-@media (max-width: 1530px){
-    .home2{
-        display: flex;
-        width: 25%;
-    }
-    .img-container{
-        width: 250px;
-        background-size: 230px;
-        height: 30vh;
-        margin-bottom: 60px;
-    }
-}
-
-@media (max-width: 1440px){
-    .home2{
-        display: flex;
-        width: 30%;
-    }
-    .img-container{
-        width: 250px;
-        background-size: 230px;
-        height: 30vh;
-        margin-bottom: 60px;
-    }
-}
-@media (max-width: 1309px){
-    .home2{
-        width: 35%;
-    }
-    .img-container{
-    
-        width: 213px;
-        background-size: 183px;
-        height: 25vh;
-        margin-bottom: 60px;
-    }
-}
-@media (max-width: 1156px){
-    .home2{
-        width: 38%;
-    }
-    .img-container{
-        width: 213px;
-        background-size: 183px;
-        height: 25vh;
-        margin-bottom: 60px;
-    }
-}
-@media (max-width: 1043px){
-    .home2{
-        width: 38%;
-    }
-    .img-container{
-        width: 213px;
-        background-size: 183px;
-        height: 25vh;
-        margin-bottom: 60px;
-    }
-}
-@media (max-width: 1024px){
-    .home2{
-        width: 40%;
-    }
-    .img-container{
-        width: 213px;
-        background-size: 183px;
-        height: 25vh;
-        margin-bottom: 60px;
-    }
-}
-@media (max-width: 850px){
-    .home2{
-        width: 50%;
-    }
-    .img-container{
-        width: 213px;
-            background-size: 183px;
-            height: 25vh;
-            margin-bottom: 60px;
-    }
-    } */
-/* @media (max-width: 768px){
-
-.img-container{
-    width: 213px;
-        background-size: 183px;
-        height: 25vh;
-        margin-bottom: 60px;
-}
-} */
-/* @media (max-width: 673px){
-    .home2{
-        width: 55%;
-        height: 70vh;
-    }
-    .img-container{
-        width: 213px;
-        background-size: 183px;
-        height: 25vh;
-        margin-bottom: 60px;
-    }
-    }
-@media (max-width: 550px){
-    .home2{
-        width: 65%;
-        height: 70vh;
-    }
-    .img-container{
-        width: 213px;
-        background-size: 183px;
-        height: 25vh;
-        margin-bottom: 60px;
-    }
-}
-@media (max-width: 475px){
-    .home2{
-        width: 70%;
-    }
-    .img-container{
-        width: 187px;
-        background-size: 159px;
-        height: 22vh;
-        margin-bottom: 60px;
-    }
-} */
-/* @media (max-width: 425px){
-    .home2{
-        width: 85%;
-    }
-    .img-container {
-        width: 181px;
-        background-size: 163px;
-        height: 22vh;
-        margin-bottom: 60px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        align-items: center;
-        margin-left: 13%;
-    }
-    nav{
-        font-size: 10px;
-    }
-} */
-/* @media (max-width: 375px){
-    .img-container {
-        width: 181px;
-        background-size: 163px;
-        height: 22vh;
-        margin-bottom: 60px;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-        margin-left: 18%;
-    }
-    } */
-/* @media (max-width: 320){
-    .flip-card-inner{
-        margin-top: 11.5rem;
-    }
-
- 
-} */
-@media (max-width: 2560px){
-  
-    /* .home-container{
-        background-size: 159rem;
-         width: 100%;
-    } */
-
     .flip-card {
         background-color: transparent;
         height: 940px;
@@ -569,14 +244,9 @@
             .flip-card-front {
                 background-position:unset;
                 background-size: 32rem;
-               
               }
                 }
-               
-                
 @media (max-width: 1440px){
-  
-
     .flip-card {
         background-color: transparent;
         height: 630px;
@@ -605,12 +275,9 @@
     .flip-card-front {
         background-position:unset;
         background-size: 30rem;
-       
       }
         }
         @media (max-width: 1270px){
-            
-        
             .flip-card {
                 background-color: transparent;
                 height: 70%;
@@ -639,19 +306,9 @@
             .flip-card-front {
                 background-position:unset;
                 background-size: 30rem;
-               
               }
-
-
-
                 }
-        
-
-
-
 @media (max-width: 1024px){
- 
-    
     .flip-card {
         background-color: transparent;
         height: 600px;
@@ -680,10 +337,8 @@
     .flip-card-front {
         background-position:unset;
         background-size: 30rem;
-       
       }
         }
-
         @media (max-width: 911px){
             .flip-card {
                 background-color: transparent;
@@ -713,20 +368,9 @@
             .flip-card-front {
                 background-position:unset;
                 background-size: 24rem;
-               
               }
-
-
-
-
         }
-
-
-
-
 @media (max-width: 768px){
-    
-     
 .flip-card {
     background-color: transparent;
     height: 604px;
@@ -755,17 +399,9 @@
 .flip-card-front {
     background-position:unset;
     background-size: 30rem;
-   
   }
- 
-
     }
     @media (max-width: 750px){
-         
-          
-          
-     
-         
          .img-container {
             width: 64%;
             background-size: 103%;
@@ -825,8 +461,6 @@
             .flip-card{
                 width: 100%;
             }
-          
-            
             .img-container {
                 width: 64%;
                 background-size: 103%;
@@ -851,18 +485,9 @@
             .flip-card-front {
                 background-position:unset;
                 background-size: 33rem;
-               
               }
-            
         }
-
 @media (max-width: 600px) {
- 
-    
-   
-  
-
-    
     .img-container {
         width: 181px;
         background-size: 154px;
@@ -875,7 +500,6 @@
         align-items: center;
         margin-left: 18%;
     }
-    
     .flip-card {
         height: 530px;
         width: 60%;
@@ -888,14 +512,9 @@
     .flip-card-front {
         background-position:unset;
         background-size: 28rem;
-       
       }
-    
 }
 @media (max-width: 578px) {
- 
-    
-   
     .img-container {
         width: 64%;
         background-size: 103%;
@@ -920,9 +539,7 @@
     .flip-card-front {
         background-position:unset;
         background-size: 25rem;
-       
       }
-    
 }
 @media (max-width: 522px){
     .img-container {
@@ -949,7 +566,6 @@
     .slogan-home{
         font-size: 17px;
     }
-   
     .flip-card-inner {
         position: relative;
         width: 80%;
@@ -965,11 +581,8 @@
     .flip-card-front {
         background-position:unset;
         background-size: 24rem;
-       
       }
-  
     }
-
 @media (max-width: 425px){
     .img-container {
         width: 191px;
@@ -995,7 +608,6 @@
     .slogan-home{
         font-size: 17px;
     }
-    
     .flip-card-inner {
         position: relative;
         width: 80%;
@@ -1011,13 +623,7 @@
     .flip-card-front {
         background-position:unset;
         background-size: 27rem;
-       
       }
-  
-  
-
- 
-
 }
 @media (max-width: 375px){
    .img-container {
@@ -1044,7 +650,6 @@
     .slogan-home{
         font-size: 17px;
     }
-   
     .flip-card-inner {
         position: relative;
         width: 88%;
@@ -1060,17 +665,8 @@
     .flip-card-front {
         background-position:unset;
         background-size: 26rem;
-       
       }
- 
- 
-
-   
-
     }
-
-
-
 @media (max-width: 320px){
     .img-container {
         width: 191px;
@@ -1101,14 +697,6 @@
         transform-style: preserve-3d;
         border: 5px solid black;
         border-radius: 23px;
-        /* top:8rem; */
         top: 10rem;
     }
-    /* .flip-card-front {
-    
-      background-size: 24rem;
-     
-    } */
-   
-
     }
