@@ -3,7 +3,9 @@ import "../Contact/Contact.css";
 import emailjs from '@emailjs/browser';
 import { useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2';
+ 
 const Contact = () => {
+ 
   const [data, setData] = useState([])
   const nav = useNavigate()
   const handleInputChange = (e) => {
@@ -61,7 +63,37 @@ const Contact = () => {
         <button className='btnf1'>Send</button>
     </div>
       </form>
+   
+
+
+
+      <div className="redes-footer" >
+      <div className='icon-github'>
+      <a className='i0' rel= "noopener noreferrer" target="_blank" href="https://github.com/davidchaban/" >
+      <i className="fa-brands fa-square-github i001"></i>
+      </a>
+      </div>
+      <div className='icon-tweeter'>
+      <a  className='i3' rel= "noopener noreferrer"  target="_blank" href="https://twitter.com/tdcdev">
+     <i className="fa-brands fa-square-twitter i004"></i> 
+      </a>
+      </div>
+      <div className='icon-instagram'>
+      <a  className='i1' rel= "noopener noreferrer" target="_blank" href="https://www.instagram.com/tendodc">  
+      <i className="fa-brands fa-instagram i002"></i>
+      </a>
+      </div>
+      <div className='icon-linkedin'>
+      <a className='i2' rel= "noopener noreferrer"  target="_blank" href="https://www.linkedin.com/in/daviidc"> 
+      <i class="fa-brands fa-linkedin i003"></i>
+      </a>
+      </div>
+
     </div>
+ 
+ 
+    </div>
+    
   )
   }
 export default Contact;

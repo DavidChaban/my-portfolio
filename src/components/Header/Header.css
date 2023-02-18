@@ -14,8 +14,8 @@
     font-family: 'Merienda', cursive;
   padding: 30px;
   position: fixed;
-  z-index: 1;
-  backdrop-filter: blur(10px);
+ z-index:2;
+  backdrop-filter: blur(20px);
 }
 .burguer-img{
     margin-top: 4px;
@@ -186,6 +186,7 @@
         font-size: 14px;
         margin-top: -18px;
     }
+   
     }
     @media (max-width: 750px){
         .btn-burguer{
@@ -384,6 +385,7 @@
                 height: 15vh;
                 font-family: 'Merienda', cursive;
                 background-color: #081e5c81;
+            
             }
         }
 
@@ -451,6 +453,7 @@
         height: 15vh;
         font-family: 'Merienda', cursive;
         background-color: #081e5c81;
+       
     }
 }
 @media (max-width: 578px) {
@@ -517,11 +520,13 @@
         height: 15vh;
         font-family: 'Merienda', cursive;
         background-color: #081e5c81;
+        
     }
     }
 @media (max-width: 500px){
     .nav-container{
         background-color: #081e5c81;
+        
     }
     .burguer-awesome{
         display: flex;
@@ -536,13 +541,12 @@
         left: 45%;
         gap: 3.7rem;
     }
-    footer{
-        flex-direction: column;
-    }
+   
     }
 @media (max-width: 425px){
     .nav-container{
         background-color: #081e5c81;
+      
     }
     .burguer-awesome{
         display: flex;
@@ -557,13 +561,12 @@
         left: 45%;
         gap: 3.7rem;
     }
-    footer{
-        flex-direction: column;
-    }
+ 
 }
 @media (max-width: 375px){
     .nav-container{
         background-color: #081e5c81;
+        
     }
     .burguer-awesome{
         display: flex;
@@ -582,6 +585,7 @@
 @media (max-width: 320px){
     .nav-container{
         background-color: #081e5c81;
+       
     }
     .burguer-awesome{
         display: flex;
@@ -607,11 +611,41 @@
 
 
 
+/* 
 
 
-
-
-
+    @media (max-width: 600px){
+        footer{
+            flex-direction: column;
+        }
+    }
+    @media (max-width: 375px){
+        .redes-footer{
+            flex:auto;
+           
+            margin: 2rem;
+        }
+        .redes-footer:hover{
+            background-size: 4px;
+        }
+        footer{
+            flex-direction: column;
+        }
+        }
+    @media (max-width: 320px){
+    .redes-footer{
+        flex:auto;
+        gap: 16px;
+        margin: 2rem;
+    }
+    .redes-footer:hover{
+        background-size: 4px;
+    }
+    footer{
+        flex-direction: column;
+    }
+    }
+ */
 
 
 
