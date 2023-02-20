@@ -6,7 +6,8 @@
   font-family: 'Open Sans', sans-serif;
 }
 .div-form{
-	background-image: url(/public/space.png);
+	/* background-image: url(/public/space.png); */
+    background-image:url(/public/qw4.png)
 	/* background-size:100%; */
 	
 }

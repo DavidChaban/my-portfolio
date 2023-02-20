@@ -5,7 +5,7 @@ const Section = () => {
   return (
     <section id="aboutme" className="sobremi">
       <div className="contenido-seccion">
-        <h2 className="about-title">About Me</h2>
+        {/* <h2 className="about-title">About Me</h2> */}
         <p>
           <span>Hi, i´m David Chaban.</span> Full Stack Mern developer,
           oriented in Front End. I know other Backend areas like (Node.js and

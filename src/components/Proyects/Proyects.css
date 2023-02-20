@@ -26,16 +26,15 @@
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;
-    /* background-color: #8b2707; */
-    background-image:url(/public/h3.jpg);
-    /* background-image: url(/public/q1.jpg); */
+    background-image: url(/public/qw2.png);
+    background-color:black;
    background-position:bottom;
    background-size: 100%;
     background-repeat: no-repeat;
     object-fit: contain;
-    height: 110vh;
+    height: 120vh;
     align-items: center;
-    
+    width: 100%;
 }    
 .box-container{
     display: flex;
@@ -53,7 +52,7 @@
 .card-container1{
     display: flex;
     flex-direction: column;
-  background-color:rgb(10, 2, 2);
+    background-color: rgb(10 2 2 / 64%);
     width: 31.86%;
     height: 40%;
     color: white;
@@ -226,7 +225,7 @@
 .card-container2{
     display: flex;
     flex-direction: column;
-  background-color:rgb(10, 2, 2);
+    background-color: rgb(10 2 2 / 64%);
     width: 32.2%;
     height: 40%;
     color: white;
@@ -401,7 +400,7 @@
 .card-container5{
     display: flex;
     flex-direction: column;
-  background-color:rgb(10, 2, 2);
+    background-color: rgb(10 2 2 / 64%);
     width: 31.8%;
     height: 40%;
     color: white;
