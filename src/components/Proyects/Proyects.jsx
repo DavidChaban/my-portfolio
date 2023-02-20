@@ -7,6 +7,8 @@ const Proyects = () => {
     <div className="pr01container ">
     <h2 className="title-myproyects">My Proyects </h2>
       <div className="pr-container ">
+
+      
         {/*  CARD 1  */}
         <div className="box-container ">
           <div className="card-container1 ">
@@ -95,6 +97,8 @@ const Proyects = () => {
             </div>
           </div>
         </div>
+      
+
       </div>
     </div>
   );
