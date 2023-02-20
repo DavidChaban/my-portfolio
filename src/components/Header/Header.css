@@ -148,7 +148,7 @@
     font-weight: bold;
 }
 .a1:hover{
-    color: rgb(58, 223, 252);
+    color: black;
     box-shadow: rgb(16, 219, 246) 200px 0px 0px 0px inset;
     padding: 5px;
     border-radius: 6px;

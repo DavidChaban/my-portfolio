@@ -50,7 +50,7 @@ export default function Burguer() {
               <div className="burguer-container">
                 <i className="fa-sharp fa-solid fa-xmark x-awesome" onClick={hide}></i>
                <div className="links-header">
-                <LinkRouter to="/home" className="a1">
+                <LinkRouter to="/" className="a1">
                   {btn1}
                   <button className="btn-burguer"> </button>
                 </LinkRouter>
