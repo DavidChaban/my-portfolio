@@ -38,7 +38,6 @@ const Proyects = () => {
           </div>
 
           {/*  CARD 2  */}
-          {/* <div className='box-container2'> */}
           <div className="card-container2">
             <h2 className="proyect-h02"> Pet Shop Mindy</h2>
             <div className="proyect2">
