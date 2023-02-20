@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../Header/Header.css";
-import { Link } from "react-router-dom";
+import { Link as LinkRouter } from "react-router-dom";
 
 export default function Burguer() {
   const btn1 = "HOME";
@@ -17,29 +17,29 @@ export default function Burguer() {
     <div className="nav-container1"> 
       <div className="nav-container">
         <div>
-          <Link to="/">
+          <LinkRouter to="/">
             <button className="nav-5">{btn5}</button>
-          </Link>
+          </LinkRouter>
         </div>
         
         <div className="nav-0">
 
 
-          <Link to="/">
+          <LinkRouter to="/">
             <button className="nav-1">{btn1}</button>
-          </Link>
+          </LinkRouter>
 
-          <Link to="/aboutme">
+          <LinkRouter to="/aboutme">
             <button className="nav-2"> {btn2}</button>
-          </Link>
+          </LinkRouter>
 
-          <Link to="/proyects">
+          <LinkRouter to="/proyects">
             <button className="nav-2"> {btn3}</button>
-          </Link>
+          </LinkRouter>
 
-          <Link to="/contact">
+          <LinkRouter to="/contact">
             <button className="nav-2"> {btn4}</button>
-          </Link>
+          </LinkRouter>
 
 
         </div>
@@ -48,33 +48,33 @@ export default function Burguer() {
           {viewHide ? (
             <>
               <div className="burguer-container">
-                <i class="fa-sharp fa-solid fa-xmark x-awesome" onClick={hide}></i>
+                <i className="fa-sharp fa-solid fa-xmark x-awesome" onClick={hide}></i>
                <div className="links-header">
-                <Link to="/home" className="a1">
+                <LinkRouter to="/home" className="a1">
                   {btn1}
                   <button className="btn-burguer"> </button>
-                </Link>
+                </LinkRouter>
 
-                <Link to="/aboutme" className="a1">
+                <LinkRouter to="/aboutme" className="a1">
                   {btn2}
                   <button className="btn-burguer"> </button>
-                </Link>
+                </LinkRouter>
 
-                <Link to="/proyects" className="a1">
+                <LinkRouter to="/proyects" className="a1">
                   {btn3}
                   <button className="btn-burguer"> </button>
-                </Link>
+                </LinkRouter>
 
-                <Link to="/contact" className="a1">
+                <LinkRouter to="/contact" className="a1">
                   {btn4}
                   <button className="btn-burguer"> </button>
-                </Link>
+                </LinkRouter>
                 </div>
               </div>
             </>
           ) : (
             <>
-              <i class="fa-solid fa-bars burguer-awesome"   onClick={hide}></i>
+              <i className="fa-solid fa-bars burguer-awesome"   onClick={hide}></i>
             </>
           )}
         </>

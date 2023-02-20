@@ -25,7 +25,7 @@ const Section = () => {
               className="contenedor-intereses"
             >
               <div className="interes">
-              <div container-logotext>
+              <div className="container-logotext">
                 <img
                   className="img1"
                   src="/icons8-html-5-50.png"

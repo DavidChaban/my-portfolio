@@ -14,7 +14,7 @@
     font-family: 'Merienda', cursive;
   padding: 30px;
   position: fixed;
- z-index:1;
+ z-index:9999;
   backdrop-filter: blur(20px);
 }
 .burguer-img{
@@ -157,25 +157,50 @@
     .burguer-awesome{
         display: none;
     }
+    .nav-container{
+        background-color: #081e5c81;
+       width:100%;
+      z-index:2;
+    }
          }
         @media (max-width: 2000px){
             .burguer-awesome{
                 display: none;
+            }
+            .nav-container{
+                background-color: #081e5c81;
+               width:100%;
+              z-index:2;
             }
                            }
 @media (max-width: 1440px){
     .burguer-awesome{
         display: none;
     }
+    .nav-container{
+        background-color: #081e5c81;
+       width:100%;
+      z-index:2;
+    }
             }
         @media (max-width: 1270px){
             .burguer-awesome{
                 display: none;
                     }
+                    .nav-container{
+                        background-color: #081e5c81;
+                       width:100%;
+                      z-index:2;
+                    }
                         }
 @media (max-width: 1024px){
     .burguer-awesome{
         display: none;
+    }
+    .nav-container{
+        background-color: #081e5c81;
+       width:100%;
+      z-index:2;
     }
            }
 @media (max-width: 768px){
@@ -185,6 +210,11 @@
     .nav-5{
         font-size: 14px;
         margin-top: -18px;
+    }
+    .nav-container{
+        background-color: #081e5c81;
+       width:100%;
+      z-index:2;
     }
    
     }
@@ -252,6 +282,7 @@
              height: 15vh;
              font-family: 'Merienda', cursive;
              background-color: #081e5c81;
+             z-index:2;
          }
                  }
     @media (max-width: 715px){
@@ -319,6 +350,7 @@
              height: 15vh;
              font-family: 'Merienda', cursive;
              background-color: #081e5c81;
+             z-index:2;
          }
                  }
         @media (max-width: 650px) {
@@ -385,7 +417,7 @@
                 height: 15vh;
                 font-family: 'Merienda', cursive;
                 background-color: #081e5c81;
-            
+                z-index:2;
             }
         }
 
@@ -453,6 +485,7 @@
         height: 15vh;
         font-family: 'Merienda', cursive;
         background-color: #081e5c81;
+        z-index:2;
        
     }
 }
@@ -520,13 +553,14 @@
         height: 15vh;
         font-family: 'Merienda', cursive;
         background-color: #081e5c81;
-        
+        z-index:2;
     }
     }
 @media (max-width: 500px){
     .nav-container{
         background-color: #081e5c81;
-        
+       width:100%;
+      z-index:2;
     }
     .burguer-awesome{
         display: flex;
@@ -546,7 +580,8 @@
 @media (max-width: 425px){
     .nav-container{
         background-color: #081e5c81;
-      
+       width:100%;
+      z-index:2;
     }
     .burguer-awesome{
         display: flex;
@@ -566,7 +601,7 @@
 @media (max-width: 375px){
     .nav-container{
         background-color: #081e5c81;
-        
+        z-index:2;
     }
     .burguer-awesome{
         display: flex;

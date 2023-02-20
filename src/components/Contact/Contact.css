@@ -75,6 +75,8 @@
 }
 #user_name{
 	background-color:#ffe4c48f;
+
+   
 	border-radius:10px;
 	border-radius: 5px;
     width: 65%;
@@ -108,21 +110,22 @@
 	justify-content:center;
     gap: 30px;
 }
-.icon-github1{
+.icon-github{
 display: flex;
 height: 4.5vh;
 }
-.icon-github1:hover{
+.icon-github:hover{
    width: 3rem;
+   
 }
-.icon-instagram1{
+.icon-instagram{
 display: flex;
 justify-content: center;
 height: 4.5vh;
 backdrop-filter: blur(10px);
 }
  
-.icon-linkedin1{
+.icon-linkedin{
 display: flex;
 height: 4.5vh;
 }
@@ -142,6 +145,9 @@ color: red;
     align-content: center;
     flex-direction: column;
     color:azure;
+    margin: 0px;
+    padding: 0px;
+    height: 10vh;
 }
 .i001{
     display: flex;
@@ -167,6 +173,9 @@ color: red;
     align-content: center;
     flex-direction: column;
     color:azure;
+    margin: 0px;
+    padding: 0px;
+    height: 10vh;
 }
 .i2{
     text-decoration: none;
@@ -176,6 +185,9 @@ color: red;
     align-content: center;
     flex-direction: column;
     color:azure;
+    margin: 0px;
+    padding: 0px;
+    height: 10vh;
 }
 .i3{
     text-decoration: none;
@@ -183,6 +195,9 @@ color: red;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    height: 10vh;
 }
 
 .small, small{

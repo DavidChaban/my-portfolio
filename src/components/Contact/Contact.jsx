@@ -51,13 +51,13 @@ const Contact = () => {
    
     <div className='cp'>
       <h2 className='title-form'>Contact Me</h2>
-      <label for='user_name'>Name: </label>
+      <label htmlFor='user_name'>Name: </label>
         <input type="text" name='user_name' id='user_name' placeholder='Name*'  onChange={handleInputChange} required />
         <hr />
-        <label for="user_email">Email: </label>
+        <label htmlFor="user_email">Email: </label>
         <input type="email" name='user_email' id='user_email' placeholder='Email*'  onChange={handleInputChange} required />
         <hr />
-        <label for="user_message">Message </label>
+        <label htmlFor="user_message">Message </label>
         <textarea name="user_message" id="user_message" cols="30" rows="10"  placeholder='Message*' required ></textarea>
         <hr />
         <button className='btnf1'>Send</button>
@@ -85,7 +85,7 @@ const Contact = () => {
       </div>
       <div className='icon-linkedin'>
       <a className='i2' rel= "noopener noreferrer"  target="_blank" href="https://www.linkedin.com/in/daviidc"> 
-      <i class="fa-brands fa-linkedin i003"></i>
+      <i className="fa-brands fa-linkedin i003"></i>
       </a>
       </div>
 

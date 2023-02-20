@@ -91,18 +91,18 @@ section {
     margin: auto;
 }
 .sobremi h2 {
-    font-size: 52px;
+    font-size: 49px;
     font-family: 'Ubuntu';
     text-align: center;
-    padding: 20px 0;
+    padding: 99px 2px 1px;
     font-weight: bolder;
 }
 .sobremi .contenido-seccion p {
     font: 18px;
-    line-height: 22px;
+    line-height: 38px;
     margin-bottom: 20px;
-    letter-spacing: 3px;
-    font-size: 20px;
+    letter-spacing: 2px;
+    font-size: 27px;
     margin: 81px;
 }
 .sobremi .contenido-seccion p span {
@@ -154,7 +154,7 @@ section {
     justify-content: center;
     transition: .3s;
 }
-.container-logotext{
+.containerlogotext{
     display: flex;
     flex-direction: column;
 }
@@ -281,8 +281,23 @@ span1{
         z-index: 0;
     }
     .sobremi{
-        height: 140vh;
+        height: 147vh;
        }
+}
+@media (max-width: 1994px){
+.ilustracion{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 51%;
+    animation-name: girarb;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    right: 56%;
+}
+
+
 }
 @media (max-width: 1440px){
     .sobremi button {
@@ -333,10 +348,11 @@ span1{
         z-index: 0;
     }
     .sobremi h2{
-        font-size: 38px;
+        font-size: 47px;
         position: absolute;
         right: 20rem;
-        bottom: -200px;
+        /* bottom: -200px; */
+        top: 55rem;
     }
     .sobremi{
         height: 203vh;
@@ -409,14 +425,16 @@ span1{
         font-size: 16px;
     }
     .sobremi h2{
-        font-size: 32px;
+        font-size: 40px;
         position: absolute;
-        right: 16rem;
-        /* bottom: -228px; */
+        right: 12rem;
+        /* bottom: -285px; */
+        top: 58rem;
     }
     .sobremi{
         height: 218vh;
        }
+       
 }
 @media (max-width: 522px){
     #contenedor-skills{
@@ -459,10 +477,11 @@ span1{
         font-size: 16px;
     }
     .sobremi h2{
-        font-size: 32px;
+        font-size: 40px;
         position: absolute;
         right: 12rem;
-        bottom: -285px;
+        /* bottom: -285px; */
+        top: 58rem;
     }
     .sobremi{
         height: 245vh;
@@ -515,7 +534,8 @@ span1{
         font-size: 32px;
         position: absolute;
         right: 9rem;
-        bottom: -177px;
+        /* bottom: -177px; */
+        top:54rem;
     }
     .sobremi{
         height: 235vh;
@@ -523,7 +543,7 @@ span1{
 }
 @media (max-width: 375px){
     .sobremi{
-        height: 194vh;
+        height: 210vh;
        }
     #contenedor-skills{
         margin-top: 25rem;
@@ -548,6 +568,7 @@ span1{
     }
     .sobremi .contenido-seccion {
         max-width: 1100px;
+        padding: 120px 0px 0px 0px;
     }
     .ilustracion {
         display: flex;
@@ -555,11 +576,11 @@ span1{
         align-items: center;
         background-repeat: no-repeat;
         width: 70%;
-        height: 30vh;
         height: 32vh;
         background-size: 100%;
         flex-direction: column;
         left: 3.5rem;
+        top: 100rem;
     }
       .sobremi button {
         left: 5.1rem;
@@ -573,12 +594,16 @@ span1{
         letter-spacing: 3px;
         width: 88%;
         margin-left: 1.6rem;
+        padding: 61px 0px 0px 0px;
     }
+    
+    
     .sobremi h2{
         font-size: 32px;
         position: absolute;
         right: 8rem;
-        bottom: -123px;
+        /* bottom: -123px; */
+        top:56rem;
     }
     .home-container {
         background-size: 360%;
@@ -598,7 +623,8 @@ span1{
     width: 71%;
     height: 27vh;
     left: 3rem;
-    top: 95rem;
+    top: 102rem;
+    /* top:52rem; */
   }
   .sobremi .fila .col .contenedor-intereses {
     display: flex;
@@ -615,29 +641,33 @@ span1{
 }
 .sobremi .contenido-seccion p {
     font: 18px;
-    line-height: 33px;
+    line-height: 29px;
     font-size: 16px;
-    line-height: 23px;
     letter-spacing: 2px;
     width: 88%;
     margin-left: 1.6rem;
+    margin-top:0rem;
 }
 .sobremi h2{
     font-size: 32px;
     position: absolute;
     right: 6rem;
-    
+  top:52rem;
 }
 .sobremi button{
         left: 4rem;
         top: 0.5rem;
     }
    .sobremi{
-    height: 200vh;
+    height: 212vh;
    }
    .home-container {
     background-size: 360%;
     width: 100%;
+}
+.sobremi .contenido-seccion {
+    max-width: 1100px;
+    padding: 120px 0px 0px 0px;
 }
 
 }
