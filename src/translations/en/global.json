@@ -1,0 +1,45 @@
+{
+    "header":{
+        "btn1": "HOME",
+        "btn2": "ABOUTME",
+        "btn3": "PROYECTS",
+        "btn4": "CONTACT"
+    },
+    "ABOUTME":{
+        "aboutme": "Hi, i´m David Chaban. Full Stack Mern developer, oriented in Front End. I know other Backend areas like (Node.js and Python) and Mobile (React Native). I am passionate about creating beautiful and functional web applications. I have strong skills to identify and solve problems. I consider myself a proactive person and I am in constant training. Besides programming, I love to travel and discover new places and different cultures."
+
+
+    },
+    "skills":{
+        "skills": "Skills"
+    },
+    "download":{
+        "download": "Download CV"
+    },
+    "home":{
+        
+        "slogan": "Full Stack Mern Developer",
+        "secondCard": "Welcome",
+        "secondCard2": "To my Portfolio"
+    },
+    "proyects":{
+        "proyects": "My Proyects",
+        "ViewDemo": "ViewDemo",
+        "code": "code",
+        "Encrypter": "Encrypter",
+        "Pet Shop Mindy": "Pet Shop Mindy",
+        "Retro Football Team Clothing":"Retro Football Team Clothing"
+    },
+    "contact":{
+        "ContactMe":"Contact Me!",
+        "Name": "Name:",
+        "Email": "Email",
+        "Message": "Message",
+        "Send": "Send"
+    }
+
+
+
+
+    
+}
