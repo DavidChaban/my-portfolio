@@ -124,14 +124,14 @@
 .nav-1:hover{
     border-radius: 8px;
     color: black; 
-    transition: border 0.3s ease-in-out 0s, box-shadow 0.3s ease-in-out 0s;
+   
     box-shadow: rgb(7, 216, 248) 200px 0px 0px 0px inset;
     cursor: pointer;
   }
 .nav-2:hover{
     border-radius: 8px;
     color: black; 
-    transition: border 0.3s ease-in-out 0s, box-shadow 0.3s ease-in-out 0s;
+  
     box-shadow: rgb(7, 216, 248) 200px 0px 0px 0px inset;
   }
   .nav-5:hover{
@@ -153,6 +153,50 @@
     padding: 5px;
     border-radius: 6px;
 }
+.translate-botoncontain{
+ 
+    margin-left:30rem;
+}
+
+.btn-translates{
+    padding:2.5px;
+    border:none;
+    background-color:transparent;
+    font-weight:bolder;
+    color:azure;
+    
+}
+.btn-translates:hover{
+    color:azure;
+    box-shadow: rgb(16, 219, 246) 200px 0px 0px 0px inset;
+    padding: 5px;
+    border-radius: 6px;
+   
+}
+
+.btn-translaten{
+    padding:2.5px;
+    border:none;
+    background-color:transparent;
+    font-weight:bolder;
+    color:azure;
+}
+.btn-translaten:hover{
+    color:azure;
+    box-shadow: rgb(16, 219, 246) 200px 0px 0px 0px inset;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+
+
+
+
+
+
+
+
+/*  --------------------- Responsive------------------------- */
 @media (max-width: 2560px){
     .burguer-awesome{
         display: none;
@@ -161,6 +205,17 @@
         background-color: #081e5c81;
        width:100%;
       z-index:2;
+    }
+    .translate-botoncontain{
+        display:flex;
+      gap:30px!important;
+        margin-left:30rem;
+    }
+    .nav-0{
+        display: flex;
+        gap: 20px;
+        margin-right: 4rem;
+        z-index: 9999;
     }
          }
         @media (max-width: 2000px){
@@ -172,6 +227,11 @@
                width:100%;
               z-index:2;
             }
+            .translate-botoncontain{
+                display:flex;
+              gap:20px!important;
+                margin-left:30rem;
+            }
                            }
 @media (max-width: 1440px){
     .burguer-awesome{
@@ -181,6 +241,18 @@
         background-color: #081e5c81;
        width:100%;
       z-index:2;
+    }
+    .translate-botoncontain{
+        display:flex;
+      gap:20px!important;
+        margin-left:24rem;
+        font-size:14px;
+    }
+    .nav-0{
+        display: flex;
+        gap: 20px;
+        margin-right: 1rem;
+        z-index: 9999;
     }
             }
         @media (max-width: 1270px){
@@ -192,6 +264,25 @@
                        width:100%;
                       z-index:2;
                     }
+                    .translate-botoncontain{
+                        display:flex;
+                        flex-direction:column;
+                        margin-left:3rem;
+                    }
+                    .nav-0{
+                        display: flex;
+                        gap: 7px;
+                        margin-right: 0rem;
+                        z-index: 9999;
+                    }
+                    .translate-botoncontain{
+                        display:flex;
+                       flex-direction:row;
+                        gap:2px!important;
+                        margin-left:22rem;
+                        font-size:13px;
+                         
+                    }
                         }
 @media (max-width: 1024px){
     .burguer-awesome{
@@ -201,6 +292,25 @@
         background-color: #081e5c81;
        width:100%;
       z-index:2;
+    }
+    .translate-botoncontain{
+        display:flex;
+        flex-direction:column;
+        margin-left:3rem;
+    }
+    .nav-0{
+        display: flex;
+        gap: 7px;
+        margin-right: 0rem;
+        z-index: 9999;
+    }
+    .translate-botoncontain{
+        display:flex;
+        flex-direction:row;
+        gap:2px!important;
+        margin-left:17rem;
+        font-size:11px;
+         
     }
            }
 @media (max-width: 768px){
@@ -216,6 +326,19 @@
        width:100%;
       z-index:2;
     }
+    .translate-botoncontain{
+        display:flex;
+        flex-direction:row;
+        margin-left:1rem;
+        font-size:12px;
+    }
+    .nav-0{
+        display: flex;
+        gap: 2px;
+        margin-right: 0rem;
+        z-index: 1;
+    }
+ 
    
     }
     @media (max-width: 750px){
@@ -226,7 +349,7 @@
              width: 100%;
           }
          .nav-1{
-             display: none;
+             display: none!important;
              text-decoration: none;
          }
          .nav-2{
@@ -283,7 +406,15 @@
              font-family: 'Merienda', cursive;
              background-color: #081e5c81;
              z-index:2;
+             font-size:10px;
          }
+         .translate-botoncontain{
+            display:flex;
+            flex-direction:row;
+            margin-left:15rem;
+            gap:2px!important;
+        }
+       
                  }
     @media (max-width: 715px){
         .btn-burguer{
@@ -352,6 +483,12 @@
              background-color: #081e5c81;
              z-index:2;
          }
+         .translate-botoncontain{
+            display:flex;
+            flex-direction:row;
+            margin-left:14rem;
+            gap:2px!important;
+        }
                  }
         @media (max-width: 650px) {
             .btn-burguer{
@@ -418,6 +555,12 @@
                 font-family: 'Merienda', cursive;
                 background-color: #081e5c81;
                 z-index:2;
+            }
+            .translate-botoncontain{
+                display:flex;
+                flex-direction:row;
+                margin-left:12rem;
+                gap:2px!important;
             }
         }
 
@@ -488,6 +631,12 @@
         z-index:2;
        
     }
+    .translate-botoncontain{
+        display:flex;
+        flex-direction:row;
+        margin-left:12rem;
+        gap:2px!important;
+    }
 }
 @media (max-width: 578px) {
     .btn-burguer{
@@ -555,6 +704,12 @@
         background-color: #081e5c81;
         z-index:2;
     }
+    .translate-botoncontain{
+        display:flex;
+        flex-direction:row;
+        margin-left:11rem;
+        gap:2px!important;
+    }
     }
 @media (max-width: 500px){
     .nav-container{
@@ -574,6 +729,12 @@
     .burguer-container {
         left: 45%;
         gap: 3.7rem;
+    }
+    .translate-botoncontain{
+        display:flex;
+        flex-direction:row;
+        margin-left:9rem;
+        gap:2px!important;
     }
    
     }
@@ -596,6 +757,13 @@
         left: 45%;
         gap: 3.7rem;
     }
+    .translate-botoncontain{
+        display:flex;
+        flex-direction:row;
+        margin-left:7rem;
+        gap:2px!important;
+    }
+  
  
 }
 @media (max-width: 375px){
@@ -616,6 +784,13 @@
         left: 47.6%;
         gap: 3.7rem;
     }
+    .translate-botoncontain{
+        display:flex;
+        flex-direction:row;
+        margin-left:5rem;
+        gap:2px!important;
+    }
+
     }
 @media (max-width: 320px){
     .nav-container{
@@ -632,6 +807,14 @@
         left: 49.9%;
         gap: 3.7rem;
     }
+    .translate-botoncontain{
+        display:flex;
+        flex-direction:row;
+        gap:2px!important;
+        margin-left:4rem;
+    }
+
+ 
     }
 
 

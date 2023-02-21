@@ -12,7 +12,7 @@ export default function Burguer() {
   const btn2 = "ABOUT ME";
   const btn3 = "PROYECTS";
   const btn4 = "CONTACT";
-  const btn5 = "David Chaban";
+  const btn5 = "DC";
   let [viewHide, setViewHide] = useState(false);
   let hide = () => {
     setViewHide(!viewHide); //viewHide = mostrarOcultar
@@ -26,9 +26,9 @@ export default function Burguer() {
             <button className="nav-5">{btn5}</button>
           </LinkRouter>
         </div>
-          <div>
-<button onClick={ () => i18n.changeLanguage("es") }>ES</button>
-<button onClick={ () => i18n.changeLanguage("en") }>EN</button>
+          <div className="translate-botoncontain">
+<button className="btn-translates" onClick={ () => i18n.changeLanguage("es") }>ESP</button>
+<button className="btn-translaten" onClick={ () => i18n.changeLanguage("en") }>ENG</button>
 </div>
         
         <div className="nav-0">
