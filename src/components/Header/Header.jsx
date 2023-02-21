@@ -1,8 +1,13 @@
 import React, { useState } from "react";
 import "../Header/Header.css";
 import { Link as LinkRouter } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+
+
 
 export default function Burguer() {
+  var idioma = navigator.language || navigator.userLanguage;
+  const [t, i18n] = useTranslation("global");
   const btn1 = "HOME";
   const btn2 = "ABOUT ME";
   const btn3 = "PROYECTS";
@@ -21,24 +26,28 @@ export default function Burguer() {
             <button className="nav-5">{btn5}</button>
           </LinkRouter>
         </div>
+          <div>
+<button onClick={ () => i18n.changeLanguage("es") }>ES</button>
+<button onClick={ () => i18n.changeLanguage("en") }>EN</button>
+</div>
         
         <div className="nav-0">
 
 
-          <LinkRouter to="/">
-            <button className="nav-1">{btn1}</button>
+          <LinkRouter to="/"> 
+            <button className="nav-1">{t("header.btn1")}</button>
           </LinkRouter>
 
           <LinkRouter to="/aboutme">
-            <button className="nav-2"> {btn2}</button>
+            <button className="nav-2"> {t("header.btn2")}</button>
           </LinkRouter>
 
           <LinkRouter to="/proyects">
-            <button className="nav-2"> {btn3}</button>
+            <button className="nav-2"> {t("header.btn3")}</button>
           </LinkRouter>
 
           <LinkRouter to="/contact">
-            <button className="nav-2"> {btn4}</button>
+            <button className="nav-2"> {t("header.btn4")}</button>
           </LinkRouter>
 
 
@@ -78,7 +87,9 @@ export default function Burguer() {
             </>
           )}
         </>
+       
       </div>
     </div>
+
   );
 }
