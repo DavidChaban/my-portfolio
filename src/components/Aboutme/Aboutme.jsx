@@ -1,26 +1,24 @@
 import React from "react";
 import "../Home/Home1";
 import "../Aboutme/Aboutme.css";
+import { useTranslation } from "react-i18next";
+
+
 const Section = () => {
+  const [t] = useTranslation("global");
   return (
     <section id="aboutme" className="sobremi">
       <div className="contenido-seccion">
         {/* <h2 className="about-title">About Me</h2> */}
         <p>
-          <span>Hi, i´m David Chaban.</span> Full Stack Mern developer,
-          oriented in Front End. I know other Backend areas like (Node.js and
-          Python) and Mobile (React Native). I am passionate about creating
-          beautiful and functional web applications. I have strong skills to
-          identify and solve problems. I consider myself a proactive person and
-          I am in constant training. Besides programming, I love to travel and
-          discover new places and different cultures.
+           {t("ABOUTME.aboutme")}
         </p>
         <div className="fila">
           <div className="col" >
             <div className="ilustracion"></div>
           </div>
           <div className="col" >
-            <h3 className="skills-title">Skills</h3>
+            <h3 className="skills-title">{t("skills.skills")}</h3>
             <div
               className="contenedor-intereses"
             >
@@ -110,7 +108,8 @@ const Section = () => {
         >
           {" "}
           <button className="a-button">
-            Download CV 
+          {t("download.download")}
+          
             <span className="overlay"></span>
           </button>
         </a>

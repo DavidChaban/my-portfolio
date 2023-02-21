@@ -3,9 +3,11 @@ import "../Contact/Contact.css";
 import emailjs from '@emailjs/browser';
 import { useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2';
- 
+import { useTranslation } from "react-i18next";
+
+
 const Contact = () => {
- 
+  const [t] = useTranslation("global");
   const [data, setData] = useState([])
   const nav = useNavigate()
   const handleInputChange = (e) => {
@@ -50,17 +52,17 @@ const Contact = () => {
       <form className='form-mail' onSubmit={sendEmail}>
    
     <div className='cp'>
-      <h2 className='title-form'>Contact Me</h2>
-      <label htmlFor='user_name'>Name: </label>
+      <h2 className='title-form'>{t("contact.ContactMe")}</h2>
+      <label htmlFor='user_name'>{t("contact.Name")}</label>
         <input type="text" name='user_name' id='user_name' placeholder='Name*'  onChange={handleInputChange} required />
         <hr />
-        <label htmlFor="user_email">Email: </label>
+        <label htmlFor="user_email">{t("contact.Email")}</label>
         <input type="email" name='user_email' id='user_email' placeholder='Email*'  onChange={handleInputChange} required />
         <hr />
-        <label htmlFor="user_message">Message </label>
+        <label htmlFor="user_message">{t("contact.Message")} </label>
         <textarea name="user_message" id="user_message" cols="30" rows="10"  placeholder='Message*' required ></textarea>
         <hr />
-        <button className='btnf1'>Send</button>
+        <button className='btnf1'>{t("contact.Send")}</button>
     </div>
       </form>
    
