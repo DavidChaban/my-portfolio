@@ -12,7 +12,7 @@ export default function Burguer() {
   const btn2 = "ABOUT ME";
   const btn3 = "PROYECTS";
   const btn4 = "CONTACT";
-  const btn5 = "DC";
+  const btn5 = "<DC/>";
   let [viewHide, setViewHide] = useState(false);
   let hide = () => {
     setViewHide(!viewHide); //viewHide = mostrarOcultar
