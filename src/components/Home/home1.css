@@ -669,6 +669,10 @@ background-color:black;
       }
     }
 @media (max-width: 320px){
+    .home-container {
+        background-size: 360%;
+        width: 100%;
+    }
     .img-container {
         width: 191px;
         background-size: 170px;
