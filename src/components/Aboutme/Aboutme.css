@@ -277,46 +277,87 @@ span1{
         height: 100vh;
 }
 }
+@media (max-width: 2400px){
+    .sobremi button{
+        top:2rem;
+    }
+    }
 @media (max-width: 2000px){
     .sobremi button {
         z-index: 0;
     }
     .sobremi{
-        height: 147vh;
+        height: 112vh;
        }
 }
 @media (max-width: 1994px){
 .ilustracion{
     background-size: 100%;
     background-repeat: no-repeat;
-    width: 23%;
-    height: 51%;
+    width: 24%;
+    height: 53%;
     animation-name: girarb;
     animation-duration: 60s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     right: 56%;
+top:30rem;
+}
+.sobremi button{
+    top:2rem;
 }
 
 
 }
+@media (max-width: 1920px){
+    .sobremi button{
+        top:2rem;
+    }
+    .ilustracion{
+        width: 26%;
+        height: 53vh;
+        left: 19%;
+        top: 155%;
+      }
+    }
+
+ 
+@media (max-width: 1800px){
+.sobremi button{
+    top:2rem;
+}
+.ilustracion{
+    width: 28%;
+    height: 60vh;
+    left: 16%;
+    top: 151%;
+  }
+}
+@media (max-width: 1600px){
+.sobremi button{
+    top:2rem;
+}
+.ilustracion{
+    width: 32%;
+    height: 60vh;
+    left: 10%;
+    top: 151%;
+  }
+}
+
+
 @media (max-width: 1440px){
     .sobremi button {
         left: 43%;
         top: 0.5rem;
         z-index: 0;
     }
-    .ilustracion {
-        background-size: 100%;
-        background-repeat: no-repeat;
-        width: 36%;
-        height: 62%;
-        animation-name: girarb;
-        animation-duration: 60s;
-        animation-iteration-count: infinite;
-        animation-timing-function: linear;
-        right: 56%;
-    }
+    .ilustracion{
+        width: 33%;
+        height: 60vh;
+        left: 10%;
+        top: 151%;
+      }
 }
 
 @media (max-width: 1024px){
@@ -329,20 +370,15 @@ span1{
     .sobremi{
         height: 140vh;
        }
-       .ilustracion {
-        background-size: 100%;
-        background-repeat: no-repeat;
-        width: 38%;
-        height: 46%;
-        animation-name: girarb;
-        animation-duration: 60s;
-        animation-iteration-count: infinite;
-        animation-timing-function: linear;
-        right: 54%;
-    }
+       .ilustracion{
+        width: 33%;
+        height: 40vh;
+        left: 10%;
+        top: 175%;
+      }
 }
 @media (max-width: 768px){
-
+   
     .sobremi button {
         left: 38%;
         top: 0.5rem;
@@ -359,11 +395,10 @@ span1{
         height: 203vh;
        }
        .ilustracion{
-        background-size: 100%;
-    background-repeat: no-repeat;
-    height: 64vh;
-    right: 15%;
-    width: 70%;
+        width: 68%;
+        height: 62vh;
+        left: 16%;
+        top: 169%;
       }
       .skills-title {
         position: absolute;
@@ -409,11 +444,10 @@ span1{
         max-width: 1100px;
     }
     .ilustracion{
-        background-size: 100%;
-    background-repeat: no-repeat;
-    height: 47vh;
-    right: 14%;
-    width: 66%;
+        width: 68%;
+        height: 48vh;
+        left: 16%;
+        top: 179%;
       }
       .sobremi button {
         left: 35.5%;
@@ -460,13 +494,12 @@ span1{
     .sobremi .contenido-seccion {
         max-width: 1100px;
     }
-    .ilustracion {
-        background-size: 100%;
-        background-repeat: no-repeat;
-        height: 38%;
-        right: 18%;
-        width: 62%;
-    }
+   .ilustracion{
+        width: 66%;
+        height: 39vh;
+        left: 18%;
+        top: 199%;
+      }
       .sobremi button {
         left: 32%;
         top: 4.5rem;
@@ -513,11 +546,10 @@ span1{
         /* margin: auto; */
     }
     .ilustracion{
-        background-size: 100%;
-        background-repeat: no-repeat;
-        height: 33vh;
-        right: 17%;
         width: 66%;
+        height: 33vh;
+        left: 18%;
+        top: 202%;
       }
       .sobremi button {
         left: 7.1rem;
@@ -571,16 +603,10 @@ span1{
         padding: 120px 0px 0px 0px;
     }
     .ilustracion {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-repeat: no-repeat;
-        width: 70%;
+        width: 71%;
         height: 32vh;
-        background-size: 100%;
-        flex-direction: column;
-        left: 3.5rem;
-        top: 100rem;
+        left: 14%;
+        top: 195%;
     }
       .sobremi button {
         left: 5.3rem;
@@ -615,12 +641,12 @@ span1{
  width: 100%;
   }
   .ilustracion{
-    background-size: 100%;
-    background-repeat: no-repeat;
+    /* background-size: 100%;
+    background-repeat: no-repeat; */
     width: 71%;
     height: 27vh;
-    left: 3rem;
-    top: 105rem;
+    left: 13%;
+    top: 200%;
     /* top:52rem; */
   }
   .sobremi .fila .col .contenedor-intereses {
