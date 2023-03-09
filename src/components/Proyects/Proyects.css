@@ -572,6 +572,9 @@
 /* T/////////////////////////////////////////////////////////////////////////////////////////////////////////T  */
 /* T/////////////////////////////////////////////////////////////////////////////////////////////////////////T  */
 
+
+
+
 @media (max-width: 1440px){
     .pr-container{
         display: flex;
@@ -582,7 +585,7 @@
        background-size:100%;
         background-repeat: no-repeat;
         object-fit: contain;
-        height: 200vh;
+        height: 180vh;
         align-items: center;
     }  
     .card-container1{
