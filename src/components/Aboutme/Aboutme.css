@@ -32,6 +32,7 @@ section {
     animation-duration: 60s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    
    
 }
 @keyFrames girarb{
@@ -287,37 +288,27 @@ span1{
         z-index: 0;
     }
     .sobremi{
-        height: 112vh;
+        height: 135vh;
        }
-}
-@media (max-width: 1994px){
-.ilustracion{
-    background-size: 100%;
-    background-repeat: no-repeat;
-    width: 24%;
-    height: 53%;
-    animation-name: girarb;
-    animation-duration: 60s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    right: 56%;
-top:30rem;
-}
-.sobremi button{
-    top:2rem;
-}
+       .ilustracion{
+        width: 350px;
+        height: 40vh;
+        left: 22%;
+        /* top: 155%; */
+        background-size: 100%;
+      }
+    }
 
-
-}
-@media (max-width: 1920px){
+@media (max-width: 1950px){
     .sobremi button{
         top:2rem;
     }
     .ilustracion{
-        width: 23%;
-        height: 53vh;
-        left: 19%;
-        top: 155%;
+        width: 400px;
+        height: 47vh;
+        left: 22%;
+        /* top: 155%; */
+        background-size: 100%;
       }
     }
 
@@ -327,10 +318,10 @@ top:30rem;
     top:2rem;
 }
 .ilustracion{
-    width: 28%;
-    height: 60vh;
-    left: 16%;
-    top: 151%;
+    width: 380px;
+    height: 45vh;
+    left: 17%;
+    top: 85rem;
   }
 }
 @media (max-width: 1600px){
@@ -338,10 +329,10 @@ top:30rem;
     top:2rem;
 }
 .ilustracion{
-    width: 32%;
-    height: 60vh;
-    left: 10%;
-    top: 151%;
+    width: 380px;
+    height: 45vh;
+    left: 17%;
+    top: 85rem;
   }
 }
 
@@ -353,10 +344,24 @@ top:30rem;
         z-index: 0;
     }
     .ilustracion{
-        width: 33%;
-        height: 60vh;
+        width: 380px;
+        height: 45vh;
+        left: 15%;
+        top: 84rem;
+      }
+}
+@media (max-width: 1140px){
+    .sobremi button {
+        left: 43%;
+        top: 0.5rem;
+        z-index: 0;
+    }
+    .ilustracion{
+        width: 380px;
+        height: 45vh;
         left: 10%;
-        top: 151%;
+        /* top: 151%; */
+        bottom: 5px;
       }
 }
 
@@ -371,10 +376,22 @@ top:30rem;
         height: 140vh;
        }
        .ilustracion{
-        width: 33%;
-        height: 40vh;
+        width: 354px;
+        height: 42vh;
         left: 10%;
-        top: 175%;
+        top: 90rem;
+      }
+}
+@media (max-width: 920px){
+ 
+    .sobremi{
+        height: 140vh;
+       }
+       .ilustracion{
+        width: 354px;
+        height: 42vh;
+        left: 5%;
+       top:620px;
       }
 }
 @media (max-width: 768px){
@@ -395,10 +412,10 @@ top:30rem;
         height: 203vh;
        }
        .ilustracion{
-        width: 68%;
-        height: 62vh;
-        left: 16%;
-        top: 169%;
+        width: 454px;
+        height: 55vh;
+        left: 18%;
+       top:620px;
       }
       .skills-title {
         position: absolute;
@@ -444,10 +461,10 @@ top:30rem;
         max-width: 1100px;
     }
     .ilustracion{
-        width: 68%;
-        height: 48vh;
-        left: 16%;
-        top: 179%;
+        width: 354px;
+        height: 42vh;
+        left: 20%;
+       top:690px;
       }
       .sobremi button {
         left: 35.5%;
@@ -495,10 +512,10 @@ top:30rem;
         max-width: 1100px;
     }
    .ilustracion{
-        width: 66%;
-        height: 39vh;
-        left: 18%;
-        top: 199%;
+    width: 354px;
+    height: 42vh;
+    left: 15%;
+   top:850px;
       }
       .sobremi button {
         left: 32%;
@@ -520,6 +537,20 @@ top:30rem;
     .sobremi{
         height: 245vh;
        }
+}
+@media (max-width: 450px){
+    .ilustracion{
+        width: 320px;
+        height: 39vh;
+        left: 15%;
+        top: 920px;
+          }
+          .sobremi button {
+            left: 32%;
+            top: 1.5rem;
+        }
+
+
 }
 @media (max-width: 425px){
     #contenedor-skills{
@@ -546,10 +577,10 @@ top:30rem;
         /* margin: auto; */
     }
     .ilustracion{
-        width: 66%;
-        height: 33vh;
-        left: 18%;
-        top: 202%;
+        width: 320px;
+        height: 39vh;
+        left: 13%;
+        top: 106rem;
       }
       .sobremi button {
         left: 7.1rem;
@@ -603,10 +634,10 @@ top:30rem;
         padding: 120px 0px 0px 0px;
     }
     .ilustracion {
-        width: 71%;
-        height: 32vh;
-        left: 14%;
-        top: 195%;
+        width: 298px;
+    height: 36vh;
+    left: 10%;
+    top: 103rem;
     }
       .sobremi button {
         left: 5.3rem;
@@ -641,14 +672,10 @@ top:30rem;
  width: 100%;
   }
   .ilustracion{
-    /* background-size: 100%;
-    background-repeat: no-repeat; */
-    width: 71%;
-    height: 27vh;
-    left: 13%;
-    /* top: 200%; */
-    top:108rem;
-    /* top:52rem; */
+    width: 239px;
+    height: 28vh;
+    left: 11%;
+    top: 109rem;
   }
   .sobremi .fila .col .contenedor-intereses {
     display: flex;
@@ -683,7 +710,7 @@ top:30rem;
         top: 0.5rem;
     }
    .sobremi{
-    height: 212vh;
+    height: 230vh;
    }
 
 .sobremi .contenido-seccion {

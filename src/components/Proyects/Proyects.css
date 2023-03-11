@@ -32,7 +32,7 @@
    background-size: 100%;
     background-repeat: no-repeat;
     object-fit: contain;
-    height: 106vh;
+    height: 110vh;
     align-items: center;
     width: 100%;
 }    
@@ -582,10 +582,10 @@
         flex-direction: row-reverse;
         background-color: #8b2707;
        background-position:bottom;
-       background-size:100%;
+       background-size: 190rem;
         background-repeat: no-repeat;
         object-fit: contain;
-        height: 180vh;
+        height: 200vh;
         align-items: center;
     }  
     .card-container1{
