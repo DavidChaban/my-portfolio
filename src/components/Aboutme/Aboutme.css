@@ -291,11 +291,11 @@ span1{
         height: 135vh;
        }
        .ilustracion{
-        width: 350px;
-        height: 40vh;
-        left: 22%;
-        /* top: 155%; */
-        background-size: 100%;
+       width: 400px;
+    height: 47vh;
+    left: 22%;
+    top: 96rem;
+    background-size: 100%;
       }
     }
 
@@ -304,11 +304,14 @@ span1{
         top:2rem;
     }
     .ilustracion{
-        width: 400px;
+        /* width: 400px;
+        height: 43vh;
+        left: 26rem;
+        top: 97rem;
+        background-size: 100%; */
+        left: 24rem;
+        top: 91rem;
         height: 47vh;
-        left: 22%;
-        /* top: 155%; */
-        background-size: 100%;
       }
     }
 
@@ -318,10 +321,13 @@ span1{
     top:2rem;
 }
 .ilustracion{
-    width: 380px;
+    /* width: 380px;
     height: 45vh;
     left: 17%;
-    top: 85rem;
+    top: 85rem; */
+    left: 22rem;
+    top: 89rem;
+    height: 47vh;
   }
 }
 @media (max-width: 1600px){
@@ -329,10 +335,11 @@ span1{
     top:2rem;
 }
 .ilustracion{
-    width: 380px;
+    /* width: 380px;
     height: 45vh;
-    left: 17%;
-    top: 85rem;
+    left: 17%; */
+    top: 89rem;
+    left: 17rem;
   }
 }
 
@@ -344,10 +351,12 @@ span1{
         z-index: 0;
     }
     .ilustracion{
-        width: 380px;
+        /* width: 380px;
         height: 45vh;
         left: 15%;
-        top: 84rem;
+        top: 84rem; */
+        left: 11%;
+        top: 89rem;
       }
 }
 @media (max-width: 1140px){
@@ -359,9 +368,9 @@ span1{
     .ilustracion{
         width: 380px;
         height: 45vh;
-        left: 10%;
-        /* top: 151%; */
-        bottom: 5px;
+        left: 5rem;
+        top: 90rem;
+        bottom: 2px;
       }
 }
 
@@ -412,10 +421,10 @@ span1{
         height: 203vh;
        }
        .ilustracion{
-        width: 454px;
-        height: 55vh;
-        left: 18%;
-       top:620px;
+        width: 414px;
+        height: 49vh;
+        left: 24%;
+        top: 1420px;
       }
       .skills-title {
         position: absolute;
@@ -577,10 +586,10 @@ span1{
         /* margin: auto; */
     }
     .ilustracion{
-        width: 320px;
-        height: 39vh;
+        width: 287px;
+        height: 34vh;
         left: 13%;
-        top: 106rem;
+        top: 108rem;
       }
       .sobremi button {
         left: 7.1rem;
@@ -634,10 +643,10 @@ span1{
         padding: 120px 0px 0px 0px;
     }
     .ilustracion {
-        width: 298px;
-    height: 36vh;
-    left: 10%;
-    top: 103rem;
+        width: 246px;
+        height: 30vh;
+        left: 4rem;
+        top: 105rem;
     }
       .sobremi button {
         left: 5.3rem;
@@ -672,9 +681,9 @@ span1{
  width: 100%;
   }
   .ilustracion{
-    width: 239px;
-    height: 28vh;
-    left: 11%;
+    width: 228px;
+    height: 27vh;
+    left: 3rem;
     top: 109rem;
   }
   .sobremi .fila .col .contenedor-intereses {
