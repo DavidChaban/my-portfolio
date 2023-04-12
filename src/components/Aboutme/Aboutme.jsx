@@ -101,7 +101,7 @@ const Section = () => {
           </div>
         </div>
         <a
-          href="./Resume-DavidChaban-en.pdf "
+          href="./cv-davidchaban.pdf "
           target="_blank"
           rel="noopener noreferrer"
           className="a-button"
