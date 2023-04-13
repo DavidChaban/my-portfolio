@@ -106,6 +106,7 @@ section {
     letter-spacing: 2px;
     font-size: 27px;
     margin: 81px;
+    font-family: system-ui;
 }
 .sobremi .contenido-seccion p span {
     color: aqua;
