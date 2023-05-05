@@ -459,7 +459,7 @@
 .proyect-text5{
     text-align: center;
     width: 100%;
-    font-size:30px;
+    font-size: 14px;
     background-color: rgba(0, 0, 0, 0.713);
     color:white;
     font-family: ubuntu;
@@ -733,7 +733,7 @@
     text-align: center;
     color:white;
     background-color: rgba(0, 0, 0, 0.713);
-    font-size:30px;
+    font-size: 14px;
     font-family: ubuntu;
     align-items: center;
     justify-content: center;
@@ -950,7 +950,7 @@
     text-align: center;
     color:white;
     background-color: rgba(0, 0, 0, 0.713);
-    font-size:30px;
+    font-size: 14px;
     font-family: ubuntu;
     align-items: center;
     justify-content: center;
