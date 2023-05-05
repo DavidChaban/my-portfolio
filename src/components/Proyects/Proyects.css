@@ -91,7 +91,7 @@
     width: 100%;
     /* height: 100%; */
     /* color:transparent; */
-    font-size:30px;
+    font-size: 14px;
     background-color: rgba(0, 0, 0, 0.713);
     color:white;
     font-family: ubuntu;
@@ -256,7 +256,7 @@
     width: 100%;
     /* height: 100%; */
     /* color:transparent; */
-    font-size:30px;
+    font-size: 14px;
     background-color: rgba(0, 0, 0, 0.713);
     color:white;
     font-family: ubuntu;
@@ -667,7 +667,7 @@
     text-align: center;
     color:white;
     background-color: rgba(0, 0, 0, 0.713);
-    font-size:30px;
+    font-size: 14px;
     font-family: ubuntu;
     align-items: center;
     justify-content: center;
@@ -828,7 +828,7 @@
     background-color: rgba(0, 0, 0, 0.713);
     font-family: ubuntu;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 14px;
     margin-top: 5rem; 
     height: 40%;
     width: 100%;
@@ -885,7 +885,7 @@
     text-align: center;
     color:white;
     background-color: rgba(0, 0, 0, 0.713);
-    font-size:30px;
+    font-size: 14px;
     font-family: ubuntu;
     align-items: center;
     justify-content: center;
