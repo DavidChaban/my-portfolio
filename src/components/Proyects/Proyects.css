@@ -100,15 +100,20 @@
     display: flex;
     cursor: pointer;
     margin-top: 6.5rem;
-    padding:4px;
+    padding: 10px;
     border-radius:20px;
     }
     .proyect-text:hover{
-        color: bisque;
+      
+        font-size: 25px;
+        width:150px;
+        font-weight:bolder;
         transition: 1s;
         border-radius:20px;
         padding:8px;
-       
+        background-color: #0b0202;
+    box-shadow: 2px 5px 26px 0 rgba(0,213,247,.6);
+     
             
           }  
 
@@ -265,14 +270,18 @@
     display: flex;
     cursor: pointer;
     margin-top: 6.5rem;
-    padding:4px;
+    padding: 10px;
     border-radius:20px;
     }
     .proyect-text2:hover{
-        color: bisque;
+        font-size: 25px;
+        width:150px;
+        font-weight:bolder;
         transition: 1s;
         border-radius:20px;
         padding:8px;
+        background-color: #0b0202;
+    box-shadow: 2px 5px 26px 0 rgba(0,213,247,.6);
        
             
           }  
@@ -468,14 +477,18 @@
     display: flex;
     cursor: pointer;
     margin-top: 6.5rem;
-    padding:4px;
+    padding: 10px;
     border-radius:20px;
     }
     .proyect-text5:hover{
-        color: bisque;
+        font-size: 25px;
+        width:150px;
+        font-weight:bolder;
         transition: 1s;
         border-radius:20px;
         padding:8px;
+        background-color: #0b0202;
+    box-shadow: 2px 5px 26px 0 rgba(0,213,247,.6);
        
             
           }  
@@ -611,7 +624,7 @@
     margin-left: 0%;
     border: none;
 }
-.proyect-text{
+/* .proyect-text{
     color:white;
     background-color: rgba(0, 0, 0, 0.713);
     font-family: ubuntu;
@@ -621,9 +634,9 @@
     height: 40%;
     width: 100%;
     background-size: 100%;
+    padding: 10px;
  
- 
-    }
+    } */
  
 .container-text{
     justify-content: center;
