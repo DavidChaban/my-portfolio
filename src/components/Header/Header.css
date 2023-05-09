@@ -167,11 +167,11 @@
     
 }
 .btn-translates:hover{
-    color:azure;
+    color:red;
     box-shadow: rgb(16, 219, 246) 200px 0px 0px 0px inset;
     padding: 5px;
     border-radius: 6px;
-   
+    font-weight: bolder;
 }
 
 .btn-translaten{
@@ -182,10 +182,11 @@
     color:azure;
 }
 .btn-translaten:hover{
-    color:azure;
+    color:red;
     box-shadow: rgb(16, 219, 246) 200px 0px 0px 0px inset;
     padding: 5px;
     border-radius: 6px;
+    font-weight: bolder;
 }
 
 
