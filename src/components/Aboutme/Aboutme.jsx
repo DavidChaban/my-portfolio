@@ -68,7 +68,7 @@ const Section = () => {
                   alt="html-img"
                   
                 />
-                <span className="s1">Mongo DB</span>
+                <span className="s1">MongoDB</span>
               </div>
               <div className="interes">
                 <img
