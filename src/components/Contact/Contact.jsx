@@ -20,7 +20,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     try{
-    emailjs.sendForm('service_fbrjyic','template_f4r7lgg',e.target,'Jz0s4jRmxXuNIKG0o')
+    emailjs.sendForm('service_ex5jet9','template_3l8k2qd',e.target,'AxtVqYwqJEgEiEC9f')
 	.then(res =>console.log(res))
 		.catch(error => console.log(error))
     e.target.reset()
